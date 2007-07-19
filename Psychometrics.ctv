@@ -1,0 +1,318 @@
+<CRANTaskView>
+
+<name>Psychometrics</name>
+<topic>Psychometric Models and Methods</topic>
+<maintainer>Patrick Mair and Reinhold Hatzinger</maintainer>
+
+<info> Psychometrics is concerned with the design and analysis of research and
+the measurement of human characteristics. Psychometricians have also
+worked collaboratively with those in the field of statistics and
+quantitative methods to develop improved ways to organize and analyze
+data.  Since much functionality is already contained in base R and there
+is considerable overlap between tools for psychometry and tools
+described in other views, particularly in <view>SocialSciences</view>,
+we only give a brief overview of packages that are closely related to
+psychometric methodology. Recently, Journal of Statistical Software (JSS)
+published a special volume on
+<a href="http://www.jstatsoft.org/index.php?vol=20" target="_top">Psychometrics in R</a>
+in which some new R packages were published which are not yet on CRAN.
+
+<p>
+<a href="mailto:patrick.mair@wu-wien.ac.at">Please let us know</a>
+if we have omitted something of importance, or if a new package or function
+should be mentioned here.
+</p>
+
+<p>
+<strong>Item Response Theory (IRT):</strong>
+
+<ul>
+  <li>
+     The <pkg>eRm</pkg> package fits extended Rasch models, i.e. the ordinary
+     Rasch model for dichotomous data (RM), the linear logistic test model
+     (LLTM), the rating scale model (RSM) and its linear extension (LRSM),
+     the partial credit model (PCM) and its linear extension (LPCM) using
+     conditional ML estimation.
+  </li>
+  <li>
+     The package <pkg>ltm</pkg> also fits the simple RM.  Additionally,
+     functions for estimating Birnbaum's 2- and 3-parameter models based on a
+     marginal ML approach are implemented as well as the graded response
+     model for polytomous data, and the linear multidimensional logistic
+     model.
+  </li>
+  <li>
+     The package <a href="http://www.jstatsoft.org/v20/i06/" target="_top">plRasch</a>
+     computes maximum likelihood estimates and
+     pseudo-likelihood estimates of parameters of Rasch models for polytomous
+     (or dichotomous) items and multiple (or single) latent traits. Robust
+     standard errors for the pseudo-likelihood estimates are also computed.
+     The package is not on CRAN but available from JSS.
+  </li>
+  <li>
+     A multilevel Rasch model can be estimated using the package
+     <pkg>lme4</pkg> with functions for mixed-effects models with crossed or
+     partially crossed random effects.
+  </li>
+  <li>
+     Other packages of interest are: <pkg>mokken</pkg>, a package to compute
+     non-parametric item analysis, the <pkg>RaschSampler</pkg> allowing for
+     the construction of exact Rasch model tests by generating random
+     zero-one matrices with given marginals, <pkg>mprobit</pkg> fitting the
+     multivariate binary probit model, and <pkg>irtoys</pkg> providing a
+     simple interface to the estimation and plotting of IRT models. Simple Rasch computations
+     such a simulating data and joint maximum likelihood are included in the <pkg>MiscPsycho</pkg> package.
+  </li>
+  <li>
+    Gaussian ordination, related to logistic IRT and also approximated as
+    maximum likelihood estimation through canonical correspondence analysis
+    is implemented in various forms in the package <pkg>VGAM</pkg>.
+  </li>
+  <li>
+    Two additional IRT packages (for Microsoft Windows only) are available and documented on the JSS site.
+    The package <a href="http://www.jstatsoft.org/v20/i05/" target="_top">mlirt</a> computes multilevel IRT models,
+    and <a href="http://www.jstatsoft.org/v20/i07/" target="_top">cirt</a> uses a joint
+    hierarchically built up likelihood for estimating a two-parameter normal
+    ogive model for responses and a log-normal model for response times.
+  </li>
+</ul>
+</p>
+
+<p>
+<strong>Correspondence Analysis (CA):</strong>
+<ul>
+  <li>
+    Simple and multiple correspondence analysis can be performed using <tt>corresp()</tt> and <tt>mca()</tt> in package
+    MASS (and in the corresponding bundle <pkg>VR</pkg>).
+  </li>
+  <li>
+    The package <tt>ca</tt> comprises two parts, one for simple
+    correspondence analysis and one for multiple and joint correspondence
+    analysis.  Within each part, functions for computation, summaries and
+    visualization in two and three dimensions are provided, including
+    options to display supplementary points and perform subset analyses.
+    Other features are visualization functions that offer features such as
+    different scaling options for biplots and three-dimensional maps using
+    the <pkg>rgl</pkg> package. Graphical options include shading and
+    sizing plot symbols for the points according to their contributions to
+    the map and masses respectively.  The package is not yet on CRAN but is
+    available from the <a href="http://www.jstatsoft.org/v20/i03/"
+    target="_top">JSS</a> site.
+  </li>
+  <li>
+    The package <pkg>ade4</pkg> contains an extensive set of
+    functions covering, e.g., principal components, simple and multiple,
+    fuzzy, non symmetric, and decentered correspondence
+    analysis.  Additional functionality is provided at <a
+    href="http://www.bioconductor.org/" target="_top">Bioconductor </a> in
+    the package <tt>made4</tt>  (see also
+    <a href="http://bioinf.ucd.ie/people/aedin/R/" target="_top">here</a>).
+  </li>
+  <li>
+    The <pkg>PTAk</pkg> package provides a multiway method to decompose a
+    tensor (array) of any order, as a generalisation of SVD also supporting
+    non-identity metrics and penalisations. 2-way SVD with these extensions
+    is also available. Additionally, the package includes some other
+    multiway methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with extensions.
+  </li>
+  <li>
+    The package <pkg>cocorresp</pkg> fits predictive and symmetric
+    co-correspondence analysis (CoCA) models to relate one data matrix to
+    another data matrix.
+  </li>
+  <li>
+    Apart from several factor analytic methods <pkg>FactoMineR</pkg>
+    performs CA including supplementary row and/or
+    column points and multiple correspondence analysis (MCA) with
+    supplementary individuals, supplementary quantitative variables and
+    supplementary qualitative variables.
+  </li>
+  <li>
+    Package <pkg>vegan</pkg> supports all basic ordination methods, including
+    non-metric multidimensional scaling. The constrained ordination methods
+    include constrained analysis of proximities, redundancy analysis, and
+    constrained (canonical) and partially constrained correspondence
+    analysis.
+  </li>
+  <li>
+    Other extensions of CA and MCA which also generalize many common IRT
+    models can be found on the <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR</a> page.
+  </li>
+</ul>
+</p>
+
+
+<p>
+<strong>Structural Equation Models, Factor Analysis, PCA:</strong>
+<ul>
+  <li>
+    Ordinary factor analysis (FA) and principal component analysis (PCA) are in
+    the package stats as functions <tt>factanal()</tt> and <tt>princomp()</tt>. Additional
+    rotation methods for FA based on gradient projection algorithms
+    can be found in the package <pkg>GPArotation</pkg>. The package <pkg>nFactors</pkg> produces
+    a non-graphical solution to the Cattell scree test. Some graphical PCA representations
+    can be found in the <pkg>psy</pkg> package.
+  </li>
+  <li>
+    The <pkg>sem</pkg> package fits general (i.e., latent-variable) SEMs by FIML,
+    and structural equations in observed-variable models by 2SLS. Categorical
+    variables in SEMs can be accommodated via the <pkg>polycor</pkg> package.
+    The <pkg>systemfit</pkg> package implements a wider variety of estimators
+    for observed-variables models, including nonlinear simultaneous-equations models.
+    See also the <pkg>pls</pkg> package, for partial least-squares estimation,
+    the <a href="http://CRAN.R-project.org/src/contrib/Views/gR.html" target="_top">gR</a>
+    task view for graphical models and the
+    <a href="http://CRAN.R-project.org/src/contrib/Views/SocialSciences.html" target="_top">SocialSciences</a>
+    task view for other related packages.
+  </li>
+  <li>
+    FA and PCA with supplementary individuals and supplementary quantitative/qualitative variables
+    can be performed using the <pkg>FactoMineR</pkg> package. The <pkg>homals</pkg> package can do various
+    forms of mixed data PCA whereas <pkg>MCMCpack</pkg> has some options for sampling from
+    the posterior for ordinal and mixed factor models.
+  </li>
+  <li>
+    Independent component analysis (ICA) can be computed using the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.
+    Independent factor analysis (IFA) with independent non-Gaussian factors can be performed with
+    the <pkg>ifa</pkg> package.
+  </li>
+  <li>
+    A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
+  </li>
+</ul>
+</p>
+
+<p>
+<strong>Multidimensional Scaling (MDS):</strong>
+<ul>
+  <li>
+    MASS (and the corresponding bundle <pkg>VR</pkg>) and stats provide
+    functionalities for computing classical MDS using the <tt>cmdscale()</tt> function. Sammon mapping <tt>sammon()</tt>
+    and non-metric MDS <tt>isoMDS()</tt> are other relevant functions.
+  </li>
+  <li>
+    Non-metric MDS can additionally be performed with <tt>metaMDS()</tt> in <pkg>vegan</pkg>. Furthermore,
+    <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function <tt>nmds()</tt> and some routines can be found in <pkg>xgobi</pkg>.
+  </li>
+  <li>
+    Principal coordinate analysis can be computed with <tt>capscale()</tt> in <pkg>vegan</pkg>;
+    in <pkg>labdsv</pkg> and <pkg>ecodist</pkg> using <tt>pco()</tt> and with <tt>dudi.pco()</tt> in <pkg>ade4</pkg>.
+  </li>
+  <li>
+    Individual differences in multidimensional scaling can be computed with <tt>indscal()</tt> in the
+    <pkg>SensoMineR</pkg> package.
+  </li>
+  <li>
+    The package <pkg>MLDS</pkg> allows for the computation of maximum likelihood difference scaling (MLDS).
+  </li>
+</ul>
+</p>
+
+<p>
+<strong>Classical Test Theory (CTT):</strong>
+<ul>
+  <li>
+    The package <pkg>psychometric</pkg> contains functions useful for correlation
+    theory, meta-analysis (validity-generalization), reliability, item analysis,
+    inter-rater reliability, and classical utility. Cronbach alpha, kappa coefficients, and
+    intra-class correlation coefficients (ICC) can be found in the <pkg>psy</pkg> package.
+  </li>
+  <li>
+    A number of routines for scale construction and reliability analysis useful
+    for personality, psychometrics and experimental psychology are contained in the
+    packages <pkg>psych</pkg> and <pkg>MiscPsycho</pkg>.
+  </li>
+  <li>
+    Additional measures for reliability and concordance can be computed with the
+    <pkg>concord</pkg> package.
+  </li>
+</ul>
+</p>
+
+
+
+<p>
+<strong>Other related packages:</strong>
+  <ul>
+  <li>
+     Latent class analysis can be performed using the function <tt>lca()</tt>
+     from package <pkg>e1071</pkg>. Further packages are <pkg>mmlcr</pkg>
+     and <pkg>poLCA</pkg>. They compute mixed-mode latent class regression
+     and polytomous variable latent class analysis, respectively.
+  </li>
+  <li>
+     The <pkg>cfa</pkg> package allows for the computation of simple, more-sample, and
+     stepwise configural frequency analysis (CFA).
+  </li>
+  <li>
+     Coefficents for interrater reliability and agreements can be computed with the
+     <pkg>irr</pkg>.
+  </li>
+  <li>
+     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package.
+  </li>
+  <li>
+     Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry</pkg>.
+  </li>
+</ul>
+</p>
+
+
+
+</info>
+<packagelist>
+    <pkg priority="core">ade4</pkg>
+    <pkg priority="core">BradleyTerry</pkg>
+    <pkg>cfa</pkg>
+    <pkg>cocorresp</pkg>
+    <pkg>concord</pkg>
+    <pkg>e1071</pkg>
+    <pkg>ecodist</pkg>
+    <pkg priority="core">eRm</pkg>
+    <pkg>FactoMineR</pkg>
+    <pkg>GPArotation</pkg>
+    <pkg priority="core">homals</pkg>
+    <pkg>ifa</pkg>
+    <pkg>irr</pkg>
+    <pkg>irtoys</pkg>
+    <pkg>labdsv</pkg>
+    <pkg priority="core">lme4</pkg>
+    <pkg priority="core">ltm</pkg>
+    <pkg>MCMCpack</pkg>
+    <pkg priority="core">MiscPsycho</pkg>
+    <pkg>MLDS</pkg>
+    <pkg>mlica</pkg>
+    <pkg>mmlcr</pkg>
+    <pkg>mokken</pkg>
+    <pkg>mprobit</pkg>
+    <pkg>nFactors</pkg>
+    <pkg>pcaPP</pkg>
+    <pkg>pls</pkg>
+    <pkg>poLCA</pkg>
+    <pkg>polycor</pkg>
+    <pkg priority="core">psy</pkg>
+    <pkg priority="core">psych</pkg>
+    <pkg priority="core">psychometric</pkg>
+    <pkg>psyphy</pkg>
+    <pkg>PTAk</pkg>
+    <pkg>RaschSampler</pkg>
+    <pkg priority="core">sem</pkg>
+    <pkg>SensoMineR</pkg>
+    <pkg>systemfit</pkg>
+    <pkg priority="core">vegan</pkg>
+    <pkg>VGAM</pkg>
+    <pkg>VR</pkg>
+    <pkg>xgobi</pkg>
+</packagelist>
+
+<links>
+    <view>SocialSciences</view>
+    <view>Cluster</view>
+    <view>Multivariate</view>
+    <a href="http://www.jstatsoft.org/index.php?vol=20" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
+    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR Project</a>
+    <a href="http://www.math.mcmaster.ca/peter/mix/mix.html" target="_top">MIX software for mixture distributions</a>
+    <a href="http://www.stat.ucla.edu/gifi/" target="_top">Albert Gifi: Nonlinear Multivariate Analysis</a>
+</links>
+
+</CRANTaskView>
