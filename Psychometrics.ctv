@@ -55,7 +55,8 @@ should be mentioned here.
      partially crossed random effects.
   </li>
   <li>
-     Other packages of interest are: <pkg>mokken</pkg>, a package to compute
+     Other packages of interest are: <a href="http://www.jstatsoft.org/v20/i11/"
+    target="_top">mokken</a> in the JSS special issue as a package to compute
      non-parametric item analysis, the <pkg>RaschSampler</pkg> allowing for
      the construction of exact Rasch model tests by generating random
      zero-one matrices with given marginals, <pkg>mprobit</pkg> fitting the
@@ -254,6 +255,9 @@ should be mentioned here.
   <li>
      Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry</pkg>.
   </li>
+  <li>
+     Confidence intervals for standardized effect sizes: The <pkg>MBESS</pkg> package.
+  </li>
 </ul>
 </p>
 
@@ -278,12 +282,12 @@ should be mentioned here.
     <pkg>labdsv</pkg>
     <pkg priority="core">lme4</pkg>
     <pkg priority="core">ltm</pkg>
+    <pkg>MBESS</pkg>
     <pkg>MCMCpack</pkg>
     <pkg priority="core">MiscPsycho</pkg>
     <pkg>MLDS</pkg>
     <pkg>mlica</pkg>
     <pkg>mmlcr</pkg>
-    <pkg>mokken</pkg>
     <pkg>mprobit</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
