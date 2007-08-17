@@ -42,12 +42,10 @@ should be mentioned here.
      model.
   </li>
   <li>
-     The package <a href="http://www.jstatsoft.org/v20/i06/" target="_top">plRasch</a>
-     computes maximum likelihood estimates and
+     The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
      pseudo-likelihood estimates of parameters of Rasch models for polytomous
      (or dichotomous) items and multiple (or single) latent traits. Robust
      standard errors for the pseudo-likelihood estimates are also computed.
-     The package is not on CRAN but available from JSS.
   </li>
   <li>
      A multilevel Rasch model can be estimated using the package
@@ -87,7 +85,7 @@ should be mentioned here.
     MASS (and in the corresponding bundle <pkg>VR</pkg>).
   </li>
   <li>
-    The package <tt>ca</tt> comprises two parts, one for simple
+    The package <pkg>ca</pkg> comprises two parts, one for simple
     correspondence analysis and one for multiple and joint correspondence
     analysis.  Within each part, functions for computation, summaries and
     visualization in two and three dimensions are provided, including
@@ -96,9 +94,7 @@ should be mentioned here.
     different scaling options for biplots and three-dimensional maps using
     the <pkg>rgl</pkg> package. Graphical options include shading and
     sizing plot symbols for the points according to their contributions to
-    the map and masses respectively.  The package is not yet on CRAN but is
-    available from the <a href="http://www.jstatsoft.org/v20/i03/"
-    target="_top">JSS</a> site.
+    the map and masses respectively. 
   </li>
   <li>
     The package <pkg>ade4</pkg> contains an extensive set of
@@ -267,6 +263,7 @@ should be mentioned here.
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">BradleyTerry</pkg>
+    <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
@@ -291,6 +288,7 @@ should be mentioned here.
     <pkg>mprobit</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
+    <pkg>plRasch</pkg>
     <pkg>pls</pkg>
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
