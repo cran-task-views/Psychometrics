@@ -74,6 +74,10 @@ should be mentioned here.
     hierarchically built up likelihood for estimating a two-parameter normal
     ogive model for responses and a log-normal model for response times.
   </li>
+  <li> 
+    Bayesian approaches for estimating item and person parameters by means of Gibbs-Sampling 
+    are included in <pkg>MCMCpack</pkg>.
+  </li>
 </ul>
 </p>
 
@@ -176,6 +180,10 @@ should be mentioned here.
   <li>
     A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
   </li>
+  <li>
+    The package <pkg>psych</pkg> includes functions such as <tt>fa.parallel</tt> and <tt>VSS</tt> for estimating the
+    appropriate number of factors/components as well as <tt>ICLUST</tt> for item clustering.
+  </li>
 </ul>
 </p>
 
@@ -216,7 +224,7 @@ should be mentioned here.
   </li>
   <li>
     A number of routines for scale construction and reliability analysis useful
-    for personality, psychometrics and experimental psychology are contained in the
+    for personality and experimental psychology are contained in the
     packages <pkg>psych</pkg> and <pkg>MiscPsycho</pkg>.
   </li>
   <li>
