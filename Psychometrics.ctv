@@ -32,7 +32,7 @@ should be mentioned here.
      Rasch model for dichotomous data (RM), the linear logistic test model
      (LLTM), the rating scale model (RSM) and its linear extension (LRSM),
      the partial credit model (PCM) and its linear extension (LPCM) using
-     conditional ML estimation.
+     conditional ML estimation. Missing values are allowed.
   </li>
   <li>
      The package <pkg>ltm</pkg> also fits the simple RM.  Additionally,
@@ -40,6 +40,14 @@ should be mentioned here.
      marginal ML approach are implemented as well as the graded response
      model for polytomous data, and the linear multidimensional logistic
      model.
+  </li>
+  <li>
+     Item and ability parameters can be calibrated using the package 
+     <pkg>plink</pkg>. It provides various functions for conducting separate calibration 
+     of IRT single-format or mixed-format item parameters for multiple groups 
+     using the Mean/Mean, Mean/Sigma, Haebara, and Stocking-Lord methods. 
+     It includes symmetric and non-symmetric optimization and chain-linked 
+     rescaling of item and ability parameters. 
   </li>
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
@@ -296,6 +304,7 @@ should be mentioned here.
     <pkg>mprobit</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
+    <pkg priority="core">plink</pkg>
     <pkg>plRasch</pkg>
     <pkg>pls</pkg>
     <pkg>poLCA</pkg>
