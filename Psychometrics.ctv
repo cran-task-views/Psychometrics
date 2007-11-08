@@ -61,8 +61,7 @@ should be mentioned here.
      partially crossed random effects.
   </li>
   <li>
-     Other packages of interest are: <a href="http://www.jstatsoft.org/v20/i11/"
-    target="_top">mokken</a> in the JSS special issue as a package to compute
+     Other packages of interest are: <pkg>mokken</pkg> to compute
      non-parametric item analysis, the <pkg>RaschSampler</pkg> allowing for
      the construction of exact Rasch model tests by generating random
      zero-one matrices with given marginals, <pkg>mprobit</pkg> fitting the
@@ -303,6 +302,7 @@ should be mentioned here.
     <pkg>MLDS</pkg>
     <pkg>mlica</pkg>
     <pkg>mmlcr</pkg>
+    <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
@@ -330,7 +330,7 @@ should be mentioned here.
     <view>SocialSciences</view>
     <view>Cluster</view>
     <view>Multivariate</view>
-    <a href="http://www.jstatsoft.org/index.php?vol=20" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
+    <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR Project</a>
     <a href="http://www.math.mcmaster.ca/peter/mix/mix.html" target="_top">MIX software for mixture distributions</a>
     <a href="http://www.stat.ucla.edu/gifi/" target="_top">Albert Gifi: Nonlinear Multivariate Analysis</a>
