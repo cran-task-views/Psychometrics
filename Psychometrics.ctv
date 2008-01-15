@@ -108,6 +108,18 @@ should be mentioned here.
     the map and masses respectively. 
   </li>
   <li>
+    Simple and canonical CA are provided by the package <pkg>anacor</pkg>. It 
+    allows for diffenrent scaling methods such as standard scaling, Benzecri scaling, 
+    centroid scaling, and Goodman scaling. Along with well-known two- and three-dimensional 
+    joint plots including confidence ellipsoids, it offers alternative plotting possibilities 
+    in terms of transformation plots, Benzecri plots, and regression plots.
+  </li>
+  <li>
+    Homogeneity analysis aka multiple CA and various Gifi extensions can be computed 
+    by means of the <pkg>homals</pkg> package. Hull plots, span plots, Voronoi plots, star plots,
+    projection plots and many others can be produced.
+  </li>
+  <li>
     The package <pkg>ade4</pkg> contains an extensive set of
     functions covering, e.g., principal components, simple and multiple,
     fuzzy, non symmetric, and decentered correspondence
@@ -175,9 +187,12 @@ should be mentioned here.
   </li>
   <li>
     FA and PCA with supplementary individuals and supplementary quantitative/qualitative variables
-    can be performed using the <pkg>FactoMineR</pkg> package. The <pkg>homals</pkg> package can do various
-    forms of mixed data PCA whereas <pkg>MCMCpack</pkg> has some options for sampling from
+    can be performed using the <pkg>FactoMineR</pkg> package whereas <pkg>MCMCpack</pkg> has some options for sampling from
     the posterior for ordinal and mixed factor models.
+  </li>
+  <li>
+    The <pkg>homals</pkg> package provides nonlinear PCA and, by defining sets, nonlinear canonical
+    correlation analysis (models of the Gifi-family).
   </li>
   <li>
     Independent component analysis (ICA) can be computed using the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.
@@ -278,6 +293,7 @@ should be mentioned here.
 </info>
 <packagelist>
     <pkg priority="core">ade4</pkg>
+    <pkg priority="core">anacor</pkg>
     <pkg priority="core">BradleyTerry</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
