@@ -186,6 +186,9 @@ should be mentioned here.
     task view for other related packages.
   </li>
   <li>
+    The package <pkg>FAiR</pkg> performs factor analysis based on a genetic algorithm for optimization. This makes it possible to impose a wide range of restrictions on the factor analysis model, whether using exploratory factor analysis, confirmatory factor analysis, or a new estimator called semi-exploratory factor analysis (SEFA).
+  </li>
+  <li>
     FA and PCA with supplementary individuals and supplementary quantitative/qualitative variables
     can be performed using the <pkg>FactoMineR</pkg> package whereas <pkg>MCMCpack</pkg> has some options for sampling from
     the posterior for ordinal and mixed factor models.
@@ -304,6 +307,7 @@ should be mentioned here.
     <pkg>ecodist</pkg>
     <pkg priority="core">eRm</pkg>
     <pkg>FactoMineR</pkg>
+    <pkg priority="core">FAiR</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>ifa</pkg>
