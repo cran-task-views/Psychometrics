@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2008-02-05</version>
+<version>2008-03-30</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -266,8 +266,8 @@ should be mentioned here.
 <strong>Other related packages:</strong>
   <ul>
   <li>
-     Latent class analysis can be performed using the function <tt>lca()</tt>
-     from package <pkg>e1071</pkg>. Further packages are <pkg>mmlcr</pkg>
+     Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
+     In addition, the package <pkg>e1071</pkg> provides the function <tt>lca()</tt>. Further packages are <pkg>mmlcr</pkg>
      and <pkg>poLCA</pkg>. They compute mixed-mode latent class regression
      and polytomous variable latent class analysis, respectively.
   </li>
@@ -338,6 +338,7 @@ should be mentioned here.
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
     <pkg>RaschSampler</pkg>
+    <pkg>randomLCA</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>SensoMineR</pkg>
     <pkg>systemfit</pkg>
