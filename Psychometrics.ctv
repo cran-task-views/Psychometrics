@@ -93,7 +93,7 @@ should be mentioned here.
 <strong>Correspondence Analysis (CA):</strong>
 <ul>
   <li>
-    Simple and multiple correspondence analysis can be performed using <tt>corresp()</tt> and <tt>mca()</tt> in package
+    Simple and multiple correspondence analysis can be performed using <code>corresp()</code> and <code>mca()</code> in package
     MASS (and in the corresponding bundle <pkg>VR</pkg>).
   </li>
   <li>
@@ -126,7 +126,7 @@ should be mentioned here.
     fuzzy, non symmetric, and decentered correspondence
     analysis.  Additional functionality is provided at <a
     href="http://www.bioconductor.org/" target="_top">Bioconductor </a> in
-    the package <tt>made4</tt>  (see also
+    the package <code>made4</code>  (see also
     <a href="http://bioinf.ucd.ie/people/aedin/R/" target="_top">here</a>).
   </li>
   <li>
@@ -168,7 +168,7 @@ should be mentioned here.
 <ul>
   <li>
     Ordinary factor analysis (FA) and principal component analysis (PCA) are in
-    the package stats as functions <tt>factanal()</tt> and <tt>princomp()</tt>. Additional
+    the package stats as functions <code>factanal()</code> and <code>princomp()</code>. Additional
     rotation methods for FA based on gradient projection algorithms
     can be found in the package <pkg>GPArotation</pkg>. The package <pkg>nFactors</pkg> produces
     a non-graphical solution to the Cattell scree test. Some graphical PCA representations
@@ -207,8 +207,8 @@ should be mentioned here.
     A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
   </li>
   <li>
-    The package <pkg>psych</pkg> includes functions such as <tt>fa.parallel()</tt> and <tt>VSS()</tt> for estimating the
-    appropriate number of factors/components as well as <tt>ICLUST()</tt> for item clustering.
+    The package <pkg>psych</pkg> includes functions such as <code>fa.parallel()</code> and <code>VSS()</code> for estimating the
+    appropriate number of factors/components as well as <code>ICLUST()</code> for item clustering.
   </li>
 </ul>
 </p>
@@ -218,19 +218,19 @@ should be mentioned here.
 <ul>
   <li>
     MASS (and the corresponding bundle <pkg>VR</pkg>) and stats provide
-    functionalities for computing classical MDS using the <tt>cmdscale()</tt> function. Sammon mapping <tt>sammon()</tt>
-    and non-metric MDS <tt>isoMDS()</tt> are other relevant functions.
+    functionalities for computing classical MDS using the <code>cmdscale()</code> function. Sammon mapping <code>sammon()</code>
+    and non-metric MDS <code>isoMDS()</code> are other relevant functions.
   </li>
   <li>
-    Non-metric MDS can additionally be performed with <tt>metaMDS()</tt> in <pkg>vegan</pkg>. Furthermore,
-    <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function <tt>nmds()</tt> and some routines can be found in <pkg>xgobi</pkg>.
+    Non-metric MDS can additionally be performed with <code>metaMDS()</code> in <pkg>vegan</pkg>. Furthermore,
+    <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function <code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>.
   </li>
   <li>
-    Principal coordinate analysis can be computed with <tt>capscale()</tt> in <pkg>vegan</pkg>;
-    in <pkg>labdsv</pkg> and <pkg>ecodist</pkg> using <tt>pco()</tt> and with <tt>dudi.pco()</tt> in <pkg>ade4</pkg>.
+    Principal coordinate analysis can be computed with <code>capscale()</code> in <pkg>vegan</pkg>;
+    in <pkg>labdsv</pkg> and <pkg>ecodist</pkg> using <code>pco()</code> and with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
   </li>
   <li>
-    Individual differences in multidimensional scaling can be computed with <tt>indscal()</tt> in the
+    Individual differences in multidimensional scaling can be computed with <code>indscal()</code> in the
     <pkg>SensoMineR</pkg> package.
   </li>
   <li>
@@ -267,7 +267,7 @@ should be mentioned here.
   <ul>
   <li>
      Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
-     In addition, the package <pkg>e1071</pkg> provides the function <tt>lca()</tt>. Further packages are <pkg>mmlcr</pkg>
+     In addition, the package <pkg>e1071</pkg> provides the function <code>lca()</code>. Further packages are <pkg>mmlcr</pkg>
      and <pkg>poLCA</pkg>. They compute mixed-mode latent class regression
      and polytomous variable latent class analysis, respectively.
   </li>
