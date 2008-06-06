@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2008-03-30</version>
+<version>2008-06-02</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -217,6 +217,15 @@ should be mentioned here.
 <strong>Multidimensional Scaling (MDS):</strong>
 <ul>
   <li>
+    The <pkg>smacof</pkg> package provides the following approaches of multidimensional scaling (MDS) based on stress 
+    minimization by means of majorization: Simple smacof on symmetric dissimilarity matrices,
+    smacof for rectangular matrices (unfolding models), smacof with constraints on the configuration, 
+    three-way smacof for individual differences (including constraints for idioscal, indscal, and 
+    identity), and spherical smacof (primal and dual algorithm). Each of these approaches is 
+    implemented in a metric and nonmetric manner including primary, secondary, and tertiary approaches 
+    for tie handling.
+  </li>
+  <li>
     MASS (and the corresponding bundle <pkg>VR</pkg>) and stats provide
     functionalities for computing classical MDS using the <code>cmdscale()</code> function. Sammon mapping <code>sammon()</code>
     and non-metric MDS <code>isoMDS()</code> are other relevant functions.
@@ -341,6 +350,7 @@ should be mentioned here.
     <pkg>randomLCA</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>SensoMineR</pkg>
+    <pkg priority="core">smacof</pkg>
     <pkg>systemfit</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
@@ -353,7 +363,8 @@ should be mentioned here.
     <view>Cluster</view>
     <view>Multivariate</view>
     <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
-    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR Project</a>
+    <a href="http://r-forge.r-project.org/projects/psychor/" target="_top">PsychoR project platform</a>
+    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR snippets</a>
     <a href="http://www.math.mcmaster.ca/peter/mix/mix.html" target="_top">MIX software for mixture distributions</a>
     <a href="http://www.stat.ucla.edu/gifi/" target="_top">Albert Gifi: Nonlinear Multivariate Analysis</a>
 </links>
