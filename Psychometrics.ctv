@@ -252,6 +252,11 @@ should be mentioned here.
 <strong>Classical Test Theory (CTT):</strong>
 <ul>
   <li>
+    The <pkg>CTT</pkg> package can be used to perform a variety of tasks and analyses 
+    associated with classical test theory: score multiple-choice responses, perform reliability analyses, 
+    conduct item analyses, and transform scores onto different scales.
+  </li>
+  <li>
     The package <pkg>psychometric</pkg> contains functions useful for correlation
     theory, meta-analysis (validity-generalization), reliability, item analysis,
     inter-rater reliability, and classical utility. Cronbach alpha, kappa coefficients, and
@@ -307,11 +312,12 @@ should be mentioned here.
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
-    <pkg priority="core">BradleyTerry</pkg>
+    <pkg>BradleyTerry</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
+    <pkg priority="core">CTT</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
@@ -365,8 +371,6 @@ should be mentioned here.
     <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://r-forge.r-project.org/projects/psychor/" target="_top">PsychoR project platform</a>
     <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR snippets</a>
-    <a href="http://www.math.mcmaster.ca/peter/mix/mix.html" target="_top">MIX software for mixture distributions</a>
-    <a href="http://www.stat.ucla.edu/gifi/" target="_top">Albert Gifi: Nonlinear Multivariate Analysis</a>
 </links>
 
 </CRANTaskView>
