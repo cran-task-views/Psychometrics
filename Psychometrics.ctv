@@ -130,13 +130,6 @@ should be mentioned here.
     <a href="http://bioinf.ucd.ie/people/aedin/R/" target="_top">here</a>).
   </li>
   <li>
-    The <pkg>PTAk</pkg> package provides a multiway method to decompose a
-    tensor (array) of any order, as a generalisation of SVD also supporting
-    non-identity metrics and penalisations. 2-way SVD with these extensions
-    is also available. Additionally, the package includes some other
-    multiway methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with extensions.
-  </li>
-  <li>
     The package <pkg>cocorresp</pkg> fits predictive and symmetric
     co-correspondence analysis (CoCA) models to relate one data matrix to
     another data matrix.
@@ -224,6 +217,13 @@ should be mentioned here.
     identity), and spherical smacof (primal and dual algorithm). Each of these approaches is 
     implemented in a metric and nonmetric manner including primary, secondary, and tertiary approaches 
     for tie handling.
+  </li>
+   <li>
+    The <pkg>PTAk</pkg> package provides a multiway method to decompose a
+    tensor (array) of any order, as a generalisation of SVD also supporting
+    non-identity metrics and penalisations. 2-way SVD with these extensions
+    is also available. Additionally, the package includes some other
+    multiway methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with extensions.
   </li>
   <li>
     MASS (and the corresponding bundle <pkg>VR</pkg>) and stats provide
