@@ -93,10 +93,6 @@ should be mentioned here.
 <strong>Correspondence Analysis (CA):</strong>
 <ul>
   <li>
-    Simple and multiple correspondence analysis can be performed using <code>corresp()</code> and <code>mca()</code> in package
-    MASS (and in the corresponding bundle <pkg>VR</pkg>).
-  </li>
-  <li>
     The package <pkg>ca</pkg> comprises two parts, one for simple
     correspondence analysis and one for multiple and joint correspondence
     analysis.  Within each part, functions for computation, summaries and
@@ -116,9 +112,16 @@ should be mentioned here.
     in terms of transformation plots, Benzecri plots, and regression plots.
   </li>
   <li>
+  A GUI (Windows only) that allows the user to construct interactive Biplots is offered by the package <pkg>BiplotGUI</pkg>.
+  </li>
+  <li>
     Homogeneity analysis aka multiple CA and various Gifi extensions can be computed 
     by means of the <pkg>homals</pkg> package. Hull plots, span plots, Voronoi plots, star plots,
     projection plots and many others can be produced.
+  </li>
+  <li>
+    Simple and multiple correspondence analysis can be performed using <code>corresp()</code> and <code>mca()</code> in package
+    MASS (and in the corresponding bundle <pkg>VR</pkg>).
   </li>
   <li>
     The package <pkg>ade4</pkg> contains an extensive set of
@@ -312,6 +315,7 @@ should be mentioned here.
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
+    <pkg>BiplotGUI</pkg>
     <pkg>BradleyTerry</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
