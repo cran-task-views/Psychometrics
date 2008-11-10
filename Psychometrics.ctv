@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2008-10-15</version>
+<version>2008-11-10</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -15,7 +15,7 @@ described in other views, particularly in <view>SocialSciences</view>,
 we only give a brief overview of packages that are closely related to
 psychometric methodology. Recently, Journal of Statistical Software (JSS)
 published a special volume on
-<a href="http://www.jstatsoft.org/index.php?vol=20" target="_top">Psychometrics in R</a>
+<a href="http://www.jstatsoft.org/v20/" target="_top">Psychometrics in R</a>
 in which some new R packages were published which are not yet on CRAN.
 
 <p>
