@@ -24,8 +24,7 @@ if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
 
-<p>
-<strong>Item Response Theory (IRT):</strong>
+<p><strong>Item Response Theory (IRT):</strong></p>
 
 <ul>
   <li>
@@ -87,10 +86,9 @@ should be mentioned here.
     are included in <pkg>MCMCpack</pkg>.
   </li>
 </ul>
-</p>
 
-<p>
-<strong>Correspondence Analysis (CA):</strong>
+<p><strong>Correspondence Analysis (CA):</strong></p>
+
 <ul>
   <li>
     The package <pkg>ca</pkg> comprises two parts, one for simple
@@ -156,11 +154,9 @@ should be mentioned here.
     models can be found on the <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR</a> page.
   </li>
 </ul>
-</p>
 
 
-<p>
-<strong>Structural Equation Models, Factor Analysis, PCA:</strong>
+<p><strong>Structural Equation Models, Factor Analysis, PCA:</strong></p>
 <ul>
   <li>
     Ordinary factor analysis (FA) and principal component analysis (PCA) are in
@@ -207,10 +203,8 @@ should be mentioned here.
     appropriate number of factors/components as well as <code>ICLUST()</code> for item clustering.
   </li>
 </ul>
-</p>
 
-<p>
-<strong>Multidimensional Scaling (MDS):</strong>
+<p><strong>Multidimensional Scaling (MDS):</strong></p>
 <ul>
   <li>
     The <pkg>smacof</pkg> package provides the following approaches of multidimensional scaling (MDS) based on stress 
@@ -249,10 +243,8 @@ should be mentioned here.
     The package <pkg>MLDS</pkg> allows for the computation of maximum likelihood difference scaling (MLDS).
   </li>
 </ul>
-</p>
 
-<p>
-<strong>Classical Test Theory (CTT):</strong>
+<p><strong>Classical Test Theory (CTT):</strong></p>
 <ul>
   <li>
     The <pkg>CTT</pkg> package can be used to perform a variety of tasks and analyses 
@@ -275,12 +267,9 @@ should be mentioned here.
     <pkg>concord</pkg> package.
   </li>
 </ul>
-</p>
 
 
-
-<p>
-<strong>Other related packages:</strong>
+<p><strong>Other related packages:</strong></p>
   <ul>
   <li>
      Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
@@ -307,11 +296,9 @@ should be mentioned here.
      Confidence intervals for standardized effect sizes: The <pkg>MBESS</pkg> package.
   </li>
 </ul>
-</p>
-
-
 
 </info>
+
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
