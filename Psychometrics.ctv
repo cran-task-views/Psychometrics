@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2008-11-10</version>
+<version>2009-03-01</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -286,11 +286,25 @@ should be mentioned here.
      <pkg>irr</pkg>.
   </li>
   <li>
-     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package.
+    <pkg>prefmod</pkg> generates design matrix for analysing real paired comparisons and derived paired comparison data 
+    (Likert type items / ratings or rankings) using a loglinear approach. Fits loglinear Bradley-Terry model (LLBT) exploting an eliminate feature. Computes pattern models 
+    for paired comparisons, rankings, and ratings. Some treatment of missing values (MCAR and MNAR).
   </li>
   <li>
      Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry</pkg> 
      and in <pkg>eba</pkg>. The latter allowes for the computation of elimination-by-aspects models.
+  </li>
+  <li>
+     <pkg>DAKS</pkg> provides functions and example datasets for the psychometric theory of knowledge 
+     spaces. This package implements data analysis methods and procedures for simulating data and 
+     transforming different formulations in knowledge space theory.
+  </li>
+  <li>
+     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package.
+  </li>
+  <li>
+     Functions and example datasets for Fechnerian scaling of discrete object sets are provided by <pkg>fechner</pkg>. It computes Fechnerian 
+     distances among objects representing subjective dissimilarities, and other related information.
   </li>
   <li>
      Confidence intervals for standardized effect sizes: The <pkg>MBESS</pkg> package.
@@ -309,12 +323,14 @@ should be mentioned here.
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
+    <pkg>DAKS</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
     <pkg priority="core">eRm</pkg>
     <pkg>FactoMineR</pkg>
     <pkg priority="core">FAiR</pkg>
+    <pkg>fechner</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>ifa</pkg>
@@ -338,6 +354,7 @@ should be mentioned here.
     <pkg>pls</pkg>
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
+    <pkg priority="core">prefmod</pkg>
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
     <pkg priority="core">psychometric</pkg>
