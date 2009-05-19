@@ -194,7 +194,7 @@ should be mentioned here.
     correlation analysis (models of the Gifi-family).
   </li>
   <li>
-    Independent component analysis (ICA) can be computed using the packages <pkg>mlica</pkg> and <pkg>fastICA</pkg>.
+    Independent component analysis (ICA) can be computed using <pkg>fastICA</pkg>.
     Independent factor analysis (IFA) with independent non-Gaussian factors can be performed with
     the <pkg>ifa</pkg> package.
   </li>
@@ -346,7 +346,6 @@ should be mentioned here.
     <pkg>MCMCpack</pkg>
     <pkg priority="core">MiscPsycho</pkg>
     <pkg>MLDS</pkg>
-    <pkg>mlica</pkg>
     <pkg>mmlcr</pkg>
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
