@@ -91,6 +91,10 @@ should be mentioned here.
     Bayesian approaches for estimating item and person parameters by means of Gibbs-Sampling 
     are included in <pkg>MCMCpack</pkg>.
   </li>
+  <li>
+     The <pkg>latdiag</pkg> package produces commands to drive the dot program from graphviz to produce a 
+     graph useful in deciding whether a set of binary items might have a latent scale with non-crossing ICCs. 
+  </li>
 </ul>
 
 <p><strong>Correspondence Analysis (CA):</strong></p>
@@ -347,6 +351,7 @@ should be mentioned here.
     <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
     <pkg>labdsv</pkg>
+    <pkg>latdiag</pkg>
     <pkg priority="core">lme4</pkg>
     <pkg priority="core">ltm</pkg>
     <pkg>MBESS</pkg>
