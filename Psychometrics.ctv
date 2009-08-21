@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-07-14</version>
+<version>2009-08-20</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -43,11 +43,10 @@ should be mentioned here.
   </li>
   <li>
      Item and ability parameters can be calibrated using the package 
-     <pkg>plink</pkg>. It provides various functions for conducting separate calibration 
-     of IRT single-format or mixed-format item parameters for multiple groups 
-     using the Mean/Mean, Mean/Sigma, Haebara, and Stocking-Lord methods. 
-     It includes symmetric and non-symmetric optimization and chain-linked 
-     rescaling of item and ability parameters. 
+     <pkg>plink</pkg>. It provides unidimensional and multidimensional methods such as Mean/Mean, Mean/Sigma, Haebara, 
+     and Stocking-Lord methods for dichotomous (1PL, 2PL and 3PL) and/or polytomous (graded response, partial credit/generalized partial credit, nominal, and multiple-choice model) items. 
+     The multidimensional methods include the Reckase-Martineau method and extensions 
+     of the Haebara and Stocking-Lord method. 
   </li>
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
