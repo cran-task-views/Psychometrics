@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-08-20</version>
+<version>2009-09-25</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -312,7 +312,7 @@ should be mentioned here.
      transforming different formulations in knowledge space theory.
   </li>
   <li>
-     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package.
+     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package. The <pkg>MLCM</pkg> package contains functions to estimate the contribution of the n scales to the judgment by a maximum likelihood method under several hypotheses of how the perceptual dimensions interact.  
   </li>
   <li>
      Functions and example datasets for Fechnerian scaling of discrete object sets are provided by <pkg>fechner</pkg>. It computes Fechnerian 
@@ -356,6 +356,7 @@ should be mentioned here.
     <pkg>MBESS</pkg>
     <pkg>MCMCpack</pkg>
     <pkg priority="core">MiscPsycho</pkg>
+    <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
     <pkg>mmlcr</pkg>
     <pkg priority="core">mokken</pkg>
