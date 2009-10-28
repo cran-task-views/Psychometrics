@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-09-25</version>
+<version>2009-10-28</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -128,7 +128,7 @@ should be mentioned here.
   </li>
   <li>
     Simple and multiple correspondence analysis can be performed using <code>corresp()</code> and <code>mca()</code> in package
-    MASS (and in the corresponding bundle <pkg>VR</pkg>).
+    <pkg>MASS</pkg>.
   </li>
   <li>
     The package <pkg>ade4</pkg> contains an extensive set of
@@ -235,7 +235,7 @@ should be mentioned here.
     multiway methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with extensions.
   </li>
   <li>
-    MASS (and the corresponding bundle <pkg>VR</pkg>) and stats provide
+    <pkg>MASS</pkg> and stats provide
     functionalities for computing classical MDS using the <code>cmdscale()</code> function. Sammon mapping <code>sammon()</code>
     and non-metric MDS <code>isoMDS()</code> are other relevant functions.
   </li>
@@ -353,6 +353,7 @@ should be mentioned here.
     <pkg>latdiag</pkg>
     <pkg priority="core">lme4</pkg>
     <pkg priority="core">ltm</pkg>
+    <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
     <pkg>MCMCpack</pkg>
     <pkg priority="core">MiscPsycho</pkg>
@@ -383,7 +384,6 @@ should be mentioned here.
     <pkg>systemfit</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
-    <pkg>VR</pkg>
     <pkg>xgobi</pkg>
 </packagelist>
 
