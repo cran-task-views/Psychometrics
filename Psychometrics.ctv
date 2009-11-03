@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-10-28</version>
+<version>2009-11-03</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -47,6 +47,9 @@ should be mentioned here.
      and Stocking-Lord methods for dichotomous (1PL, 2PL and 3PL) and/or polytomous (graded response, partial credit/generalized partial credit, nominal, and multiple-choice model) items. 
      The multidimensional methods include the Reckase-Martineau method and extensions 
      of the Haebara and Stocking-Lord method. 
+  </li>
+  <li>
+     The <pkg>difR</pkg> package contains several traditional methods to detect DIF in dichotomously scored items. Both uniform and non-uniform DIF effects can be detected, with methods relying upon item response models or not. Some methods deal with more than one focal group.
   </li>
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
@@ -336,6 +339,7 @@ should be mentioned here.
     <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
+    <pkg>difR</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
