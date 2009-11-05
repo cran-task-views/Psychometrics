@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-11-03</version>
+<version>2009-11-04</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -287,6 +287,9 @@ should be mentioned here.
 <p><strong>Other related packages:</strong></p>
   <ul>
   <li>
+     Recursive partitioning based on psychometric models, employing the general MOB algorithm (from package party) are implemented in <pkg>psychotree</pkg>. Currently, only Bradley-Terry trees are provided.
+  </li>
+  <li>
      Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
      In addition, the package <pkg>e1071</pkg> provides the function <code>lca()</code>. Further packages are <pkg>mmlcr</pkg>
      and <pkg>poLCA</pkg>. They compute mixed-mode latent class regression
@@ -377,6 +380,7 @@ should be mentioned here.
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
     <pkg priority="core">psychometric</pkg>
+    <pkg priority="core">psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
     <pkg>RaschSampler</pkg>
