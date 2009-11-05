@@ -380,7 +380,7 @@ should be mentioned here.
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
     <pkg priority="core">psychometric</pkg>
-    <pkg priority="core">psychotree</pkg>
+    <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
     <pkg>RaschSampler</pkg>
