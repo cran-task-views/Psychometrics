@@ -91,7 +91,7 @@ should be mentioned here.
   </li>
   <li> 
     Bayesian approaches for estimating item and person parameters by means of Gibbs-Sampling 
-    are included in <pkg>MCMCpack</pkg>.
+    are included in <pkg>MCMCpack</pkg>. In addition, the <pkg>pscl</pkg> package allows for Bayesian IRT and roll call analysis. 
   </li>
   <li>
      The <pkg>latdiag</pkg> package produces commands to drive the dot program from graphviz to produce a 
@@ -309,7 +309,7 @@ should be mentioned here.
     for paired comparisons, rankings, and ratings. Some treatment of missing values (MCAR and MNAR).
   </li>
   <li>
-     Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry</pkg> 
+     Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry2</pkg> 
      and in <pkg>eba</pkg>. The latter allowes for the computation of elimination-by-aspects models.
   </li>
   <li>
@@ -335,7 +335,7 @@ should be mentioned here.
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
     <pkg>BiplotGUI</pkg>
-    <pkg>BradleyTerry</pkg>
+    <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
     <pkg>cocorresp</pkg>
@@ -377,6 +377,7 @@ should be mentioned here.
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
     <pkg priority="core">prefmod</pkg>
+    <pkg>pscl</pkg>
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
     <pkg priority="core">psychometric</pkg>
