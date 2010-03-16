@@ -2,8 +2,8 @@
 
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
-<maintainer email="Patrick.Mair@wu-wien.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2009-11-04</version>
+<maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
+<version>2010-03-16</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -19,7 +19,7 @@ published a special volume on
 in which some new R packages were published which are not yet on CRAN.
 
 <p>
-<a href="mailto:patrick.mair@wu-wien.ac.at">Please let us know</a>
+<a href="mailto:Patrick.Mair@wu.ac.at">Please let us know</a>
 if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
