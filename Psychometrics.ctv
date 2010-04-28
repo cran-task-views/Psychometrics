@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-03-16</version>
+<version>2010-04-28</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -50,6 +50,9 @@ should be mentioned here.
   </li>
   <li>
      The <pkg>difR</pkg> package contains several traditional methods to detect DIF in dichotomously scored items. Both uniform and non-uniform DIF effects can be detected, with methods relying upon item response models or not. Some methods deal with more than one focal group.
+  </li>
+  <li>
+     The package <pkg>lordif</pkg> provides a logistic regression framework for detecting various types of differential item functioning (DIF). 
   </li>
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
@@ -267,6 +270,9 @@ should be mentioned here.
     conduct item analyses, and transform scores onto different scales.
   </li>
   <li>
+    The <pkg>CMC</pkg> package calculates and plots the step-by-step Cronbach-Mesbach curve, that is a method, based on the Cronbach alpha coefficient of reliability, for checking the unidimensionality of a measurement scale. 
+  </li>
+  <li>
     The package <pkg>psychometric</pkg> contains functions useful for correlation
     theory, meta-analysis (validity-generalization), reliability, item analysis,
     inter-rater reliability, and classical utility. Cronbach alpha, kappa coefficients, and
@@ -338,8 +344,9 @@ should be mentioned here.
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cfa</pkg>
+    <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
-    <pkg>concord</pkg>
+    <pkg>concord</pkg><pkg>CMC</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
     <pkg>difR</pkg>
@@ -359,6 +366,7 @@ should be mentioned here.
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
     <pkg priority="core">lme4</pkg>
+    <pkg>lordif</pkg>
     <pkg priority="core">ltm</pkg>
     <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
@@ -394,7 +402,7 @@ should be mentioned here.
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
     <pkg>xgobi</pkg>
-</packagelist>
+</packagelist><pkg>CMC</pkg>
 
 <links>
     <view>SocialSciences</view>
