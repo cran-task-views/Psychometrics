@@ -350,7 +350,7 @@ should be mentioned here.
     <pkg>cfa</pkg>
     <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
-    <pkg>concord</pkg><pkg>CMC</pkg>
+    <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
     <pkg>difR</pkg>
