@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-05-20</version>
+<version>2010-07-23</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -53,6 +53,9 @@ should be mentioned here.
   </li>
   <li>
      The package <pkg>lordif</pkg> provides a logistic regression framework for detecting various types of differential item functioning (DIF). 
+  </li>
+  <li>
+    The <pkg>catR</pkg> package allows for computarized adaptive testing using IRT methods. 
   </li>
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
@@ -347,6 +350,7 @@ should be mentioned here.
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>caGUI</pkg>
+    <pkg>catR</pkg>
     <pkg>cfa</pkg>
     <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
