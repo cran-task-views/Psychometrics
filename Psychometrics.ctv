@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-07-23</version>
+<version>2010-07-30</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -216,8 +216,6 @@ should be mentioned here.
   </li>
   <li>
     Independent component analysis (ICA) can be computed using <pkg>fastICA</pkg>.
-    Independent factor analysis (IFA) with independent non-Gaussian factors can be performed with
-    the <pkg>ifa</pkg> package.
   </li>
   <li>
     A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
@@ -279,9 +277,7 @@ should be mentioned here.
     The <pkg>CMC</pkg> package calculates and plots the step-by-step Cronbach-Mesbach curve, that is a method, based on the Cronbach alpha coefficient of reliability, for checking the unidimensionality of a measurement scale. 
   </li>
   <li>
-    The package <pkg>psychometric</pkg> contains functions useful for correlation
-    theory, meta-analysis (validity-generalization), reliability, item analysis,
-    inter-rater reliability, and classical utility. Cronbach alpha, kappa coefficients, and
+    Cronbach alpha, kappa coefficients, and
     intra-class correlation coefficients (ICC) can be found in the <pkg>psy</pkg> package.
   </li>
   <li>
@@ -303,9 +299,8 @@ should be mentioned here.
   </li>
   <li>
      Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
-     In addition, the package <pkg>e1071</pkg> provides the function <code>lca()</code>. Further packages are <pkg>mmlcr</pkg>
-     and <pkg>poLCA</pkg>. They compute mixed-mode latent class regression
-     and polytomous variable latent class analysis, respectively.
+     In addition, the package <pkg>e1071</pkg> provides the function <code>lca()</code>. Another package is
+     <pkg>poLCA</pkg> for polytomous variable latent class analysis.
   </li>
   <li>
      The <pkg>cfa</pkg> package allows for the computation of simple, more-sample, and
@@ -367,7 +362,6 @@ should be mentioned here.
     <pkg>fechner</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
-    <pkg>ifa</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
@@ -383,7 +377,6 @@ should be mentioned here.
     <pkg priority="core">MiscPsycho</pkg>
     <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
-    <pkg>mmlcr</pkg>
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
     <pkg>nFactors</pkg>
@@ -397,7 +390,6 @@ should be mentioned here.
     <pkg>pscl</pkg>
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
-    <pkg priority="core">psychometric</pkg>
     <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
