@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-07-30</version>
+<version>2010-08-16</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -274,6 +274,9 @@ should be mentioned here.
     conduct item analyses, and transform scores onto different scales.
   </li>
   <li>
+    Functions for correlation theory, meta-analysis (validity generalization), reliability, item analysis, inter-rater reliability, and classical utility are contained in the <pkg>psychometric</pkg> package.
+  </li>
+  <li>
     The <pkg>CMC</pkg> package calculates and plots the step-by-step Cronbach-Mesbach curve, that is a method, based on the Cronbach alpha coefficient of reliability, for checking the unidimensionality of a measurement scale. 
   </li>
   <li>
@@ -334,6 +337,9 @@ should be mentioned here.
   <li>
      Confidence intervals for standardized effect sizes: The <pkg>MBESS</pkg> package.
   </li>
+  <li>
+  Functions for data screening, testing moderation, mediation, and estimating power are contained in the <pkg>QuantPsyc</pkg> package. 
+  </li>
 </ul>
 
 </info>
@@ -390,9 +396,11 @@ should be mentioned here.
     <pkg>pscl</pkg>
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
+    <pkg>psychometric</pkg>
     <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
+    <pkg>QuantPsyc</pkg>
     <pkg>RaschSampler</pkg>
     <pkg>randomLCA</pkg>
     <pkg priority="core">sem</pkg>
