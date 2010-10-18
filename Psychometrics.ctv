@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-08-18</version>
+<version>2010-10-18</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -72,9 +72,8 @@ should be mentioned here.
      Other packages of interest are: <pkg>mokken</pkg> to compute
      non-parametric item analysis, the <pkg>RaschSampler</pkg> allowing for
      the construction of exact Rasch model tests by generating random
-     zero-one matrices with given marginals, <pkg>mprobit</pkg> fitting the
-     multivariate binary probit model, and <pkg>irtoys</pkg> providing a
-     simple interface to the estimation and plotting of IRT models. Simple Rasch computations
+     zero-one matrices with given marginals, and <pkg>mprobit</pkg> fitting the
+     multivariate binary probit model. Simple Rasch computations
      such a simulating data and joint maximum likelihood are included in the <pkg>MiscPsycho</pkg> package.
   </li>
   <li>
@@ -373,7 +372,6 @@ should be mentioned here.
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
-    <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
