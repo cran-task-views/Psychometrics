@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2010-12-09</version>
+<version>2011-01-13</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -81,6 +81,9 @@ should be mentioned here.
     personal fluctuation, personal inattention. These supplemental parameters can be used to assess person fit, to identify misfit
     type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering 
     potential misfit at the same time. 
+  </li>
+  <li>
+    The package <pkg>irtoys</pkg> provides a simple common interface to the estimation of item parameters in IRT models for binary responses with three different programs (ICL, BILOG-MG, and ltm, and a variety of functions useful with IRT models.
   </li>
   <li>
     Gaussian ordination, related to logistic IRT and also approximated as
@@ -381,6 +384,7 @@ should be mentioned here.
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
+    <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
