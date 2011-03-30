@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-01-13</version>
+<version>2011-03-30</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -201,7 +201,10 @@ should be mentioned here.
   <li>
     The package <pkg>lavaan</pkg> can be used to estimate a large variety of multivariate statistical models, including path analysis, confirmatory factor analysis, structural equation modeling and growth curve models. It includes the lavaan model syntax which allows users to express their models in a compact way and allows for ML, GLS, WLS, robust ML using Satorra-Bentler corrections, and FIML for data with missing values. It fully supports for meanstructures and multiple groups and reports standardized solutions, fit measures, modification indices and more as output.
   </li>
-  <li> 
+  <li>
+    The package <pkg>semPLS</pkg> sits structural equation models using partial least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data.
+  </li> 
+  <li>
     The <pkg>plsRglm</pkg> package is designed to provide PLS regression and PLS generalized linear regression. It includes various criteria to select the number of components, repeated k-fold cross-validation, bootstrap confidence intervals and significance testing.
   </li>
   <li>
@@ -354,6 +357,9 @@ should be mentioned here.
   <li>
   Functions for data screening, testing moderation, mediation, and estimating power are contained in the <pkg>QuantPsyc</pkg> package. 
   </li>
+  <li>
+  The <pkg>qgraph</pkg> package can be used to visualize data as networks.
+  </li>
 </ul>
 
 </info>
@@ -416,11 +422,13 @@ should be mentioned here.
     <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
+    <pkg>qgraph</pkg>
     <pkg>QuantPsyc</pkg>
     <pkg>RaschSampler</pkg>
     <pkg>randomLCA</pkg>
     <pkg>REQS</pkg>
     <pkg priority="core">sem</pkg>
+    <pkg>semPLS</pkg>
     <pkg>SEMModComp</pkg>
     <pkg>SensoMineR</pkg>
     <pkg priority="core">smacof</pkg>
