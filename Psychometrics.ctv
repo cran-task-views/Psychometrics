@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-03-30</version>
+<version>2011-04-12</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -360,6 +360,9 @@ should be mentioned here.
   <li>
   The <pkg>qgraph</pkg> package can be used to visualize data as networks.
   </li>
+  <li>
+  Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.
+  </li>
 </ul>
 
 </info>
@@ -406,6 +409,7 @@ should be mentioned here.
     <pkg>MLDS</pkg>
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
+    <pkg>mpt</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
     <pkg priority="core">plink</pkg>
