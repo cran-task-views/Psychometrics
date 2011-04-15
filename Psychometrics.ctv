@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-04-12</version>
+<version>2011-04-15</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -179,8 +179,7 @@ should be mentioned here.
 <p><strong>Structural Equation Models, Factor Analysis, PCA:</strong></p>
 <ul>
   <li>
-    Ordinary factor analysis (FA) and principal component analysis (PCA) are in
-    the package stats as functions <code>factanal()</code> and <code>princomp()</code>. Additional
+    Ordinary factor analysis (FA) is the package stats as function <code>factanal()</code>. Principal component analysis (PCA) can be fitted with <code>prcomp()</code> (based on <code>svd()</code>, preferred) as well as <code>princomp()</code> (based on <code>eigen()</code> for compatibility with S-PLUS). Additional
     rotation methods for FA based on gradient projection algorithms
     can be found in the package <pkg>GPArotation</pkg>. The package <pkg>nFactors</pkg> produces
     a non-graphical solution to the Cattell scree test. Some graphical PCA representations
