@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-04-15</version>
+<version>2011-06-19</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -47,6 +47,9 @@ should be mentioned here.
      and Stocking-Lord methods for dichotomous (1PL, 2PL and 3PL) and/or polytomous (graded response, partial credit/generalized partial credit, nominal, and multiple-choice model) items. 
      The multidimensional methods include the Reckase-Martineau method and extensions 
      of the Haebara and Stocking-Lord method. 
+  </li>
+  <li>
+     The <pkg>EstCRM</pkg> package calibrates the parameters for Samejima's Continuous IRT Model via EM algorithm and Maximum Likelihood. It allows to compute item fit residual statistics, to draw empirical 3D item category response curves, to draw theoretical 3D item category response curves, and to generate data under the CRM for simulation studies.
   </li>
   <li>
      The <pkg>difR</pkg> package contains several traditional methods to detect DIF in dichotomously scored items. Both uniform and non-uniform DIF effects can be detected, with methods relying upon item response models or not. Some methods deal with more than one focal group.
@@ -386,6 +389,7 @@ should be mentioned here.
     <pkg>ecodist</pkg>
     <pkg>equate</pkg>
     <pkg priority="core">eRm</pkg>
+    <pkg>EstCRM</pkg>
     <pkg>FactoMineR</pkg>
     <pkg priority="core">FAiR</pkg>
     <pkg>fechner</pkg>
