@@ -42,6 +42,12 @@ should be mentioned here.
      model.
   </li>
   <li>
+    The <pkg>mirt</pkg> includes the multivariate two- and three-parameter logistic models, confirmatory bifactor analysis, polytomous confirmatory and exploratory item response models, and partially-compensatory item response modeling in conjunction with other IRT models.
+  </li>
+  <li>
+    Conditional maximum likelihood estimation via the EM algorithm and information-criterion-based model selection in binary mixed Rasch models are implemented in the <pkg>mRm</pkg> package. The <pkg>mixRasch</pkg> package estimates mixture Rasch models, including the dichotomous Rasch model, the rating scale model, and the partial credit model.
+  </li>
+  <li>
      Item and ability parameters can be calibrated using the package 
      <pkg>plink</pkg>. It provides unidimensional and multidimensional methods such as Mean/Mean, Mean/Sigma, Haebara, 
      and Stocking-Lord methods for dichotomous (1PL, 2PL and 3PL) and/or polytomous (graded response, partial credit/generalized partial credit, nominal, and multiple-choice model) items. 
@@ -72,18 +78,25 @@ should be mentioned here.
      partially crossed random effects.
   </li>
   <li>
-     Other packages of interest are: <pkg>mokken</pkg> to compute
-     non-parametric item analysis, the <pkg>RaschSampler</pkg> allowing for
-     the construction of exact Rasch model tests by generating random
-     zero-one matrices with given marginals, and <pkg>mprobit</pkg> fitting the
-     multivariate binary probit model. Simple Rasch computations
-     such a simulating data and joint maximum likelihood are included in the <pkg>MiscPsycho</pkg> package.
+     Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. In relation to that, <pkg>fwdmsa</pkg> performs the Forward Search for Mokken scale analysis. It detects outliers, it produces several types of diagnostic plots. 
+  </li>
+  <li>
+    This <pkg>KernSmoothIRT</pkg> package fits nonparametric item and option characteristic curves using kernel smoothing. It allows for optimal selection of the smoothing bandwidth using cross-validation and a variety of exploratory plotting tools.
+  </li>
+  <li>
+    The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model tests by generating random zero-one matrices with given marginals. 
+  </li> 
+  <li>
+     Simple Rasch computations such a simulating data and joint maximum likelihood are included in the <pkg>MiscPsycho</pkg> package.
   </li>
   <li>
     The <pkg>irtProb</pkg> is designed to estimate multidimensional subject parameters (MLE and MAP) such as personnal pseudo-guessing, 
     personal fluctuation, personal inattention. These supplemental parameters can be used to assess person fit, to identify misfit
     type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering 
     potential misfit at the same time. 
+  </li>
+  <li>
+    <pkg>cacIRT</pkg> computes classification accuracy and consistency under Item Response Theory. Currently, only works for 3PL IRT models (or 2PL or 1PL) and only for independent cut scores.
   </li>
   <li>
     The package <pkg>irtoys</pkg> provides a simple common interface to the estimation of item parameters in IRT models for binary responses with three different programs (ICL, BILOG-MG, and ltm, and a variety of functions useful with IRT models.
@@ -296,8 +309,7 @@ should be mentioned here.
     The <pkg>CMC</pkg> package calculates and plots the step-by-step Cronbach-Mesbach curve, that is a method, based on the Cronbach alpha coefficient of reliability, for checking the unidimensionality of a measurement scale. 
   </li>
   <li>
-    Cronbach alpha, kappa coefficients, and
-    intra-class correlation coefficients (ICC) can be found in the <pkg>psy</pkg> package.
+    Cronbach alpha, kappa coefficients, and intra-class correlation coefficients (ICC) can be found in the <pkg>psy</pkg> package.
   </li>
   <li>
     A number of routines for scale construction and reliability analysis useful
@@ -354,6 +366,9 @@ should be mentioned here.
      distances among objects representing subjective dissimilarities, and other related information.
   </li>
   <li>
+    The <pkg>modelfree</pkg> package provides functions for nonparametric estimation of a psychometric function and for estimation of a derived threshold and slope, and their standard deviations and confidence intervals.
+  </li>
+  <li>
      Confidence intervals for standardized effect sizes: The <pkg>MBESS</pkg> package.
   </li>
   <li>
@@ -363,7 +378,13 @@ should be mentioned here.
   The <pkg>qgraph</pkg> package can be used to visualize data as networks.
   </li>
   <li>
+  Social Relations Analyses for round robin designs are implemented in the <pkg>TripleR</pkg> package. It implements all functionality of the SOREMO software, and provides new functions like the handling of missing values, significance tests for single groups, or the calculation of the self enhancement index.
+  </li>
+  <li>
   Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.
+  </li>
+  <li>
+  The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
   </li>
 </ul>
 
@@ -375,6 +396,7 @@ should be mentioned here.
     <pkg>BiplotGUI</pkg>
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
+    <pkg>cacIRT</pkg>
     <pkg>caGUI</pkg>
     <pkg>catR</pkg>
     <pkg>cfa</pkg>
@@ -393,11 +415,13 @@ should be mentioned here.
     <pkg>FactoMineR</pkg>
     <pkg priority="core">FAiR</pkg>
     <pkg>fechner</pkg>
+    <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
+    <pkg>KernSmoothIRT</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
     <pkg priority="core">lavaan</pkg>
@@ -408,11 +432,15 @@ should be mentioned here.
     <pkg>MBESS</pkg>
     <pkg>MCMCpack</pkg>
     <pkg priority="core">MiscPsycho</pkg>
+    <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
+    <pkg>modelfree</pkg>
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
     <pkg>mpt</pkg>
+    <pkg priority="core">mirt</pkg>
+    <pkg>mRm</pkg>
     <pkg>nFactors</pkg>
     <pkg>pcaPP</pkg>
     <pkg priority="core">plink</pkg>
@@ -440,10 +468,13 @@ should be mentioned here.
     <pkg>SensoMineR</pkg>
     <pkg priority="core">smacof</pkg>
     <pkg>systemfit</pkg>
+    <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
     <pkg>xgobi</pkg>
-</packagelist><pkg>CMC</pkg>
+</packagelist>
+
+
 
 <links>
     <view>SocialSciences</view>
