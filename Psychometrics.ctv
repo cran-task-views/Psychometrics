@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-09-22</version>
+<version>2011-10-19</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -326,7 +326,13 @@ should be mentioned here.
 <p><strong>Other related packages:</strong></p>
   <ul>
   <li>
+    The <pkg>psychotools</pkg> provides an infrastructure for psychometric modeling such as data classes (e.g., for paired comparisons) and basic model fitting functions (e.g., for Rasch and Bradley-Terry models).
+  </li>
+  <li>
      Recursive partitioning based on psychometric models, employing the general MOB algorithm (from package party) are implemented in <pkg>psychotree</pkg>. Currently, only Bradley-Terry trees are provided.
+  </li>
+  <li>
+    Psychometric mixture models based on flexmix infrastructure are provided by means of the <pkg>psychomix</pkg> package (at the moment only Rasch mixture models).
   </li>
   <li>
     The <pkg>equate</pkg> package contains functions for non-IRT equating under both random groups and nonequivalent groups with anchor test designs. Mean, linear, equipercentile and circle-arc equating are supported, as are methods for univariate and bivariate presmoothing of score distributions. Specific equating methods currently supported include Tucker, Levine observed score, Levine true score, Braun/Holland, frequency estimation, and chained equating.
@@ -454,6 +460,8 @@ should be mentioned here.
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
     <pkg>psychometric</pkg>
+    <pkg>psychomix</pkg>
+    <pkg>psychotools</pkg>
     <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
