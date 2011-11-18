@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-10-19</version>
+<version>2011-11-18</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -89,12 +89,12 @@ should be mentioned here.
   <li>
      Simple Rasch computations such a simulating data and joint maximum likelihood are included in the <pkg>MiscPsycho</pkg> package.
   </li>
-  <li>
+<!--  <li>
     The <pkg>irtProb</pkg> is designed to estimate multidimensional subject parameters (MLE and MAP) such as personnal pseudo-guessing, 
     personal fluctuation, personal inattention. These supplemental parameters can be used to assess person fit, to identify misfit
     type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering 
     potential misfit at the same time. 
-  </li>
+  </li> -->
   <li>
     <pkg>cacIRT</pkg> computes classification accuracy and consistency under Item Response Theory. Currently, only works for 3PL IRT models (or 2PL or 1PL) and only for independent cut scores.
   </li>
@@ -426,7 +426,6 @@ should be mentioned here.
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
-    <pkg>irtProb</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
