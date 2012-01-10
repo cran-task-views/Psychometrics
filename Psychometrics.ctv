@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2011-11-18</version>
+<version>2012-01-10</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -390,6 +390,12 @@ should be mentioned here.
   Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.
   </li>
   <li>
+     The <pkg>MPTinR</pkg> package provides a user-friendly way for analysis of multinomial processing tree (MPT) models
+  </li>
+  <li>
+  Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CMD</pkg> package.
+  </li>
+  <li>
   The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
   </li>
 </ul>
@@ -407,6 +413,7 @@ should be mentioned here.
     <pkg>catR</pkg>
     <pkg>cfa</pkg>
     <pkg>CMC</pkg>
+    <pkg>CMD</pkg>
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
@@ -444,6 +451,7 @@ should be mentioned here.
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
     <pkg>mpt</pkg>
+    <pkg>MPTinR</pkg>
     <pkg priority="core">mirt</pkg>
     <pkg>mRm</pkg>
     <pkg>nFactors</pkg>
