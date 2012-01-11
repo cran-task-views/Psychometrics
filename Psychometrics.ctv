@@ -253,6 +253,9 @@ should be mentioned here.
   <li>
     The <a href="http://openmx.psyc.virginia.edu/">OpenMX</a> package allows estimation of a wide variety of advanced multivariate statistical models. It consists of a library of functions and optimizers that allow you to quickly and flexibly define an SEM model and estimate parameters given observed data. It is available under this <a href="http://openmx.psyc.virginia.edu/">link</a>.
   </li>
+  <li>
+    The <pkg>MplusAutomation</pkg> package allows to automate latent variable model estimation and interpretation using Mplus.
+  </li>
 </ul>
 
 <p><strong>Multidimensional Scaling (MDS):</strong></p>
@@ -393,7 +396,7 @@ should be mentioned here.
      The <pkg>MPTinR</pkg> package provides a user-friendly way for analysis of multinomial processing tree (MPT) models
   </li>
   <li>
-  Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CMD</pkg> package.
+  Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CDM</pkg> package.
   </li>
   <li>
   The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
@@ -411,9 +414,9 @@ should be mentioned here.
     <pkg>cacIRT</pkg>
     <pkg>caGUI</pkg>
     <pkg>catR</pkg>
+    <pkg>CDM</pkg>
     <pkg>cfa</pkg>
     <pkg>CMC</pkg>
-    <pkg>CMD</pkg>
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
@@ -447,6 +450,7 @@ should be mentioned here.
     <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
+    <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
     <pkg priority="core">mokken</pkg>
     <pkg>mprobit</pkg>
@@ -498,6 +502,7 @@ should be mentioned here.
     <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://r-forge.r-project.org/projects/psychor/" target="_top">PsychoR project platform</a>
     <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR snippets</a>
+    <a href="http://openmx.psyc.virginia.edu/">OpenMx - Advanced Structural Equation Modeling</a>
 </links>
 
 </CRANTaskView>
