@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2012-01-10</version>
+<version>2012-03-02</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -45,7 +45,7 @@ should be mentioned here.
     The <pkg>mirt</pkg> includes the multivariate two- and three-parameter logistic models, confirmatory bifactor analysis, polytomous confirmatory and exploratory item response models, and partially-compensatory item response modeling in conjunction with other IRT models.
   </li>
   <li>
-    Conditional maximum likelihood estimation via the EM algorithm and information-criterion-based model selection in binary mixed Rasch models are implemented in the <pkg>mRm</pkg> package. The <pkg>mixRasch</pkg> package estimates mixture Rasch models, including the dichotomous Rasch model, the rating scale model, and the partial credit model.
+    Conditional maximum likelihood estimation via the EM algorithm and information-criterion-based model selection in binary mixed Rasch models are implemented in the <pkg>mRm</pkg> package and the <pkg>psychomix</pkg> package. The <pkg>mixRasch</pkg> package estimates mixture Rasch models, including the dichotomous Rasch model, the rating scale model, and the partial credit model.
   </li>
   <li>
      Item and ability parameters can be calibrated using the package 
@@ -335,7 +335,7 @@ should be mentioned here.
      Recursive partitioning based on psychometric models, employing the general MOB algorithm (from package party) are implemented in <pkg>psychotree</pkg>. Currently, only Bradley-Terry trees are provided.
   </li>
   <li>
-    Psychometric mixture models based on flexmix infrastructure are provided by means of the <pkg>psychomix</pkg> package (at the moment only Rasch mixture models).
+    Psychometric mixture models based on flexmix infrastructure are provided by means of the <pkg>psychomix</pkg> package (at the moment Rasch mixture models and Bradley-Terry mixture models).
   </li>
   <li>
     The <pkg>equate</pkg> package contains functions for non-IRT equating under both random groups and nonequivalent groups with anchor test designs. Mean, linear, equipercentile and circle-arc equating are supported, as are methods for univariate and bivariate presmoothing of score distributions. Specific equating methods currently supported include Tucker, Levine observed score, Levine true score, Braun/Holland, frequency estimation, and chained equating.
