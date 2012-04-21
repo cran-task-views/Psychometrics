@@ -2,8 +2,8 @@
 
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
-<maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair and Reinhold Hatzinger</maintainer>
-<version>2012-03-02</version>
+<maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
+<version>2012-04-21</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -13,10 +13,7 @@ data.  Since much functionality is already contained in base R and there
 is considerable overlap between tools for psychometry and tools
 described in other views, particularly in <view>SocialSciences</view>,
 we only give a brief overview of packages that are closely related to
-psychometric methodology. Recently, Journal of Statistical Software (JSS)
-published a special volume on
-<a href="http://www.jstatsoft.org/v20/" target="_top">Psychometrics in R</a>
-in which some new R packages were published which are not yet on CRAN.
+psychometric methodology. 
 
 <p>
 <a href="mailto:Patrick.Mair@wu.ac.at">Please let us know</a>
@@ -217,7 +214,7 @@ should be mentioned here.
     The package <pkg>lavaan</pkg> can be used to estimate a large variety of multivariate statistical models, including path analysis, confirmatory factor analysis, structural equation modeling and growth curve models. It includes the lavaan model syntax which allows users to express their models in a compact way and allows for ML, GLS, WLS, robust ML using Satorra-Bentler corrections, and FIML for data with missing values. It fully supports for meanstructures and multiple groups and reports standardized solutions, fit measures, modification indices and more as output.
   </li>
   <li>
-    The package <pkg>semPLS</pkg> sits structural equation models using partial least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data.
+    The package <pkg>semPLS</pkg> sits structural equation models using partial least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data. PLS methods with emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package with approaches of segmentation trees in PLS path modeling.
   </li> 
   <li>
     The <pkg>plsRglm</pkg> package is designed to provide PLS regression and PLS generalized linear regression. It includes various criteria to select the number of components, repeated k-fold cross-validation, bootstrap confidence intervals and significance testing.
@@ -459,10 +456,12 @@ should be mentioned here.
     <pkg priority="core">mirt</pkg>
     <pkg>mRm</pkg>
     <pkg>nFactors</pkg>
+    <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
     <pkg priority="core">plink</pkg>
     <pkg>plRasch</pkg>
     <pkg>pls</pkg>
+    <pkg>plspm</pkg>
     <pkg>plsRglm</pkg>
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
