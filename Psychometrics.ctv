@@ -351,13 +351,13 @@ should be mentioned here.
      <pkg>irr</pkg>.
   </li>
   <li>
-    <pkg>prefmod</pkg> generates design matrix for analysing real paired comparisons and derived paired comparison data 
+    <pkg>prefmod</pkg> generates design matrices for analysing real paired comparisons and derived paired comparison data 
     (Likert type items / ratings or rankings) using a loglinear approach. Fits loglinear Bradley-Terry model (LLBT) exploting an eliminate feature. Computes pattern models 
     for paired comparisons, rankings, and ratings. Some treatment of missing values (MCAR and MNAR).
   </li>
   <li>
      Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry2</pkg> 
-     and in <pkg>eba</pkg>. The latter allowes for the computation of elimination-by-aspects models.
+     and in <pkg>eba</pkg>. The latter allows for the computation of elimination-by-aspects models.
   </li>
   <li>
      <pkg>DAKS</pkg> provides functions and example datasets for the psychometric theory of knowledge 
