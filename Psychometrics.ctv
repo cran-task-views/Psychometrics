@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-04-21</version>
+<version>2012-05-25</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -73,6 +73,9 @@ should be mentioned here.
      A multilevel Rasch model can be estimated using the package
      <pkg>lme4</pkg> with functions for mixed-effects models with crossed or
      partially crossed random effects.
+     Furthermore, infrastructure for estimating tree-structured
+     item response models of the GLMM family using <pkg>lme4</pkg> is provided in
+     <pkg>irtrees</pkg>.
   </li>
   <li>
      Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. In relation to that, <pkg>fwdmsa</pkg> performs the Forward Search for Mokken scale analysis. It detects outliers, it produces several types of diagnostic plots. 
@@ -398,6 +401,10 @@ should be mentioned here.
   <li>
   The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
   </li>
+  <li>
+  Beta regression for modeling beta-distributed dependent variables, e.g., rates and proportions,
+  is available in <pkg>betareg</pkg>.
+  </li>
 </ul>
 
 </info>
@@ -405,6 +412,7 @@ should be mentioned here.
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
+    <pkg>betareg</pkg>
     <pkg>BiplotGUI</pkg>
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
@@ -433,6 +441,7 @@ should be mentioned here.
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
+    <pkg>irtrees</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
