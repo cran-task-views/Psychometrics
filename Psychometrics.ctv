@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-05-25</version>
+<version>2012-06-20</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -16,8 +16,7 @@ we only give a brief overview of packages that are closely related to
 psychometric methodology. 
 
 <p>
-<a href="mailto:Patrick.Mair@wu.ac.at">Please let us know</a>
-if we have omitted something of importance, or if a new package or function
+<a href="mailto:Patrick.Mair@wu.ac.at">Please let us know</a> if we have omitted something of importance, or if a new package or function
 should be mentioned here.
 </p>
 
@@ -72,9 +71,7 @@ should be mentioned here.
   <li>
      A multilevel Rasch model can be estimated using the package
      <pkg>lme4</pkg> with functions for mixed-effects models with crossed or
-     partially crossed random effects.
-     Furthermore, infrastructure for estimating tree-structured
-     item response models of the GLMM family using <pkg>lme4</pkg> is provided in
+     partially crossed random effects. Furthermore, infrastructure for estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in
      <pkg>irtrees</pkg>.
   </li>
   <li>
@@ -325,6 +322,18 @@ should be mentioned here.
   </li>
 </ul>
 
+<p><strong>Knowledge structure analysis:</strong></p>
+<ul>
+ <li>
+     <pkg>DAKS</pkg> provides functions and example datasets for the psychometric theory of knowledge 
+     spaces. This package implements data analysis methods and procedures for simulating data and 
+     transforming different formulations in knowledge space theory.
+  </li>
+  <li>
+    The <pkg>kst</pkg> package contains basic functionality to generate, handle, and manipulate deterministic knowledge structures based on sets and relations.
+Functions for fitting probabilistic knowledge structures are included in the <pkg>pks</pkg> package.
+  </li>
+</ul>
 
 <p><strong>Other related packages:</strong></p>
   <ul>
@@ -363,11 +372,6 @@ should be mentioned here.
      and in <pkg>eba</pkg>. The latter allows for the computation of elimination-by-aspects models.
   </li>
   <li>
-     <pkg>DAKS</pkg> provides functions and example datasets for the psychometric theory of knowledge 
-     spaces. This package implements data analysis methods and procedures for simulating data and 
-     transforming different formulations in knowledge space theory.
-  </li>
-  <li>
      Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package. The <pkg>MLCM</pkg> package contains functions to estimate the contribution of the n scales to the judgment by a maximum likelihood method under several hypotheses of how the perceptual dimensions interact.  
   </li>
   <li>
@@ -390,10 +394,7 @@ should be mentioned here.
   Social Relations Analyses for round robin designs are implemented in the <pkg>TripleR</pkg> package. It implements all functionality of the SOREMO software, and provides new functions like the handling of missing values, significance tests for single groups, or the calculation of the self enhancement index.
   </li>
   <li>
-  Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.
-  </li>
-  <li>
-     The <pkg>MPTinR</pkg> package provides a user-friendly way for analysis of multinomial processing tree (MPT) models
+  Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.The <pkg>MPTinR</pkg> package provides a user-friendly way for analysis of multinomial processing tree (MPT) models.
   </li>
   <li>
   Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CDM</pkg> package.
