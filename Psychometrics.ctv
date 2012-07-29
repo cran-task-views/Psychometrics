@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-06-20</version>
+<version>2012-07-28</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -220,7 +220,13 @@ should be mentioned here.
     The <pkg>plsRglm</pkg> package is designed to provide PLS regression and PLS generalized linear regression. It includes various criteria to select the number of components, repeated k-fold cross-validation, bootstrap confidence intervals and significance testing.
   </li>
   <li>
-    <pkg>SEMModComp</pkg> conducts tests of difference in fit for mean and covariance structure models as in structural equation modeling (SEM)
+    <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations using SEM (for methodological investigations, power analyses and much more). 
+  </li>
+  <li>
+    <pkg>semTools</pkg> is a package of add on functions that can aid in fitting SEMs in R (for example one function automates imputing missing data, running imputed datasets and combining the results from these datasets).
+  </li>
+  <li>
+    <pkg>SEMModComp</pkg> conducts tests of difference in fit for mean and covariance structure models as in structural equation modeling (SEM).
   </li>
   <li>
     The package <pkg>FAiR</pkg> performs factor analysis based on a genetic algorithm for optimization. This makes it possible to impose a wide range of restrictions on the factor analysis model, whether using exploratory factor analysis, confirmatory factor analysis, or a new estimator called semi-exploratory factor analysis (SEFA).
@@ -493,7 +499,9 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg priority="core">sem</pkg>
     <pkg>semPLS</pkg>
     <pkg>SEMModComp</pkg>
+    <pkg>semTools</pkg>
     <pkg>SensoMineR</pkg>
+    <pkg>simsem</pkg>
     <pkg priority="core">smacof</pkg>
     <pkg>systemfit</pkg>
     <pkg>TripleR</pkg>
