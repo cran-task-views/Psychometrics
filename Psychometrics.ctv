@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-07-28</version>
+<version>2012-08-10</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -381,10 +381,6 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
      Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package. The <pkg>MLCM</pkg> package contains functions to estimate the contribution of the n scales to the judgment by a maximum likelihood method under several hypotheses of how the perceptual dimensions interact.  
   </li>
   <li>
-     Functions and example datasets for Fechnerian scaling of discrete object sets are provided by <pkg>fechner</pkg>. It computes Fechnerian 
-     distances among objects representing subjective dissimilarities, and other related information.
-  </li>
-  <li>
     The <pkg>modelfree</pkg> package provides functions for nonparametric estimation of a psychometric function and for estimation of a derived threshold and slope, and their standard deviations and confidence intervals.
   </li>
   <li>
@@ -442,7 +438,6 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>EstCRM</pkg>
     <pkg>FactoMineR</pkg>
     <pkg priority="core">FAiR</pkg>
-    <pkg>fechner</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
