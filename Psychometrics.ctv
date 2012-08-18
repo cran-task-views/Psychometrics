@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-08-17</version>
+<version>2012-08-18</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -330,6 +330,11 @@ should be mentioned here.
 
 <p><strong>Knowledge structure analysis:</strong></p>
 <ul>
+ <li>
+     <pkg>DAKS</pkg> provides functions and example datasets for the psychometric theory of knowledge 
+     spaces. This package implements data analysis methods and procedures for simulating data and 
+     transforming different formulations in knowledge space theory.
+  </li>
   <li>
     The <pkg>kst</pkg> package contains basic functionality to generate, handle, and manipulate deterministic knowledge structures based on sets and relations.
 Functions for fitting probabilistic knowledge structures are included in the <pkg>pks</pkg> package.
@@ -427,6 +432,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
     <pkg priority="core">CTT</pkg>
+    <pkg>DAKS</pkg>
     <pkg>difR</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
