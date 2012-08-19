@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-08-18</version>
+<version>2012-08-19</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -118,6 +118,9 @@ should be mentioned here.
      The <pkg>latdiag</pkg> package produces commands to drive the dot program from graphviz to produce a 
      graph useful in deciding whether a set of binary items might have a latent scale with non-crossing ICCs. 
   </li>
+  <li>
+    The purpose of the <pkg>rpf</pkg> package is to factor out logic and math common to IRT fitting, diagnostics, and analysis. It is envisioned as core support code suitable for more specialized IRT packages to build upon.
+  </li>
 </ul>
 
 <p><strong>Correspondence Analysis (CA):</strong></p>
@@ -212,6 +215,9 @@ should be mentioned here.
   </li>
   <li>
     The package <pkg>lavaan</pkg> can be used to estimate a large variety of multivariate statistical models, including path analysis, confirmatory factor analysis, structural equation modeling and growth curve models. It includes the lavaan model syntax which allows users to express their models in a compact way and allows for ML, GLS, WLS, robust ML using Satorra-Bentler corrections, and FIML for data with missing values. It fully supports for meanstructures and multiple groups and reports standardized solutions, fit measures, modification indices and more as output.
+  </li>
+  <li>
+    A general implementation of a computational framework for latent variable models (including structural equation models) is given in <pkg>lava</pkg>. The <pkg>lava.tobit</pkg> package generalizes the framework to censored and dichotomous variables via a probit link formulation.
   </li>
   <li>
     The package <pkg>semPLS</pkg> fits structural equation models using partial least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data. PLS methods with emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package with approaches of segmentation trees in PLS path modeling.
@@ -452,7 +458,9 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>KernSmoothIRT</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
+    <pkg>lava</pkg>
     <pkg priority="core">lavaan</pkg>
+    <pkg>lava.tobit</pkg>
     <pkg priority="core">lme4</pkg>
     <pkg>lordif</pkg>
     <pkg priority="core">ltm</pkg>
@@ -496,6 +504,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>RaschSampler</pkg>
     <pkg>randomLCA</pkg>
     <pkg>REQS</pkg>
+    <pkg>rpf</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>semPLS</pkg>
     <pkg>SEMModComp</pkg>
