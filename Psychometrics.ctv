@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-08-19</version>
+<version>2012-08-22</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -222,9 +222,6 @@ should be mentioned here.
   <li>
     The package <pkg>semPLS</pkg> fits structural equation models using partial least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data. PLS methods with emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package with approaches of segmentation trees in PLS path modeling.
   </li> 
-  <li>
-    The <pkg>plsRglm</pkg> package is designed to provide PLS regression and PLS generalized linear regression. It includes various criteria to select the number of components, repeated k-fold cross-validation, bootstrap confidence intervals and significance testing.
-  </li>
   <li>
     <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations using SEM (for methodological investigations, power analyses and much more). 
   </li>
@@ -486,7 +483,6 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>plRasch</pkg>
     <pkg>pls</pkg>
     <pkg>plspm</pkg>
-    <pkg>plsRglm</pkg>
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
     <pkg priority="core">prefmod</pkg>
