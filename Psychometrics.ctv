@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-09-17</version>
+<version>2012-10-08</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -97,6 +97,9 @@ should be mentioned here.
   </li>
   <li>
     The package <pkg>irtoys</pkg> provides a simple common interface to the estimation of item parameters in IRT models for binary responses with three different programs (ICL, BILOG-MG, and ltm, and a variety of functions useful with IRT models.
+  </li>
+  <li>
+  Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CDM</pkg> package.
   </li>
   <li>
     Gaussian ordination, related to logistic IRT and also approximated as
@@ -356,6 +359,9 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     The <pkg>equate</pkg> package contains functions for non-IRT equating under both random groups and nonequivalent groups with anchor test designs. Mean, linear, equipercentile and circle-arc equating are supported, as are methods for univariate and bivariate presmoothing of score distributions. Specific equating methods currently supported include Tucker, Levine observed score, Levine true score, Braun/Holland, frequency estimation, and chained equating.
   </li>
   <li>
+    The <pkg>CopyDetect</pkg> package contains several IRT and non-IRT based statistical indices proposed in the literature for detecting answer copying on multiple-choice examinations.
+  </li>
+  <li>
      Latent class analysis with random effects can be performed with the package <pkg>randomLCA</pkg>.
      In addition, the package <pkg>e1071</pkg> provides the function <code>lca()</code>. Another package is
      <pkg>poLCA</pkg> for polytomous variable latent class analysis.
@@ -403,9 +409,6 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
   Fitting and testing multinomial processing tree models, a class of statistical models for categorical data with latent parameters, can be performed using the <pkg>mpt</pkg> package. These parameters are the link probabilities of a tree-like graph and represent the cognitive processing steps executed to arrive at observable response categories.The <pkg>MPTinR</pkg> package provides a user-friendly way for analysis of multinomial processing tree (MPT) models.
   </li>
   <li>
-  Functions and example empirical (i.e., fraction subtraction) and artificial data for cognitive diagnosis modeling are provided by the <pkg>CDM</pkg> package.
-  </li>
-  <li>
   The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
   </li>
   <li>
@@ -431,6 +434,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
     <pkg>concord</pkg>
+    <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
     <pkg>difR</pkg>
