@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-10-08</version>
+<version>2012-10-30</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -325,10 +325,6 @@ should be mentioned here.
     for personality and experimental psychology are contained in the
     packages <pkg>psych</pkg> and <pkg>MiscPsycho</pkg>.
   </li>
-  <li>
-    Additional measures for reliability and concordance can be computed with the
-    <pkg>concord</pkg> package.
-  </li>
 </ul>
 
 <p><strong>Knowledge structure analysis:</strong></p>
@@ -433,7 +429,6 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>cfa</pkg>
     <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
-    <pkg>concord</pkg>
     <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
