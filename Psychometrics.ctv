@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-10-30</version>
+<version>2012-12-05</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -123,6 +123,9 @@ should be mentioned here.
   </li>
   <li>
     The purpose of the <pkg>rpf</pkg> package is to factor out logic and math common to IRT fitting, diagnostics, and analysis. It is envisioned as core support code suitable for more specialized IRT packages to build upon.
+  </li>
+  <li>
+    The <pkg>classify</pkg> package can be used to examine classification accuracy and consistency under IRT models.
   </li>
 </ul>
 
@@ -427,6 +430,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>catR</pkg>
     <pkg>CDM</pkg>
     <pkg>cfa</pkg>
+    <pkg>classify</pkg>
     <pkg>CMC</pkg>
     <pkg>cocorresp</pkg>
     <pkg>CopyDetect</pkg>
