@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2012-12-05</version>
+<version>2013-01-29</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -140,7 +140,7 @@ should be mentioned here.
     options to display supplementary points and perform subset analyses.
     Other features are visualization functions that offer features such as
     different scaling options for biplots and three-dimensional maps using
-    the <pkg>rgl</pkg> package. Graphical options include shading and
+    the rgl package. Graphical options include shading and
     sizing plot symbols for the points according to their contributions to
     the map and masses respectively. A corresponding GUI is provided by the package <pkg>caGUI</pkg>. 
   </li>
@@ -444,6 +444,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg priority="core">eRm</pkg>
     <pkg>EstCRM</pkg>
     <pkg>FactoMineR</pkg>
+    <pkg>fastICA</pkg>
     <pkg>fechner</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
@@ -452,6 +453,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>irtoys</pkg>
     <pkg>irtrees</pkg>
     <pkg>KernSmoothIRT</pkg>
+    <pkg>kst</pkg>
     <pkg>labdsv</pkg>
     <pkg>latdiag</pkg>
     <pkg>lava</pkg>
@@ -478,6 +480,7 @@ Functions for fitting probabilistic knowledge structures are included in the <pk
     <pkg>nFactors</pkg>
     <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
+    <pkg>pks</pkg>
     <pkg priority="core">plink</pkg>
     <pkg>plRasch</pkg>
     <pkg>pls</pkg>
