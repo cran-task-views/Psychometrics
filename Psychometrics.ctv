@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-02-05</version>
+<version>2013-03-22</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -201,16 +201,13 @@ accuracy and consistency under IRT models.
     the map and masses respectively. A corresponding GUI is provided by the
 package <pkg>caGUI</pkg>. 
   </li>
-  <li>
+<!--  <li>
     Simple and canonical CA are provided by the package <pkg>anacor</pkg>. It 
-    allows for diffenrent scaling methods such as standard scaling, Benzecri
-scaling, 
-    centroid scaling, and Goodman scaling. Along with well-known two- and
-three-dimensional 
-    joint plots including confidence ellipsoids, it offers alternative plotting
-possibilities 
+    allows for diffenrent scaling methods such as standard scaling, Benzecri scaling, 
+    centroid scaling, and Goodman scaling. Along with well-known two- and three-dimensional 
+    joint plots including confidence ellipsoids, it offers alternative plotting possibilities 
     in terms of transformation plots, Benzecri plots, and regression plots.
-  </li>
+  </li> -->
   <li>
   A GUI (Windows only) that allows the user to construct interactive Biplots is
 offered by the package <pkg>BiplotGUI</pkg>.
@@ -597,7 +594,6 @@ and proportions,
 
 <packagelist>
     <pkg priority="core">ade4</pkg>
-    <pkg priority="core">anacor</pkg>
     <pkg>betareg</pkg>
     <pkg>BiplotGUI</pkg>
     <pkg>BradleyTerry2</pkg>
