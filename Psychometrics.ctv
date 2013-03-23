@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-03-22</version>
+<version>2013-03-23</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -587,9 +587,6 @@ at observable response categories.The <pkg>MPTinR</pkg> package provides a
 user-friendly way for analysis of multinomial processing tree (MPT) models.
   </li>
   <li>
-  The <pkg>mprobit</pkg> package fits the multivariate binary probit model.
-  </li>
-  <li>
   Beta regression for modeling beta-distributed dependent variables, e.g., rates
 and proportions,
   is available in <pkg>betareg</pkg>.
@@ -653,7 +650,6 @@ and proportions,
     <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
     <pkg priority="core">mokken</pkg>
-    <pkg>mprobit</pkg>
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg priority="core">mirt</pkg>
