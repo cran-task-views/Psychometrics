@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-04-06</version>
+<version>2013-04-05</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -45,7 +45,10 @@ exploratory item response models, and partially-compensatory item response
 modeling in conjunction with other IRT models.
   </li>
   <li>
-  Tha package <pkg>MultiLCIRT</pkg> estimates IRT models under (1) multidimensionality assumption, (2) discreteness of
+  The <pkg>mcIRT</pkg> package provides functions to estimate the Nominal Response Model and the Nested Logit Model. Both are models to examine multiple-choice items and other polytomous response formats.
+  </li>
+  <li>
+  <pkg>MultiLCIRT</pkg> estimates IRT models under (1) multidimensionality assumption, (2) discreteness of
 latent traits, (3) binary and ordinal polytomous items. 
   </li>
   <li>
@@ -644,6 +647,7 @@ and proportions,
     <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
     <pkg>MCMCpack</pkg>
+    <pkg>mcIRT</pkg>
     <pkg priority="core">MiscPsycho</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
