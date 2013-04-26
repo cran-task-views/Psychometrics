@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-04-05</version>
+<version>2013-04-26</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -54,7 +54,7 @@ latent traits, (3) binary and ordinal polytomous items.
   <li>
     Conditional maximum likelihood estimation via the EM algorithm and
 information-criterion-based model selection in binary mixed Rasch models are
-implemented in the <pkg>mRm</pkg> package and the <pkg>psychomix</pkg> package.
+implemented in the <pkg>psychomix</pkg> package.
 The <pkg>mixRasch</pkg> package estimates mixture Rasch models, including the
 dichotomous Rasch model, the rating scale model, and the partial credit model.
   </li>
@@ -658,7 +658,6 @@ and proportions,
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg priority="core">mirt</pkg>
-    <pkg>mRm</pkg>
     <pkg>MultiLCIRT</pkg>
     <pkg>nFactors</pkg>
     <pkg>pathmox</pkg>
