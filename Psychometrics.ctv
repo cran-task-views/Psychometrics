@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-04-27</version>
+<version>2013-05-18</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -146,9 +146,7 @@ different programs (ICL, BILOG-MG, and ltm, and a variety of functions useful
 with IRT models.
   </li>
   <li>
-  Functions and example empirical (i.e., fraction subtraction) and artificial
-data for cognitive diagnosis modeling are provided by the <pkg>CDM</pkg>
-package.
+  The <pkg>CDM</pkg> package estimates cognitive diagnosis models (DINA, DINO and GDINA models) and the general diagnostic model with discrete and quasi-continuous multidimensional latent variables which also includes the multidimensional compensatory item response model.
   </li>
   <li>
     Gaussian ordination, related to logistic IRT and also approximated as
