@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-06-03</version>
+<version>2013-06-27</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -100,7 +100,7 @@ IRT methods.
   </li>
   <li>
      A multilevel Rasch model can be estimated using the package
-     <pkg>lme4</pkg> with functions for mixed-effects models with crossed or
+     <pkg>lme4</pkg> and <pkg>MCMCglmm</pkg> with functions for mixed-effects models with crossed or
      partially crossed random effects. Furthermore, infrastructure for
 estimating tree-structured item response models of the GLMM family using
 <pkg>lme4</pkg> is provided in
@@ -331,6 +331,9 @@ SEMs in R (for example one function automates imputing missing data, running
 imputed datasets and combining the results from these datasets).
   </li>
   <li>
+    <pkg>semPlot</pkg> produces path diagrams and visual analysis for outputs of various SEM packages.
+  </li>
+  <li>
     <pkg>SEMModComp</pkg> conducts tests of difference in fit for mean and
 covariance structure models as in structural equation modeling (SEM).
   </li>
@@ -348,7 +351,7 @@ quantitative/qualitative variables
     the posterior for ordinal and mixed factor models.
   </li>
   <li>
-    The <pkg>homals</pkg> package provides nonlinear PCA and, by defining sets,
+    The <pkg>homals</pkg> package provides nonlinear PCA (aka categorical PCA) and, by defining sets,
 nonlinear canonical
     correlation analysis (models of the Gifi-family).
   </li>
@@ -646,6 +649,7 @@ and proportions,
     <pkg priority="core">ltm</pkg>
     <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
+    <pkg>MCMCglmm</pkg>
     <pkg>MCMCpack</pkg>
     <pkg>mcIRT</pkg>
     <pkg priority="core">MiscPsycho</pkg>
@@ -688,6 +692,7 @@ and proportions,
     <pkg>rpf</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>semPLS</pkg>
+    <pkg>semPlot</pkg>
     <pkg>SEMModComp</pkg>
     <pkg>semTools</pkg>
     <pkg>SensoMineR</pkg>
