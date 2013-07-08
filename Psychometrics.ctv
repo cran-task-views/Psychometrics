@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-06-27</version>
+<version>2013-07-08</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -39,6 +39,10 @@ should be mentioned here.
      model.
   </li>
   <li>
+    <pkg>TAM</pkg> fits unidimensional and multidimensional item response models and also includes multifaceted models, 
+    latent regression models and options for drawing plausible values.
+  </li>
+  <li>
     The <pkg>mirt</pkg> includes the multivariate two- and three-parameter
 logistic models, confirmatory bifactor analysis, polytomous confirmatory and
 exploratory item response models, and partially-compensatory item response
@@ -70,6 +74,10 @@ and multiple-choice model) items.
      The multidimensional methods include the Reckase-Martineau method and
 extensions 
      of the Haebara and Stocking-Lord method. 
+  </li>
+  <li>
+  The <pkg>equateIRT</pkg> package computes direct, chain and average (bisector) equating coefficients with 
+  standard errors using Item Response Theory (IRT) methods for dichotomous items.
   </li>
   <li>
      The <pkg>EstCRM</pkg> package calibrates the parameters for Samejima's
@@ -127,7 +135,7 @@ tests by generating random zero-one matrices with given marginals.
      Simple Rasch computations such a simulating data and joint maximum
 likelihood are included in the <pkg>MiscPsycho</pkg> package.
   </li>
-<!--  <li>
+<li>
     The <pkg>irtProb</pkg> is designed to estimate multidimensional subject
 parameters (MLE and MAP) such as personnal pseudo-guessing, 
     personal fluctuation, personal inattention. These supplemental parameters
@@ -135,7 +143,7 @@ can be used to assess person fit, to identify misfit
     type, to generate misfitting response patterns, or to make correction while
 estimating the proficiency level considering 
     potential misfit at the same time. 
-  </li> -->
+  </li>
   <li>
     <pkg>cacIRT</pkg> computes classification accuracy and consistency under
 Item Response Theory. Currently, only works for 3PL IRT models (or 2PL or 1PL)
@@ -623,6 +631,7 @@ and proportions,
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
+    <pkg>equateIRT</pkg>
     <pkg>equate</pkg>
     <pkg priority="core">eRm</pkg>
     <pkg>EstCRM</pkg>
@@ -635,6 +644,7 @@ and proportions,
     <pkg priority="core">homals</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
+    <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
@@ -700,6 +710,7 @@ and proportions,
     <pkg>sirt</pkg>
     <pkg priority="core">smacof</pkg>
     <pkg>systemfit</pkg>
+    <pkg priority="core">TAM</pkg>
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
