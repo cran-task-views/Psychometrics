@@ -2,8 +2,8 @@
 
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
-<maintainer email="Patrick.Mair@wu.ac.at">Patrick Mair</maintainer>
-<version>2013-07-08</version>
+<maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
+<version>2013-08-25</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -16,7 +16,7 @@ we only give a brief overview of packages that are closely related to
 psychometric methodology. 
 
 <p>
-<a href="mailto:Patrick.Mair@wu.ac.at">Please let us know</a> if we have omitted
+<a href="mailto:mair@fas.harvard.edu">Please let us know</a> if we have omitted
 something of importance, or if a new package or function
 should be mentioned here.
 </p>
@@ -469,7 +469,7 @@ scale.
   </li>
   <li>
     Cronbach alpha, kappa coefficients, and intra-class correlation coefficients
-(ICC) can be found in the <pkg>psy</pkg> package.
+(ICC) can be found in the <pkg>psy</pkg> package. Functions for ICC computation can be also found in the packages <pkg>psych</pkg>, <pkg>psychometric</pkg>and <pkg>ICC</pkg>.
   </li>
   <li>
     A number of routines for scale construction and reliability analysis useful
@@ -642,6 +642,7 @@ and proportions,
     <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
+    <pkg>ICC</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
     <pkg>irtProb</pkg>
