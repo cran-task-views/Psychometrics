@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-08-25</version>
+<version>2013-09-05</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -579,8 +579,18 @@ and slope, and their standard deviations and confidence intervals.
 package.
   </li>
   <li>
+  The <pkg>mediation</pkg> allows both parametric and nonparametric causal mediation analysis. 
+  It also allows researchers to conduct sensitivity analysis for certain parametric models.
+  </li>
+  <li>
   Functions for data screening, testing moderation, mediation, and estimating
 power are contained in the <pkg>QuantPsyc</pkg> package. 
+  </li>
+  <li>
+  The package <pkg>multiplex</pkg> is especially designed for social networks with relations at 
+  different levels. In this sense, the program has effective ways to treat multiple networks data 
+  sets with routines that combine algebraic structures like the partially ordered semigroup 
+  with the existing relational bundles found in multiple networks.
   </li>
   <li>
   The <pkg>qgraph</pkg> package can be used to visualize data as networks.
@@ -663,6 +673,7 @@ and proportions,
     <pkg>MCMCglmm</pkg>
     <pkg>MCMCpack</pkg>
     <pkg>mcIRT</pkg>
+    <pkg>mediation</pkg>
     <pkg priority="core">MiscPsycho</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
@@ -675,6 +686,7 @@ and proportions,
     <pkg priority="core">mirt</pkg>
     <pkg>mRm</pkg>
     <pkg>MultiLCIRT</pkg>
+    <pkg>multiplex</pkg>
     <pkg>nFactors</pkg>
     <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
