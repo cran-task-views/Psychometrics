@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-09-05</version>
+<version>2013-09-29</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -264,9 +264,9 @@ plots, star plots,
     analysis.
   </li>
   <li>
-    Other extensions of CA and MCA which also generalize many common IRT
-    models can be found on the <a href="http://gifi.stat.ucla.edu/psychoR/"
-target="_top">PsychoR</a> page.
+    SVD based multivariate exploratory methods such as PCA, CA, MCA 
+    (as well as a Hellinger form of CA), generalized PCA are implemented in <pkg>ExPosition</pkg>. 
+    The package also allows for supplementary data projection.
   </li>
 </ul>
 
@@ -426,9 +426,9 @@ and tertiary approaches
   </li>
   <li>
     Non-metric MDS can additionally be performed with <code>metaMDS()</code> in
-<pkg>vegan</pkg>. Furthermore,
-    <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
-<code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>.
+<pkg>vegan</pkg>. Furthermore, <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
+<code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>. Also, the <pkg>ExPosition</pkg> implements a function for
+metric MDS.
   </li>
   <li>
     Principal coordinate analysis can be computed with <code>capscale()</code>
@@ -645,6 +645,7 @@ and proportions,
     <pkg>equate</pkg>
     <pkg priority="core">eRm</pkg>
     <pkg>EstCRM</pkg>
+    <pkg>ExPosition</pkg>
     <pkg>FactoMineR</pkg>
     <pkg priority="core">FAiR</pkg>
     <pkg>fastICA</pkg>
