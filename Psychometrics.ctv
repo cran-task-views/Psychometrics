@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-09-29</version>
+<version>2013-11-16</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -43,10 +43,11 @@ should be mentioned here.
     latent regression models and options for drawing plausible values.
   </li>
   <li>
-    The <pkg>mirt</pkg> includes the multivariate two- and three-parameter
-logistic models, confirmatory bifactor analysis, polytomous confirmatory and
-exploratory item response models, and partially-compensatory item response
-modeling in conjunction with other IRT models.
+    The <pkg>mirt</pkg> allows for the analysis of dichotomous and polytomous response data using
+unidimensional and multidimensional latent trait models under the IRT paradigm. Exploratory and confirmatory models can be
+estimated with quadrature (EM) or stochastic (MHRM) methods. Confirmatory bi-factor and two-tier analyses are available for
+modeling item testlets. Multiple group analysis and mixed effects designs also are available for detecting differential item functioning
+and modelling item and person covariates. 
   </li>
   <li>
   The <pkg>mcIRT</pkg> package provides functions to estimate the Nominal Response Model and the Nested Logit Model. Both are models to examine multiple-choice items 
@@ -108,11 +109,9 @@ IRT methods.
   </li>
   <li>
      A multilevel Rasch model can be estimated using the package
-     <pkg>lme4</pkg> and <pkg>MCMCglmm</pkg> with functions for mixed-effects models with crossed or
-     partially crossed random effects. Furthermore, infrastructure for
-estimating tree-structured item response models of the GLMM family using
-<pkg>lme4</pkg> is provided in
-     <pkg>irtrees</pkg>.
+     <pkg>lme4</pkg>, <pkg>nlme</pkg>, and <pkg>MCMCglmm</pkg> with functions for mixed-effects models with crossed or
+     partially crossed random effects. The <pkg>ordinal</pkg> package implements this approach for polytomous models. An infrastructure for
+estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in <pkg>irtrees</pkg>. 
   </li>
   <li>
      Nonparametric IRT analysis can be computed by means if the
@@ -689,6 +688,8 @@ and proportions,
     <pkg>MultiLCIRT</pkg>
     <pkg>multiplex</pkg>
     <pkg>nFactors</pkg>
+    <pkg>nlme</pkg>
+    <pkg>ordinal</pkg>
     <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
     <pkg>pks</pkg>
