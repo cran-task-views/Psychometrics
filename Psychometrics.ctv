@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-11-16</version>
+<version>2013-11-23</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -461,6 +461,10 @@ reliability, item analysis, inter-rater reliability, and classical utility are
 contained in the <pkg>psychometric</pkg> package.
   </li>
   <li>
+  The <pkg>cocron</pkg> package provides functions to statistically compare two or more alpha coefficients based 
+  on either dependent or independent groups of individuals.
+  </li>
+  <li>
     The <pkg>CMC</pkg> package calculates and plots the step-by-step
 Cronbach-Mesbach curve, that is a method, based on the Cronbach alpha
 coefficient of reliability, for checking the unidimensionality of a measurement
@@ -474,6 +478,9 @@ scale.
     A number of routines for scale construction and reliability analysis useful
     for personality and experimental psychology are contained in the
     packages <pkg>psych</pkg> and <pkg>MiscPsycho</pkg>.
+  </li>
+  <li>
+    <a href="https://github.com/zief0002/QME">QME</a> (not on CRAN) computes measures from generalizability theory.
   </li>
 </ul>
 
@@ -538,8 +545,7 @@ more-sample, and
   </li>
   <li>
      Coefficents for interrater reliability and agreements can be computed with
-the
-     <pkg>irr</pkg>.
+the <pkg>irr</pkg>.
   </li>
   <li>
     <pkg>prefmod</pkg> generates design matrices for analysing real paired
@@ -614,6 +620,9 @@ user-friendly way for analysis of multinomial processing tree (MPT) models.
 and proportions,
   is available in <pkg>betareg</pkg>.
   </li>
+  <li>
+  The <pkg>cocor</pkg> package provides functions to compare two correlations based on either dependent or independent groups.
+  </li>
 </ul>
 
 </info>
@@ -632,7 +641,9 @@ and proportions,
     <pkg>cfa</pkg>
     <pkg>classify</pkg>
     <pkg>CMC</pkg>
+    <pkg>cocor</pkg>
     <pkg>cocorresp</pkg>
+    <pkg>cocron</pkg>
     <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
