@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-11-23</version>
+<version>2013-12-01</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -623,6 +623,10 @@ and proportions,
   <li>
   The <pkg>cocor</pkg> package provides functions to compare two correlations based on either dependent or independent groups.
   </li>
+  <li>
+   The <pkg>profileR</pkg> package provides a set of tools that implement profile
+analysis and cross-validation techniques.
+  </li>
 </ul>
 
 </info>
@@ -711,6 +715,7 @@ and proportions,
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
     <pkg priority="core">prefmod</pkg>
+    <pkg>profileR</pkg>
     <pkg>pscl</pkg>
     <pkg priority="core">psy</pkg>
     <pkg priority="core">psych</pkg>
