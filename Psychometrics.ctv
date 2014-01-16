@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2013-12-01</version>
+<version>2014-01-16</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -371,6 +371,10 @@ nonlinear canonical
 <pkg>pcaPP</pkg> package.
   </li>
   <li>
+  The <pkg>pcaPA</pkg> package performs a parallel analysis of continuous, ordered 
+  (including dichotomous/binary as a special case) or mixed type of data associated with a principal components analysis.
+  </li>
+  <li>
     The package <pkg>psych</pkg> includes functions such as
 <code>fa.parallel()</code> and <code>VSS()</code> for estimating the
     appropriate number of factors/components as well as <code>ICLUST()</code>
@@ -706,6 +710,7 @@ analysis and cross-validation techniques.
     <pkg>nlme</pkg>
     <pkg>ordinal</pkg>
     <pkg>pathmox</pkg>
+    <pkg>pcaPA</pkg>
     <pkg>pcaPP</pkg>
     <pkg>pks</pkg>
     <pkg priority="core">plink</pkg>
