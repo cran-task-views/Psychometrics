@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-01-16</version>
+<version>2014-02-02</version>
 
 <info> Psychometrics is concerned with the design and analysis of research and
 the measurement of human characteristics. Psychometricians have also
@@ -208,8 +208,7 @@ accuracy and consistency under IRT models.
     different scaling options for biplots and three-dimensional maps using
     the rgl package. Graphical options include shading and
     sizing plot symbols for the points according to their contributions to
-    the map and masses respectively. A corresponding GUI is provided by the
-package <pkg>caGUI</pkg>. 
+    the map and masses respectively.
   </li>
   <li>
     Simple and canonical CA are provided by the package <pkg>anacor</pkg>. It 
@@ -643,7 +642,6 @@ analysis and cross-validation techniques.
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cacIRT</pkg>
-    <pkg>caGUI</pkg>
     <pkg>catR</pkg>
     <pkg>CDM</pkg>
     <pkg>cfa</pkg>
