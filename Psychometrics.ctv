@@ -3,13 +3,12 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-02-02</version>
+<version>2014-03-05</version>
 
-<info> Psychometrics is concerned with the design and analysis of research and
-the measurement of human characteristics. Psychometricians have also
-worked collaboratively with those in the field of statistics and
-quantitative methods to develop improved ways to organize and analyze
-data.  Since much functionality is already contained in base R and there
+<info> Psychometrics is concerned with theory and techniques of psychological measurement.
+Psychometricians have also worked collaboratively with those in the field of statistics and
+quantitative methods to develop improved ways to organize, analyze, and scale
+corresponding data. Since much functionality is already contained in base R and there
 is considerable overlap between tools for psychometry and tools
 described in other views, particularly in <view>SocialSciences</view>,
 we only give a brief overview of packages that are closely related to
@@ -55,6 +54,9 @@ and modelling item and person covariates.
   some exploratory methods (DETECT, LSDM, model-based reliability) are included in <pkg>sirt</pkg>.
   </li>
   <li>
+  The <pkg>pcIRT</pkg> estimates the multidimensional polytomous Rasch model and the Mueller's continuous rating scale model.
+  </li>
+  <li>
   <pkg>MultiLCIRT</pkg> estimates IRT models under (1) multidimensionality assumption, (2) discreteness of
 latent traits, (3) binary and ordinal polytomous items. 
   </li>
@@ -98,6 +100,10 @@ deal with more than one focal group.
 detecting various types of differential item functioning (DIF). 
   </li>
   <li>
+  <pkg>DIFlasso</pkg> implements a penalty approach to Differential Item Functioning in Rasch Models. 
+  It can handle settings with multiple (metric) covariates.
+  </li>
+  <li>
     The <pkg>catR</pkg> package allows for computarized adaptive testing using
 IRT methods. 
   </li>
@@ -133,6 +139,15 @@ tests by generating random zero-one matrices with given marginals.
   <li>
      Simple Rasch computations such a simulating data and joint maximum
 likelihood are included in the <pkg>MiscPsycho</pkg> package.
+  </li>
+<li>
+    The <a href="http://cran.r-project.org/src/contrib/Archive/irtProb/">irtProb</a> is designed to estimate multidimensional subject
+parameters (MLE and MAP) such as personnal pseudo-guessing, 
+    personal fluctuation, personal inattention. These supplemental parameters
+can be used to assess person fit, to identify misfit
+    type, to generate misfitting response patterns, or to make correction while
+estimating the proficiency level considering 
+    potential misfit at the same time. 
   </li>
   <li>
     <pkg>cacIRT</pkg> computes classification accuracy and consistency under
@@ -199,7 +214,8 @@ accuracy and consistency under IRT models.
     different scaling options for biplots and three-dimensional maps using
     the rgl package. Graphical options include shading and
     sizing plot symbols for the points according to their contributions to
-    the map and masses respectively.
+    the map and masses respectively. A corresponding GUI is provided by the
+package <a href="http://cran.r-project.org/src/contrib/Archive/caGUI/">caGUI</a>. 
   </li>
   <li>
     Simple and canonical CA are provided by the package <pkg>anacor</pkg>. It 
@@ -644,6 +660,7 @@ analysis and cross-validation techniques.
     <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
+    <pkg>DIFlasso</pkg>
     <pkg>difR</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
@@ -700,6 +717,7 @@ analysis and cross-validation techniques.
     <pkg>pathmox</pkg>
     <pkg>pcaPA</pkg>
     <pkg>pcaPP</pkg>
+    <pkg>pcIRT</pkg>
     <pkg>pks</pkg>
     <pkg priority="core">plink</pkg>
     <pkg>plRasch</pkg>
@@ -744,6 +762,8 @@ analysis and cross-validation techniques.
 
 
 <links>
+    <a href="http://cran.r-project.org/src/contrib/Archive/irtProb/">irtProb</a>
+     <a href="http://cran.r-project.org/src/contrib/Archive/caGUI/">caGUI</a>
     <view>SocialSciences</view>
     <view>Cluster</view>
     <view>Multivariate</view>
