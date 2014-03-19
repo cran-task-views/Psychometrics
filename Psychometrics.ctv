@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-03-05</version>
+<version>2014-03-18</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -637,6 +637,10 @@ and proportions,
    The <pkg>profileR</pkg> package provides a set of tools that implement profile
 analysis and cross-validation techniques.
   </li>
+  <li>
+  The <pkg>TestScorer</pkg> package provides a GUI for entering test items and obtaining raw and transformed scores. The results are shown on the console and can be saved to a 
+  tabular text file for further statistical analysis. The user can define his own tests and scoring procedures through a GUI.
+  </li>
 </ul>
 
 </info>
@@ -753,6 +757,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">smacof</pkg>
     <pkg>systemfit</pkg>
     <pkg priority="core">TAM</pkg>
+    <pkg>TestScorer</pkg>
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
