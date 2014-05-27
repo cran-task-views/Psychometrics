@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-03-18</version>
+<version>2014-05-27</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -102,6 +102,11 @@ detecting various types of differential item functioning (DIF).
   <li>
   <pkg>DIFlasso</pkg> implements a penalty approach to Differential Item Functioning in Rasch Models. 
   It can handle settings with multiple (metric) covariates.
+  </li>
+  <li>
+  A set of functions to perform Raju, van der Linden and Fleer's (1995) Differential Item and Item Functioning analyses is implemented
+  in the <pkg>DFIT</pkg> package. It includes functions to use the Monte Carlo Item Parameter Replication (IPR) approach 
+  for obtaining the associated statistical significance tests cut-off points.
   </li>
   <li>
     The <pkg>catR</pkg> package allows for computarized adaptive testing using
@@ -664,6 +669,7 @@ analysis and cross-validation techniques.
     <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>DAKS</pkg>
+    <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
     <pkg>difR</pkg>
     <pkg>e1071</pkg>
