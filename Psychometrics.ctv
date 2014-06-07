@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-05-27</version>
+<version>2014-06-08</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -146,7 +146,7 @@ tests by generating random zero-one matrices with given marginals.
 likelihood are included in the <pkg>MiscPsycho</pkg> package.
   </li>
 <li>
-    The <a href="http://cran.r-project.org/src/contrib/Archive/irtProb/">irtProb</a> is designed to estimate multidimensional subject
+    The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject
 parameters (MLE and MAP) such as personnal pseudo-guessing, 
     personal fluctuation, personal inattention. These supplemental parameters
 can be used to assess person fit, to identify misfit
@@ -690,6 +690,7 @@ analysis and cross-validation techniques.
     <pkg>ICC</pkg>
     <pkg>irr</pkg>
     <pkg>irtoys</pkg>
+    <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
@@ -770,24 +771,16 @@ analysis and cross-validation techniques.
     <pkg>xgobi</pkg>
 </packagelist>
 
-
-
 <links>
-    <a href="http://cran.r-project.org/src/contrib/Archive/irtProb/">irtProb</a>
-     <a href="http://cran.r-project.org/src/contrib/Archive/caGUI/">caGUI</a>
+    <a href="http://cran.r-project.org/src/contrib/Archive/caGUI/">caGUI</a>
     <view>SocialSciences</view>
     <view>Cluster</view>
     <view>Multivariate</view>
-    <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical
-Software Special Volume: Psychometrics in R</a>
-    <a href="http://www.jstatsoft.org/v48/" target="_top">Journal of Statistical
-Software Special Volume: Psychoco - Psychometric Computing in R</a>
-    <a href="http://r-forge.r-project.org/projects/psychor/"
-target="_top">PsychoR project platform</a>
-    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR
-snippets</a>
-    <a href="http://openmx.psyc.virginia.edu/">OpenMx - Advanced Structural
-Equation Modeling</a>
+    <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
+    <a href="http://www.jstatsoft.org/v48/" target="_top">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
+    <a href="http://R-Forge.R-project.org/projects/psychor/" target="_top">PsychoR project platform</a>
+    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR snippets</a>
+    <a href="http://openmx.psyc.virginia.edu/">OpenMx - Advanced Structural Equation Modeling</a>
 </links>
 
 </CRANTaskView>
