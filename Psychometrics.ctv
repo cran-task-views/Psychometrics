@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-06-08</version>
+<version>2014-07-03</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -203,6 +203,9 @@ support code suitable for more specialized IRT packages to build upon.
   <li>
     The <pkg>classify</pkg> package can be used to examine classification
 accuracy and consistency under IRT models.
+  </li>
+  <li>
+   <pkg>WrightMap</pkg> provides graphical tools for plotting item-person maps. 
   </li>
 </ul>
 
@@ -768,6 +771,7 @@ analysis and cross-validation techniques.
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
+    <pkg>WrightMap</pkg>
     <pkg>xgobi</pkg>
 </packagelist>
 
