@@ -176,9 +176,8 @@ with IRT models.
   <li>
     Two additional IRT packages (for Microsoft Windows only) are available and
 documented on the JSS site.
-    The package <a href="http://www.jstatsoft.org/v20/i05/"
-target="_top">mlirt</a> computes multilevel IRT models,
-    and <a href="http://www.jstatsoft.org/v20/i07/" target="_top">cirt</a> uses
+    The package <a href="http://www.jstatsoft.org/v20/i05/">mlirt</a> computes multilevel IRT models,
+    and <a href="http://www.jstatsoft.org/v20/i07/">cirt</a> uses
 a joint
     hierarchically built up likelihood for estimating a two-parameter normal
     ogive model for responses and a log-normal model for response times.
@@ -253,9 +252,9 @@ plots, star plots,
     functions covering, e.g., principal components, simple and multiple,
     fuzzy, non symmetric, and decentered correspondence
     analysis.  Additional functionality is provided at <a
-    href="http://www.bioconductor.org/" target="_top">Bioconductor </a> in
+    href="http://www.bioconductor.org/">Bioconductor </a> in
     the package <code>made4</code>  (see also
-    <a href="http://bioinf.ucd.ie/people/aedin/R/" target="_top">here</a>).
+    <a href="http://bioinf.ucd.ie/people/aedin/R/">here</a>).
   </li>
   <li>
     The package <pkg>cocorresp</pkg> fits predictive and symmetric
@@ -308,11 +307,9 @@ FIML,
     for observed-variables models, including nonlinear simultaneous-equations
 models.
     See also the <pkg>pls</pkg> package, for partial least-squares estimation,
-    the <a href="http://CRAN.R-project.org/src/contrib/Views/gR.html"
-target="_top">gR</a>
+    the <view>gR</view>
     task view for graphical models and the
-    <a href="http://CRAN.R-project.org/src/contrib/Views/SocialSciences.html"
-target="_top">SocialSciences</a>
+    <view>SocialSciences</view>
     task view for other related packages.
   </li>
   <li>
@@ -780,10 +777,10 @@ analysis and cross-validation techniques.
     <view>SocialSciences</view>
     <view>Cluster</view>
     <view>Multivariate</view>
-    <a href="http://www.jstatsoft.org/v20/" target="_top">Journal of Statistical Software Special Volume: Psychometrics in R</a>
-    <a href="http://www.jstatsoft.org/v48/" target="_top">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
-    <a href="http://R-Forge.R-project.org/projects/psychor/" target="_top">PsychoR project platform</a>
-    <a href="http://gifi.stat.ucla.edu/psychoR/" target="_top">PsychoR snippets</a>
+    <a href="http://www.jstatsoft.org/v20/">Journal of Statistical Software Special Volume: Psychometrics in R</a>
+    <a href="http://www.jstatsoft.org/v48/">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
+    <a href="http://R-Forge.R-project.org/projects/psychor/">PsychoR project platform</a>
+    <a href="http://gifi.stat.ucla.edu/psychoR/">PsychoR snippets</a>
     <a href="http://openmx.psyc.virginia.edu/">OpenMx - Advanced Structural Equation Modeling</a>
 </links>
 
