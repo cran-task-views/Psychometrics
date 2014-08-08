@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-07-03</version>
+<version>2014-08-08</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -166,8 +166,9 @@ different programs (ICL, BILOG-MG, and ltm, and a variety of functions useful
 with IRT models.
   </li>
   <li>
-  The <pkg>CDM</pkg> package estimates cognitive diagnosis models (DINA, DINO and GDINA models) and the general diagnostic model with discrete and quasi-continuous multidimensional latent variables which also includes the multidimensional compensatory item response model.
-  </li>
+  The <pkg>CDM</pkg> estimates several cognitive diagnosis models (DINA, DINO, GDINA, RRUM, LCDM, pGDINA, mcDINA), the general diagnostic model (GDM) 
+and structured latent class analysis (SLCA).
+   </li>
   <li>
     Gaussian ordination, related to logistic IRT and also approximated as
     maximum likelihood estimation through canonical correspondence analysis
