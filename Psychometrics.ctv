@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-08-08</version>
+<version>2014-09-06</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -15,7 +15,7 @@ we only give a brief overview of packages that are closely related to
 psychometric methodology. 
 
 <p>
-<a href="mailto:mair@fas.harvard.edu">Please let us know</a> if we have omitted
+<a href="mailto:mair@fas.harvard.edu">Please let me know</a> if I have omitted
 something of importance, or if a new package or function
 should be mentioned here.
 </p>
@@ -66,6 +66,12 @@ information-criterion-based model selection in binary mixed Rasch models are
 implemented in the <pkg>mRm</pkg> package and the <pkg>psychomix</pkg> package.
 The <pkg>mixRasch</pkg> package estimates mixture Rasch models, including the
 dichotomous Rasch model, the rating scale model, and the partial credit model.
+  </li>
+  <li>
+    The <pkg>PP</pkg> package includes estimation of (MLE, WLE, MAP, EAP, ROBUST) person parameters for the 1,2,3,4-PL model and the 
+  GPCM (generalized partial credit model). The parameters are estimated under the assumption that the item parameters are known and fixed. 
+  The package is useful e.g. in the case that items from an item pool/item bank with known item parameters are administered to a new 
+  population of test-takers and an ability estimation for every test-taker is needed.
   </li>
   <li>
      Item and ability parameters can be calibrated using the package 
@@ -500,7 +506,7 @@ scale.
   </li>
 </ul>
 
-<p><strong>Knowledge structure analysis:</strong></p>
+<p><strong>Knowledge Structure Analysis:</strong></p>
 <ul>
  <li>
      <pkg>DAKS</pkg> provides functions and example datasets for the
@@ -517,7 +523,7 @@ Functions for fitting probabilistic knowledge structures are included in the
   </li>
 </ul>
 
-<p><strong>Other related packages:</strong></p>
+<p><strong>Other Related Packages:</strong></p>
   <ul>
   <li>
     The <pkg>psychotools</pkg> provides an infrastructure for psychometric
@@ -737,6 +743,7 @@ analysis and cross-validation techniques.
     <pkg>plspm</pkg>
     <pkg>poLCA</pkg>
     <pkg>polycor</pkg>
+    <pkg>PP</pkg>
     <pkg priority="core">prefmod</pkg>
     <pkg>profileR</pkg>
     <pkg>pscl</pkg>
