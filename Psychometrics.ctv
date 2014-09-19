@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-09-06</version>
+<version>2014-09-19</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -147,10 +147,6 @@ plotting tools.
     The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model
 tests by generating random zero-one matrices with given marginals. 
   </li> 
-  <li>
-     Simple Rasch computations such a simulating data and joint maximum
-likelihood are included in the <pkg>MiscPsycho</pkg> package.
-  </li>
 <li>
     The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject
 parameters (MLE and MAP) such as personnal pseudo-guessing, 
@@ -499,7 +495,7 @@ scale.
   <li>
     A number of routines for scale construction and reliability analysis useful
     for personality and experimental psychology are contained in the
-    packages <pkg>psych</pkg> and <pkg>MiscPsycho</pkg>.
+    package <pkg>psych</pkg>.
   </li>
   <li>
     <a href="https://github.com/zief0002/QME">QME</a> (not on CRAN) computes measures from generalizability theory.
@@ -716,7 +712,6 @@ analysis and cross-validation techniques.
     <pkg>MCMCpack</pkg>
     <pkg>mcIRT</pkg>
     <pkg>mediation</pkg>
-    <pkg priority="core">MiscPsycho</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
