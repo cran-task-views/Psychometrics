@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-09-20</version>
+<version>2014-10-25</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -107,6 +107,11 @@ detecting various types of differential item functioning (DIF).
     The <pkg>catR</pkg> package allows for computarized adaptive testing using
 IRT methods. 
   </li>
+  <li>
+    The <pkg>mirtCAT</pkg> package provides tools to generate an HTML interface for creating adaptive and non-adaptive educational and psychological tests 
+    using the shiny package. Suitable for applying unidimensional and multidimensional computerized adaptive tests using IRT methodology and 
+    for creating simple questionnaires forms to collect response data directly in R. 
+  </li> 
   <li>
      The package <pkg>plRasch</pkg> computes maximum likelihood estimates and
      pseudo-likelihood estimates of parameters of Rasch models for polytomous
@@ -710,6 +715,7 @@ analysis and cross-validation techniques.
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg priority="core">mirt</pkg>
+    <pkg>mirtCAT</pkg>
     <pkg>mRm</pkg>
     <pkg>MultiLCIRT</pkg>
     <pkg>multiplex</pkg>
