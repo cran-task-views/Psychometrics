@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2014-10-25</version>
+<version>2014-11-30</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -118,6 +118,10 @@ IRT methods.
      (or dichotomous) items and multiple (or single) latent traits. Robust
      standard errors for the pseudo-likelihood estimates are also computed.
   </li>
+  <li>
+    Explicit calculation (not estimation) of Rasch item parameters (dichotomous and polytomous) by means of a pairwise comparison approach 
+    can be done using the <pkg>pairwise</pkg> package. 
+  </li>  
   <li>
      A multilevel Rasch model can be estimated using the package
      <pkg>lme4</pkg>, <pkg>nlme</pkg>, and <pkg>MCMCglmm</pkg> with functions for mixed-effects models with crossed or
@@ -722,6 +726,7 @@ analysis and cross-validation techniques.
     <pkg>nFactors</pkg>
     <pkg>nlme</pkg>
     <pkg>ordinal</pkg>
+    <pkg>pairwise</pkg>
     <pkg>pathmox</pkg>
     <pkg>pcaPA</pkg>
     <pkg>pcaPP</pkg>
