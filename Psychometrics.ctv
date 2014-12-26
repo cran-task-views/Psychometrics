@@ -386,10 +386,6 @@ nonlinear canonical
 <pkg>pcaPP</pkg> package.
   </li>
   <li>
-  The <pkg>pcaPA</pkg> package performs a parallel analysis of continuous, ordered 
-  (including dichotomous/binary as a special case) or mixed type of data associated with a principal components analysis.
-  </li>
-  <li>
     The package <pkg>psych</pkg> includes functions such as
 <code>fa.parallel()</code> and <code>VSS()</code> for estimating the
     appropriate number of factors/components as well as <code>ICLUST()</code>
@@ -732,7 +728,6 @@ analysis and cross-validation techniques.
     <pkg>ordinal</pkg>
     <pkg>pairwise</pkg>
     <pkg>pathmox</pkg>
-    <pkg>pcaPA</pkg>
     <pkg>pcaPP</pkg>
     <pkg>pcIRT</pkg>
     <pkg>pks</pkg>
