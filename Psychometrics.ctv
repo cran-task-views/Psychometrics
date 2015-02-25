@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-01-22</version>
+<version>2015-02-25</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -593,6 +593,9 @@ package.
   It also allows researchers to conduct sensitivity analysis for certain parametric models.
   </li>
   <li>
+  Mediation analysis using natural effect models can be performed using <pkg>medflex</pkg>. 
+ </li>
+  <li>
   Functions for data screening, testing moderation, mediation, and estimating
 power are contained in the <pkg>QuantPsyc</pkg> package. 
   </li>
@@ -702,6 +705,7 @@ analysis and cross-validation techniques.
     <pkg>MCMCglmm</pkg>
     <pkg>MCMCpack</pkg>
     <pkg>mcIRT</pkg>
+    <pkg>medflex</pkg>
     <pkg>mediation</pkg>
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
