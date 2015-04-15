@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-02-25</version>
+<version>2015-04-15</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -80,6 +80,10 @@ dichotomous Rasch model, the rating scale model, and the partial credit model.
   The <pkg>equateIRT</pkg> package computes direct, chain and average (bisector) equating coefficients with 
   standard errors using Item Response Theory (IRT) methods for dichotomous items.
   </li>
+  <li>
+  <pkg>kequate</pkg> mplements the kernel method of test equating using the CB, EG, SG, NEAT CE/PSE and NEC designs, supporting gaussian, logistic and uniform
+kernels and unsmoothed and pre-smoothed input data.  
+  </li>  
   <li>
      The <pkg>EstCRM</pkg> package calibrates the parameters for Samejima's
 Continuous IRT Model via EM algorithm and Maximum Likelihood. It allows to
@@ -538,11 +542,10 @@ statistical indices proposed in the literature for detecting answer copying on
 multiple-choice examinations.
   </li>
   <li>
-     Latent class analysis with random effects can be performed with the package
-<pkg>randomLCA</pkg>.
-     In addition, the package <pkg>e1071</pkg> provides the function
-<code>lca()</code>. Another package is
-     <pkg>poLCA</pkg> for polytomous variable latent class analysis.
+     Latent class analysis (LCA) with random effects can be performed with the package
+<pkg>randomLCA</pkg>. In addition, the package <pkg>e1071</pkg> provides the function
+<code>lca()</code>. Another package is <pkg>poLCA</pkg> for polytomous variable latent class analysis. 
+LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the inclusion of concomitant variables and latent class regression. 
   </li>
   <li>
      The <pkg>cfa</pkg> package allows for the computation of simple,
@@ -680,6 +683,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">FAiR</pkg>
     <pkg>fastICA</pkg>
     <pkg>fechner</pkg>
+    <pkg>flexmix</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
     <pkg priority="core">homals</pkg>
@@ -689,6 +693,7 @@ analysis and cross-validation techniques.
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
+    <pkg>kequate</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
     <pkg>labdsv</pkg>
