@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-04-18</version>
+<version>2015-05-04</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -59,6 +59,9 @@ and modelling item and person covariates.
   <li>
   The <pkg>pcIRT</pkg> estimates the multidimensional polytomous Rasch model and the Mueller's continuous rating scale model.
   </li>
+  <li>
+  Thurstonian IRT models can be fitted with the <pkg>kcirt</pkg> package. 
+  </li>  
   <li>
   <pkg>MultiLCIRT</pkg> estimates IRT models under (1) multidimensionality assumption, (2) discreteness of
 latent traits, (3) binary and ordinal polytomous items. 
@@ -611,7 +614,8 @@ power are contained in the <pkg>QuantPsyc</pkg> package.
   The package <pkg>multiplex</pkg> is especially designed for social networks with relations at 
   different levels. In this sense, the program has effective ways to treat multiple networks data 
   sets with routines that combine algebraic structures like the partially ordered semigroup 
-  with the existing relational bundles found in multiple networks.
+  with the existing relational bundles found in multiple networks. An algebraic approach for two-mode networks is made 
+  through Galois derivations between families of the pair of subsets.
   </li>
   <li>
   The <pkg>qgraph</pkg> package can be used to visualize data as networks.
@@ -698,6 +702,7 @@ analysis and cross-validation techniques.
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
+    <pkg>kcirt</pkg>
     <pkg>kequate</pkg>
     <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
