@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-05-04</version>
+<version>2015-06-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -405,11 +405,10 @@ for item clustering.
 <pkg>REQS</pkg> package.
   </li>
   <li>
-    The <a href="http://openmx.psyc.virginia.edu/">OpenMX</a> package allows
+    The <pkg>OpenMx</pkg> package allows
 estimation of a wide variety of advanced multivariate statistical models. It
 consists of a library of functions and optimizers that allow you to quickly and
-flexibly define an SEM model and estimate parameters given observed data. It is
-available under this <a href="http://openmx.psyc.virginia.edu/">link</a>.
+flexibly define an SEM model and estimate parameters given observed data.
   </li>
   <li>
     The <pkg>MplusAutomation</pkg> package allows to automate latent variable
@@ -739,6 +738,7 @@ analysis and cross-validation techniques.
     <pkg>nFactors</pkg>
     <pkg>nlme</pkg>
     <pkg>nlsem</pkg>
+    <pkg>OpenMx</pkg>
     <pkg>ordinal</pkg>
     <pkg>pairwise</pkg>
     <pkg>pathmox</pkg>
@@ -796,7 +796,6 @@ analysis and cross-validation techniques.
     <a href="http://www.jstatsoft.org/v20/">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://www.jstatsoft.org/v48/">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
     <a href="http://R-Forge.R-project.org/projects/psychor/">PsychoR project platform</a>
-    <a href="http://openmx.psyc.virginia.edu/">OpenMx - Advanced Structural Equation Modeling</a>
 </links>
 
 </CRANTaskView>
