@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-06-24</version>
+<version>2015-09-04</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -170,9 +170,8 @@ estimating the proficiency level considering
     potential misfit at the same time. 
   </li>
   <li>
-    <pkg>cacIRT</pkg> computes classification accuracy and consistency under
-Item Response Theory. Currently, only works for 3PL IRT models (or 2PL or 1PL)
-and only for independent cut scores.
+    <pkg>cacIRT</pkg> computes classification accuracy and consistency under Item Response Theory. 
+    Implements total score and latent trait IRT methods as well as total score kernel-smoothed methods.
   </li>
   <li>
     The package <pkg>irtoys</pkg> provides a simple common interface to the
