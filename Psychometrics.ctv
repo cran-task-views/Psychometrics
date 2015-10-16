@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-09-04</version>
+<version>2015-10-16</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -160,6 +160,9 @@ plotting tools.
     The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model
 tests by generating random zero-one matrices with given marginals. 
   </li> 
+  <li>
+  Statistical power simulation for testing the Rasch model based on a three-way ANOVA design with mixed classification can be carried out using <pkg>pwrRasch</pkg>. 
+  </li>
 <li>
     The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject
 parameters (MLE and MAP) such as personnal pseudo-guessing, 
@@ -761,6 +764,7 @@ analysis and cross-validation techniques.
     <pkg>psychotree</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
+    <pkg>pwrRasch</pkg>
     <pkg>qgraph</pkg>
     <pkg>QuantPsyc</pkg>
     <pkg>RaschSampler</pkg>
