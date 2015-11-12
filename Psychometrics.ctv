@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-10-16</version>
+<version>2015-11-12</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -557,10 +557,6 @@ multiple-choice examinations.
 LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the inclusion of concomitant variables and latent class regression. 
   </li>
   <li>
-     The <pkg>cfa</pkg> package allows for the computation of simple,
-more-sample, and stepwise configural frequency analysis (CFA).
-  </li>
-  <li>
      Coefficents for interrater reliability and agreements can be computed with
 the <pkg>irr</pkg>.
   </li>
@@ -669,7 +665,6 @@ analysis and cross-validation techniques.
     <pkg>cacIRT</pkg>
     <pkg>catR</pkg>
     <pkg>CDM</pkg>
-    <pkg>cfa</pkg>
     <pkg>classify</pkg>
     <pkg>CMC</pkg>
     <pkg>cocor</pkg>
