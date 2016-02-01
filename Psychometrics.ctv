@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2015-11-12</version>
+<version>2016-01-31</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -328,6 +328,9 @@ multiple groups and reports standardized solutions, fit measures, modification
 indices and more as output.
   </li>
   <li>
+  <pkg>blavaan</pkg> fits a variety of Bayesian latent variable models, including confirmatory factor analysis, structural equation models, and latent growth curve models. 
+  </li>
+  <li>
   The <pkg>lavaan.survey</pkg> package allows for complex survey structural equation modeling (SEM). It fits structural equation models (SEM) including factor analysis, multivariate regression models with latent variables and many other latent variable models while correcting estimates, standard errors, and chi-square-derived fit measures for a complex sampling design. It incorporates clustering, stratification, sampling weights, and finite population corrections into a SEM analysis.
   </li>
   <li>
@@ -377,10 +380,8 @@ covariance structure models as in structural equation modeling (SEM).
     factor analysis, or a new estimator called semi-exploratory factor analysis (SEFA).
   </li>
   <li>
-    FA and PCA with supplementary individuals and supplementary
-quantitative/qualitative variables
-    can be performed using the <pkg>FactoMineR</pkg> package whereas
-<pkg>MCMCpack</pkg> has some options for sampling from
+    FA and PCA with supplementary individuals and supplementary quantitative/qualitative variables
+    can be performed using the <pkg>FactoMineR</pkg> package whereas <pkg>MCMCpack</pkg> has some options for sampling from
     the posterior for ordinal and mixed factor models.
   </li>
   <li>
@@ -393,9 +394,11 @@ nonlinear canonical
 <pkg>fastICA</pkg>.
   </li>
   <li>
-    A desired number of robust principal components can be computed with the
-<pkg>pcaPP</pkg> package.
+    A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
   </li> 
+  <li>
+  <pkg>bpca</pkg> implements 2D and 3D biplots of multivariate data based on PCA and diagnostic tools of the quality of the reduction.
+  </li>
   <li>
     The package <pkg>psych</pkg> includes functions such as
 <code>fa.parallel()</code> and <code>VSS()</code> for estimating the
@@ -526,6 +529,9 @@ Functions for fitting probabilistic knowledge structures are included in the
     The <pkg>psychotools</pkg> provides an infrastructure for psychometric
 modeling such as data classes (e.g., for paired comparisons) and basic model
 fitting functions (e.g., for Rasch and Bradley-Terry models).
+  </li>
+  <li>
+  <pkg>quickpsy</pkg> is a package developed to quickly fit and plot psychometric functions for multiple conditions.
   </li>
   <li>
      Recursive partitioning based on psychometric models, employing the general
@@ -660,6 +666,8 @@ analysis and cross-validation techniques.
     <pkg priority="core">anacor</pkg>
     <pkg>betareg</pkg>
     <pkg>BiplotGUI</pkg>
+    <pkg priority="core">blavaan</pkg>
+    <pkg>bpca</pkg>
     <pkg>BradleyTerry2</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cacIRT</pkg>
@@ -762,6 +770,7 @@ analysis and cross-validation techniques.
     <pkg>pwrRasch</pkg>
     <pkg>qgraph</pkg>
     <pkg>QuantPsyc</pkg>
+    <pkg>quickpsy</pkg>
     <pkg>RaschSampler</pkg>
     <pkg>randomLCA</pkg>
     <pkg>REQS</pkg>
