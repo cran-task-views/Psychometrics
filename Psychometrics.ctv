@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-01-31</version>
+<version>2016-02-20</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -298,6 +298,9 @@ plots, star plots,
     (as well as a Hellinger form of CA), generalized PCA are implemented in <pkg>ExPosition</pkg>. 
     The package also allows for supplementary data projection.
   </li>
+  <li>
+    <pkg>dualScale</pkg> implements functions to analyze multiple choice data using dual scaling. 
+  </li>
 </ul>
 
 
@@ -338,6 +341,10 @@ indices and more as output.
 implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equation Mixture Models), and NSEMM (Nonlinear
 Structural Equations Mixture Models).   
   </li>  
+  <li>
+  A collection of functions for conducting meta-analysis using a structural equation modeling (SEM) approach via OpenMx is provided by 
+  the <pkg>metaSEM</pkg> package. 
+  </li>
   <li>
     A general implementation of a computational framework for latent variable
 models (including structural equation models) is given in <pkg>lava</pkg>. The
@@ -684,6 +691,7 @@ analysis and cross-validation techniques.
     <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
     <pkg>difR</pkg>
+    <pkg>dualScale</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
@@ -726,6 +734,7 @@ analysis and cross-validation techniques.
     <pkg>mcIRT</pkg>
     <pkg>medflex</pkg>
     <pkg>mediation</pkg>
+    <pkg>metaSEM</pkg>
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCM</pkg>
