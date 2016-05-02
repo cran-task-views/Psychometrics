@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-02-20</version>
+<version>2016-05-02</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -273,11 +273,6 @@ plots, star plots,
     href="http://www.bioconductor.org/">Bioconductor </a> in
     the package <code>made4</code>  (see also
     <a href="http://bioinf.ucd.ie/people/aedin/R/">here</a>).
-  </li>
-  <li>
-    The package <pkg>cocorresp</pkg> fits predictive and symmetric
-    co-correspondence analysis (CoCA) models to relate one data matrix to
-    another data matrix.
   </li>
   <li>
     Apart from several factor analytic methods <pkg>FactoMineR</pkg>
@@ -650,9 +645,6 @@ user-friendly way for analysis of multinomial processing tree (MPT) models.
 and proportions, is available in <pkg>betareg</pkg>.
   </li>
   <li>
-  The <pkg>cocor</pkg> package provides functions to compare two correlations based on either dependent or independent groups.
-  </li>
-  <li>
    The <pkg>profileR</pkg> package provides a set of tools that implement profile
 analysis and cross-validation techniques.
   </li>
@@ -682,7 +674,6 @@ analysis and cross-validation techniques.
     <pkg>CDM</pkg>
     <pkg>classify</pkg>
     <pkg>CMC</pkg>
-    <pkg>cocor</pkg>
     <pkg>cocorresp</pkg>
     <pkg>cocron</pkg>
     <pkg>CopyDetect</pkg>
