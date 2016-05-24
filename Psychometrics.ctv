@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-05-02</version>
+<version>2016-05-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -337,7 +337,7 @@ implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equat
 Structural Equations Mixture Models).   
   </li>  
   <li>
-  A collection of functions for conducting meta-analysis using a structural equation modeling (SEM) approach via OpenMx is provided by 
+  A collection of functions for conducting meta-analysis using a structural equation modeling (SEM) approach via OpenMx is provided by
   the <pkg>metaSEM</pkg> package. 
   </li>
   <li>
@@ -421,6 +421,10 @@ flexibly define an SEM model and estimate parameters given observed data.
     The <pkg>MplusAutomation</pkg> package allows to automate latent variable
 model estimation and interpretation using Mplus.
   </li>
+  <li>
+    <pkg>missMDA</pkg> provides imputation of incomplete continuous or categorical datasets in principal component analysis (PCA), 
+    multiple correspondence analysis (MCA) model, or multiple factor analysis (MFA) model. 
+  </li>  
 </ul>
 
 <p><strong>Multidimensional Scaling (MDS):</strong></p>
@@ -653,9 +657,8 @@ analysis and cross-validation techniques.
   tabular text file for further statistical analysis. The user can define his own tests and scoring procedures through a GUI.
   </li>
   <li>
-    <pkg>missMDA</pkg> provides imputation of incomplete continuous or categorical datasets in principal component analysis (PCA), 
-    multiple correspondence analysis (MCA) model, or multiple factor analysis (MFA) model. 
-  </li>  
+   <pkg>wCorr</pkg> calculates Pearson, Spearman, tetrachoric polychoric, and polyserial correlation coefficients, in weighted or unweighted form.
+  </li>
 </ul>
 
 </info>
@@ -791,6 +794,7 @@ analysis and cross-validation techniques.
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
+    <pkg>wCorr</pkg>
     <pkg>WrightMap</pkg>
     <pkg>xgobi</pkg>
 </packagelist>
