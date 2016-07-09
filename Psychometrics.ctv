@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-05-24</version>
+<version>2016-07-09</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -110,13 +110,16 @@ deal with more than one focal group.
 detecting various types of differential item functioning (DIF). 
   </li>
   <li>
-  <pkg>DIFlasso</pkg> implements a penalty approach to Differential Item Functioning in Rasch Models. 
+  <pkg>DIFlasso</pkg> implements a penalty approach to differential item functioning in Rasch models. 
   It can handle settings with multiple (metric) covariates.
   </li>
   <li>
-  A set of functions to perform Raju, van der Linden and Fleer's (1995) Differential Item and Item Functioning analyses is implemented
-  in the <pkg>DFIT</pkg> package. It includes functions to use the Monte Carlo Item Parameter Replication (IPR) approach 
+  A set of functions to perform Raju, van der Linden and Fleer's (1995) differential item and item functioning analyses is implemented
+  in the <pkg>DFIT</pkg> package. It includes functions to use the Monte Carlo item parameter replication (IPR) approach 
   for obtaining the associated statistical significance tests cut-off points.
+  </li>
+  <li>
+  The <pkg>difNLR</pkg> package uses nonlinear regression to estimate DIF. 
   </li>
   <li>
     The <pkg>catR</pkg> package allows for computarized adaptive testing using
@@ -563,14 +566,16 @@ statistical indices proposed in the literature for detecting answer copying on
 multiple-choice examinations.
   </li>
   <li>
+  Interactive shiny application for analysis of educational tests and their items are provided by the <pkg>ShinyItemAnalysis</pkg> package. 
+  </li>
+  <li>
      Latent class analysis (LCA) with random effects can be performed with the package
 <pkg>randomLCA</pkg>. In addition, the package <pkg>e1071</pkg> provides the function
 <code>lca()</code>. Another package is <pkg>poLCA</pkg> for polytomous variable latent class analysis. 
 LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the inclusion of concomitant variables and latent class regression. 
   </li>
   <li>
-     Coefficents for interrater reliability and agreements can be computed with
-the <pkg>irr</pkg>.
+     Coefficents for interrater reliability and agreements can be computed with the <pkg>irr</pkg>.
   </li>
   <li>
     <pkg>prefmod</pkg> generates design matrices for analysing real paired
@@ -684,6 +689,7 @@ analysis and cross-validation techniques.
     <pkg>DAKS</pkg>
     <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
+    <pkg>difNLR</pkg>
     <pkg>difR</pkg>
     <pkg>dualScale</pkg>
     <pkg>e1071</pkg>
@@ -784,6 +790,7 @@ analysis and cross-validation techniques.
     <pkg>SEMModComp</pkg>
     <pkg>semTools</pkg>
     <pkg>SensoMineR</pkg>
+    <pkg>ShinyItemAnalysis</pkg>
     <pkg>simsem</pkg>
     <pkg>sirt</pkg>
     <pkg priority="core">smacof</pkg>
