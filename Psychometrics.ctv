@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-07-09</version>
+<version>2016-08-02</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -47,6 +47,9 @@ unidimensional and multidimensional latent trait models under the IRT paradigm. 
 estimated with quadrature (EM) or stochastic (MHRM) methods. Confirmatory bi-factor and two-tier analyses are available for
 modeling item testlets. Multiple group analysis and mixed effects designs also are available for detecting differential item functioning
 and modelling item and person covariates. 
+  </li>
+  <li>
+  <pkg>MLCIRTwithin</pkg> provides a flexible framework for the estimation of discrete two-tier IRT models for the analysis of dichotomous and ordinal polytomous item responses. 
   </li>
   <li>
     <pkg>IRTShiny</pkg> provides an interactive shiny application for IRT analysis.  
@@ -737,6 +740,7 @@ analysis and cross-validation techniques.
     <pkg>metaSEM</pkg>
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
+    <pkg>MLCIRTwithin</pkg>
     <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
     <pkg>MplusAutomation</pkg>
