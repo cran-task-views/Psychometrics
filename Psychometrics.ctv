@@ -685,7 +685,6 @@ analysis and cross-validation techniques.
     <pkg>CDM</pkg>
     <pkg>classify</pkg>
     <pkg>CMC</pkg>
-    <pkg>cocorresp</pkg>
     <pkg>cocron</pkg>
     <pkg>CopyDetect</pkg>
     <pkg priority="core">CTT</pkg>
