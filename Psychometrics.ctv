@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-08-18</version>
+<version>2016-11-11</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -206,12 +206,6 @@ a joint
     hierarchically built up likelihood for estimating a two-parameter normal
     ogive model for responses and a log-normal model for response times.
   </li>
-  <li> 
-    Bayesian approaches for estimating item and person parameters by means of
-Gibbs-Sampling 
-    are included in <pkg>MCMCpack</pkg>. In addition, the <pkg>pscl</pkg>
-package allows for Bayesian IRT and roll call analysis. 
-  </li>
   <li>
      The <pkg>latdiag</pkg> package produces commands to drive the dot program
 from graphviz to produce a 
@@ -307,6 +301,9 @@ plots, star plots,
   <li>
     <pkg>dualScale</pkg> implements functions to analyze multiple choice data using dual scaling. 
   </li>
+  <li>
+    <pkg>CAvariants</pkg> provides six variants of two-way CA: simple, singly ordered, doubly ordered, non-symmetrical, singly ordered non-symmetrical ca, and doubly ordered non-symmetrical.
+  </li>
 </ul>
 
 
@@ -335,9 +332,6 @@ and allows for ML, GLS, WLS, robust ML using Satorra-Bentler corrections, and
 FIML for data with missing values. It fully supports for meanstructures and
 multiple groups and reports standardized solutions, fit measures, modification
 indices and more as output.
-  </li>
-  <li>
-  <pkg>blavaan</pkg> fits a variety of Bayesian latent variable models, including confirmatory factor analysis, structural equation models, and latent growth curve models. 
   </li>
   <li>
   The <pkg>lavaan.survey</pkg> package allows for complex survey structural equation modeling (SEM). It fits structural equation models (SEM) including factor analysis, multivariate regression models with latent variables and many other latent variable models while correcting estimates, standard errors, and chi-square-derived fit measures for a complex sampling design. It incorporates clustering, stratification, sampling weights, and finite population corrections into a SEM analysis.
@@ -540,6 +534,20 @@ Functions for fitting probabilistic knowledge structures are included in the
   </li>
 </ul>
 
+<p><strong>Bayesian Psychometrics:</strong></p>
+<ul>
+<li>
+  <pkg>blavaan</pkg> fits a variety of Bayesian latent variable models, including confirmatory factor analysis, structural equation models, and latent growth curve models. 
+</li>
+<li>
+<pkg>BayesFM</pkg> computes Bayesian exploratory factor analysis. The number of factors is determined during MCMC sampling.
+</li>
+<li> 
+ Bayesian approaches for estimating item and person parameters by means of Gibbs-Sampling are included in <pkg>MCMCpack</pkg>. 
+ In addition, the <pkg>pscl</pkg> package allows for Bayesian IRT and roll call analysis. 
+</li>
+</ul>
+
 <p><strong>Other Related Packages:</strong></p>
   <ul>
   <li>
@@ -675,6 +683,9 @@ analysis and cross-validation techniques.
   <li>
    <pkg>wCorr</pkg> calculates Pearson, Spearman, tetrachoric polychoric, and polyserial correlation coefficients, in weighted or unweighted form.
   </li>
+  <li>
+   The <pkg>gtheory</pkg> package fits univariate and multivariate generalizability theory (G-theory) models. 
+  </li>
 </ul>
 
 </info>
@@ -683,6 +694,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
     <pkg>betareg</pkg>
+    <pkg>BayesFM</pkg>
     <pkg>BiplotGUI</pkg>
     <pkg priority="core">blavaan</pkg>
     <pkg>bpca</pkg>
@@ -690,6 +702,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">ca</pkg>
     <pkg>cacIRT</pkg>
     <pkg>catR</pkg>
+    <pkg>CAvariants</pkg>
     <pkg>CDM</pkg>
     <pkg>classify</pkg>
     <pkg>CMC</pkg>
@@ -719,6 +732,7 @@ analysis and cross-validation techniques.
     <pkg>flexmix</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GPArotation</pkg>
+    <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
     <pkg>ICC</pkg>
     <pkg>irr</pkg>
@@ -820,10 +834,10 @@ analysis and cross-validation techniques.
 </packagelist>
 
 <links>
-    <a href="http://cran.r-project.org/src/contrib/Archive/caGUI/">caGUI</a>
     <view>SocialSciences</view>
     <view>Cluster</view>
     <view>Multivariate</view>
+    <view>MedicalImaging</view>
     <a href="http://www.jstatsoft.org/v20/">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://www.jstatsoft.org/v48/">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
     <a href="http://R-Forge.R-project.org/projects/psychor/">PsychoR project platform</a>
