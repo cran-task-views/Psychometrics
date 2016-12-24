@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2016-11-11</version>
+<version>2016-12-23</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -686,6 +686,9 @@ analysis and cross-validation techniques.
   <li>
    The <pkg>gtheory</pkg> package fits univariate and multivariate generalizability theory (G-theory) models. 
   </li>
+  <li>
+  The <pkg>GDINA</pkg> package estimates various cognitive diagnosis models (CDMs) within the generalized deterministic inputs, noisy and gate (G-DINA) model and the sequential G-DINA model framework. It can also be used to conduct Q-matrix validation, item and model fit statistics, model comparison at the test and item level and differential item functioning. A graphical user interface is also provided.
+  </li>
 </ul>
 
 </info>
@@ -731,6 +734,7 @@ analysis and cross-validation techniques.
     <pkg>fechner</pkg>
     <pkg>flexmix</pkg>
     <pkg>fwdmsa</pkg>
+    <pkg>GDINA</pkg>
     <pkg>GPArotation</pkg>
     <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
