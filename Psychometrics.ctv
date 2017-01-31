@@ -986,7 +986,7 @@ analysis and cross-validation techniques.
     <pkg>superMDS</pkg>
     <pkg>systemfit</pkg>
     <pkg priority="core">TAM</pkg>
-    <pkg>TestDataImputation</pkg>.
+    <pkg>TestDataImputation</pkg>
     <pkg>TestScorer</pkg>
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
