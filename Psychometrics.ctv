@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2017-04-17</version>
+<version>2017-05-10</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -153,33 +153,22 @@ IRT methods.
 estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in <pkg>irtrees</pkg>. 
   </li>
   <li>
-     Nonparametric IRT analysis can be computed by means if the
-<pkg>mokken</pkg> package. It includes an automated item selection algorithm,
-and various checks of model assumptions. In relation to that, <pkg>fwdmsa</pkg>
-performs the Forward Search for Mokken scale analysis. It detects outliers, it
-produces several types of diagnostic plots. 
+     Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. In relation to that, <pkg>fwdmsa</pkg>
+performs the Forward Search for Mokken scale analysis. It detects outliers, it produces several types of diagnostic plots. 
   </li>
   <li>
-    This <pkg>KernSmoothIRT</pkg> package fits nonparametric item and option
-characteristic curves using kernel smoothing. It allows for optimal selection of
-the smoothing bandwidth using cross-validation and a variety of exploratory
+    This <pkg>KernSmoothIRT</pkg> package fits nonparametric item and option characteristic curves using kernel smoothing. It allows for optimal selection of the smoothing bandwidth using cross-validation and a variety of exploratory
 plotting tools.
   </li>
   <li>
-    The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model
-tests by generating random zero-one matrices with given marginals. 
+    The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model tests by generating random zero-one matrices with given marginals. 
   </li> 
   <li>
   Statistical power simulation for testing the Rasch model based on a three-way ANOVA design with mixed classification can be carried out using <pkg>pwrRasch</pkg>. 
   </li>
 <li>
-    The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject
-parameters (MLE and MAP) such as personnal pseudo-guessing, 
-    personal fluctuation, personal inattention. These supplemental parameters
-can be used to assess person fit, to identify misfit
-    type, to generate misfitting response patterns, or to make correction while
-estimating the proficiency level considering 
-    potential misfit at the same time. 
+    The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject parameters (MLE and MAP) such as personnal pseudo-guessing, personal fluctuation, personal inattention. These supplemental parameters
+can be used to assess person fit, to identify misfit type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering potential misfit at the same time. 
   </li>
   <li>
     <pkg>cacIRT</pkg> computes classification accuracy and consistency under Item Response Theory. 
@@ -369,8 +358,12 @@ nonlinear canonical correlation analysis (models of the Gifi-family).
   <li>
     <pkg>nsprcomp</pkg> and <pkg>elasticnet</pkg> fit sparse PCA.
   </li>  
+   <li>
+    Threeway PCA models (Tucker, Parafac/Candecomp) can be fitted using <pkg>PTAk</pkg>, <pkg>ThreeWay</pkg>, and <pkg>multiway</pkg>. 
+  </li>
   <li>
-    Independent component analysis (ICA) can be computed using <pkg>fastICA</pkg>.
+    Independent component analysis (ICA) can be computed using <pkg>fastICA</pkg>, <pkg>ica</pkg>, <pkg>eegkit</pkg> (designed for EEG data), and  <pkg>AnalyzeFMRI</pkg> (designed 
+    for fMRI data).
   </li>
   <li>
     A desired number of robust principal components can be computed with the <pkg>pcaPP</pkg> package.
@@ -505,13 +498,6 @@ idioscal, indscal, and identity), and spherical smacof (primal and dual algorith
 approaches is implemented in a metric and nonmetric manner including primary, secondary,
 and tertiary approaches for tie handling.
   </li>
-   <li>
-    The <pkg>PTAk</pkg> package provides a multiway method to decompose a
-    tensor (array) of any order, as a generalisation of SVD also supporting
-    non-identity metrics and penalisations. 2-way SVD with these extensions
-    is also available. Additionally, the package includes some other
-    multiway methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with extensions.
-  </li>
   <li>
     <pkg>MASS</pkg> and stats provide
     functionalities for computing classical MDS using the
@@ -519,25 +505,18 @@ and tertiary approaches for tie handling.
     and non-metric MDS <code>isoMDS()</code> are other relevant functions.
   </li>
   <li>
-    Non-metric MDS can additionally be performed with <code>metaMDS()</code> in
-<pkg>vegan</pkg>. Furthermore, <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
-<code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>. Also, the <pkg>ExPosition</pkg> implements a function for
-metric MDS.
+    Non-metric MDS can additionally be performed with <code>metaMDS()</code> in <pkg>vegan</pkg>. Furthermore, <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
+<code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>. Also, the <pkg>ExPosition</pkg> implements a function for metric MDS.
   </li>
   <li>
-    Principal coordinate analysis can be computed with <code>capscale()</code>
-in <pkg>vegan</pkg>;
-    in <pkg>labdsv</pkg> and <pkg>ecodist</pkg> using <code>pco()</code> and
+    Principal coordinate analysis can be computed with <code>capscale()</code> in <pkg>vegan</pkg>; in <pkg>labdsv</pkg> and <pkg>ecodist</pkg> using <code>pco()</code> and
 with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
   </li>
   <li>
-    Individual differences in multidimensional scaling can be computed with
-<code>indscal()</code> in the
-    <pkg>SensoMineR</pkg> package.
+    Individual differences in multidimensional scaling can be computed with <code>indscal()</code> in the <pkg>SensoMineR</pkg> package.
   </li>
   <li>
-    The package <pkg>MLDS</pkg> allows for the computation of maximum likelihood
-difference scaling (MLDS).
+    The package <pkg>MLDS</pkg> allows for the computation of maximum likelihood difference scaling (MLDS).
   </li>
   <li>
     <pkg>DistatisR</pkg> implements the DiSTATIS/CovSTATIS 3-way metric MDS approach. 
@@ -551,6 +530,9 @@ difference scaling (MLDS).
   <li>
     Supervised MDS is implemented in <pkg>superMDS</pkg>. 
   </li>  
+  <li>
+    <pkg>munfold</pkg> provides functions for metric unfolding. 
+  </li>   
 </ul>
 
 <p><strong>Classical Test Theory (CTT):</strong></p>
@@ -626,6 +608,25 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   </li>    
 </ul>  
 
+<p><strong>Paired Comparisons:</strong></p>
+<ul>
+<li>
+   Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry2</pkg> and in <pkg>eba</pkg>. The latter allows for the computation of elimination-by-aspects models.
+  </li>
+  <li>
+     Recursive partitioning trees for Bradley-Terry models are implemented in <pkg>psychotree</pkg>.
+  </li>
+  <li>
+    <pkg>BTLLasso</pkg> allows one to include subject-specific and object-specific covariates into paired comparison models shrinks the effects using Lasso.
+  </li>  
+   <li>
+    <pkg>prefmod</pkg> fits loglinear Bradley-Terry models (LLBT) and pattern models for paired comparisons, rankings, and ratings. 
+  </li>
+</ul> 
+
+
+
+
 <p><strong>Bayesian Psychometrics:</strong></p>
 <ul>
 <li>
@@ -666,11 +667,6 @@ fitting functions (e.g., for Rasch and Bradley-Terry models).
   <pkg>quickpsy</pkg> is a package developed to quickly fit and plot psychometric functions for multiple conditions.
   </li>
   <li>
-     Recursive partitioning based on psychometric models, employing the general
-MOB algorithm (from package party) are implemented in <pkg>psychotree</pkg>.
-Currently, only Bradley-Terry trees are provided.
-  </li>
-  <li>
     Psychometric mixture models based on flexmix infrastructure are provided by
 means of the <pkg>psychomix</pkg> package (at the moment Rasch mixture models
 and Bradley-Terry mixture models).
@@ -693,21 +689,6 @@ multiple-choice examinations.
   </li> 
   <li>
      Coefficients for interrater reliability and agreements can be computed with the <pkg>irr</pkg>.
-  </li>
-  <li>
-    <pkg>prefmod</pkg> generates design matrices for analysing real paired
-comparisons and derived paired comparison data 
-    (Likert type items / ratings or rankings) using a loglinear approach. Fits
-loglinear Bradley-Terry model (LLBT) exploting an eliminate feature. Computes
-pattern models 
-    for paired comparisons, rankings, and ratings. Some treatment of missing
-values (MCAR and MNAR).
-  </li>
-  <li>
-     Bradley-Terry models for paired comparisons are implemented in the package
-<pkg>BradleyTerry2</pkg> 
-     and in <pkg>eba</pkg>. The latter allows for the computation of
-elimination-by-aspects models.
   </li>
   <li>
      Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package. The
@@ -774,8 +755,7 @@ and proportions, is available in <pkg>betareg</pkg>.
   The <pkg>cocor</pkg> package provides functions to compare two correlations based on either dependent or independent groups.
   </li>
   <li>
-   The <pkg>profileR</pkg> package provides a set of tools that implement profile
-analysis and cross-validation techniques.
+   The <pkg>profileR</pkg> package provides a set of tools that implement profile analysis and cross-validation techniques.
   </li>
   <li>
   The <pkg>TestScorer</pkg> package provides a GUI for entering test items and obtaining raw and transformed scores. The results are shown on the console and can be saved to a 
@@ -805,6 +785,7 @@ analysis and cross-validation techniques.
 <packagelist>
     <pkg priority="core">ade4</pkg>
     <pkg priority="core">anacor</pkg>
+    <pkg>AnalyzeFMRI</pkg>
     <pkg>aspect</pkg>
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
@@ -814,6 +795,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">blavaan</pkg>
     <pkg>bpca</pkg>
     <pkg>BradleyTerry2</pkg>
+    <pkg>BTLLasso</pkg>
     <pkg priority="core">ca</pkg>
     <pkg>cabootcrs</pkg>
     <pkg>cacIRT</pkg>
@@ -845,6 +827,7 @@ analysis and cross-validation techniques.
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
     <pkg>edstan</pkg>
+    <pkg>eegkit</pkg> 
     <pkg>elasticnet</pkg>
     <pkg>emIRT</pkg>
     <pkg>equateIRT</pkg>
@@ -866,6 +849,7 @@ analysis and cross-validation techniques.
     <pkg>gSEM</pkg>
     <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
+    <pkg>ica</pkg>
     <pkg>ICC</pkg>
     <pkg>immer</pkg>
     <pkg>influence.SEM</pkg>
@@ -919,6 +903,8 @@ analysis and cross-validation techniques.
     <pkg>mRm</pkg>
     <pkg>MultiLCIRT</pkg>
     <pkg>multiplex</pkg>
+    <pkg>multiway</pkg>
+    <pkg>munfold</pkg>
     <pkg>nFactors</pkg>
     <pkg>nlme</pkg>
     <pkg>nlsem</pkg>
@@ -987,6 +973,7 @@ analysis and cross-validation techniques.
     <pkg priority="core">TAM</pkg>
     <pkg>TestDataImputation</pkg>
     <pkg>TestScorer</pkg>
+    <pkg>ThreeWay</pkg>
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
