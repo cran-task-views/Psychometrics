@@ -556,6 +556,9 @@ reliability, item analysis, inter-rater reliability, and classical utility are
 contained in the <pkg>psychometric</pkg> package.
   </li>
   <li>
+  An interactive shiny application for CTT is provided by <pkg>CTTShiny</pkg>.
+  </li>  
+  <li>
   The <pkg>cocron</pkg> package provides functions to statistically compare two or more alpha coefficients based 
   on either dependent or independent groups of individuals.
   </li>
@@ -821,6 +824,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>covLCA</pkg>
     <pkg>ctsem</pkg>
     <pkg priority="core">CTT</pkg>
+    <pkg>CTTShiny</pkg>
     <pkg>DAKS</pkg>
     <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
