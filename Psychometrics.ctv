@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2017-07-24</version>
+<version>2017-07-25</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -328,6 +328,9 @@ plots, star plots,
   </li>  
   <li>
     <pkg>SparseFactorAnalysis</pkg> scales count and binary data with sparse FA.
+  </li> 
+  <li>
+    <pkg>EFAutilities</pkg> computes robust standard errors and factor correlations under a variety of conditions.
   </li>  
   <li>
     <pkg>faoutlier</pkg> implements influential case detection methods for FA and SEM.
@@ -453,7 +456,7 @@ covariance structure models as in structural equation modeling (SEM).
     <pkg>semdiag</pkg> and <pkg>influence.SEM</pkg> implements outlier, leverage diagnostics, and case influence for SEM, whereas <pkg>semGOF</pkg> provides SEM goodness-of-fit indexes.
   </li>  
   <li>
-    <pkg>ctsem</pkg> fits continuous time SEM using linear stochastic differential equations and <pkg>dlsem</pkg> fits distributed-lag SEM.
+    <pkg>ctsem</pkg> fits continuous time SEM using linear stochastic differential equations. 
   </li>  
   <li>
     <pkg>gSEM</pkg> conducts semi-supervised generalized SEM and <pkg>piecewiseSEM</pkg> fits piecewise SEM.
@@ -824,13 +827,13 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>difNLR</pkg>
     <pkg>difR</pkg>
     <pkg>DistatisR</pkg>
-    <pkg>dlsem</pkg>
     <pkg>dualScale</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
     <pkg>edstan</pkg>
     <pkg>eegkit</pkg> 
+    <pkg>EFAutilities</pkg>
     <pkg>elasticnet</pkg>
     <pkg>emIRT</pkg>
     <pkg>equateIRT</pkg>
