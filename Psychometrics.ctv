@@ -170,7 +170,7 @@ plotting tools.
   Statistical power simulation for testing the Rasch model based on a three-way ANOVA design with mixed classification can be carried out using <pkg>pwrRasch</pkg>. 
   </li>
 <li>
-    The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject parameters (MLE and MAP) such as personnal pseudo-guessing, personal fluctuation, personal inattention. These supplemental parameters
+    The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject parameters (MLE and MAP) such as personal pseudo-guessing, personal fluctuation, personal inattention. These supplemental parameters
 can be used to assess person fit, to identify misfit type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering potential misfit at the same time. 
   </li>
   <li>
