@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2017-07-25</version>
+<version>2017-11-06</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -668,13 +668,15 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
 <p><strong>Other Related Packages:</strong></p>
   <ul>
   <li>
-    The <pkg>psychotools</pkg> provides an infrastructure for psychometric
-modeling such as data classes (e.g., for paired comparisons) and basic model
+    The <pkg>psychotools</pkg> provides an infrastructure for psychometric modeling such as data classes (e.g., for paired comparisons) and basic model
 fitting functions (e.g., for Rasch and Bradley-Terry models).
   </li>
   <li>
   <pkg>quickpsy</pkg> is a package developed to quickly fit and plot psychometric functions for multiple conditions.
   </li>
+  <li>
+  A system for the management, assessment, and psychometric analysis of data from educational and psychological tests is implemented in <pkg>dexter</pkg>.   
+  </li>  
   <li>
     Psychometric mixture models based on flexmix infrastructure are provided by
 means of the <pkg>psychomix</pkg> package (at the moment Rasch mixture models
@@ -826,6 +828,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">CTT</pkg>
     <pkg>CTTShiny</pkg>
     <pkg>DAKS</pkg>
+    <pkg>dexter</pkg>
     <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
     <pkg>difNLR</pkg>
