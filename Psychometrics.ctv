@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2017-11-11</version>
+<version>2017-12-21</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -338,12 +338,6 @@ plots, star plots,
   <li>
     The package <pkg>psych</pkg> includes functions such as <code>fa.parallel()</code> and <code>VSS()</code> for estimating the
     appropriate number of factors/components as well as <code>ICLUST()</code> for item clustering.
-  </li>
-   <li>
-    The package <pkg>FAiR</pkg> performs factor analysis based on a genetic algorithm
-    for optimization. This makes it possible to impose a wide range of restrictions on
-    the factor analysis model, whether using exploratory factor analysis, confirmatory
-    factor analysis, or a new estimator called semi-exploratory factor analysis (SEFA).
   </li>
   <li>
    PCA can be fitted with <code>prcomp()</code> (based on <code>svd()</code>, preferred) as well as
@@ -856,7 +850,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>EstCRM</pkg>
     <pkg>ExPosition</pkg>
     <pkg>FactoMineR</pkg>
-    <pkg priority="core">FAiR</pkg>
     <pkg>faoutlier</pkg>
     <pkg>fastICA</pkg>
     <pkg>fechner</pkg>
