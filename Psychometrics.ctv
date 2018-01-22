@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2017-12-21</version>
+<version>2018-01-22</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -225,6 +225,9 @@ accuracy and consistency under IRT models.
   <li>
     <pkg>irtDemo</pkg> includes a collection of shiny applications to demonstrate or to explore fundamental IRT concepts. 
   </li>  
+  <li>
+    IRT utility functions described in the Baker/Kim book are included in <pkg>birtr</pkg>. 
+  </li> 
 </ul>
 
 <p><strong>Correspondence Analysis (CA), Optimal Scaling:</strong></p>
@@ -803,6 +806,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>BayesLCA</pkg>
     <pkg>BigSEM</pkg>
     <pkg>BiplotGUI</pkg>
+    <pkg>birtr</pkg>
     <pkg priority="core">blavaan</pkg>
     <pkg>bpca</pkg>
     <pkg>BradleyTerry2</pkg>
