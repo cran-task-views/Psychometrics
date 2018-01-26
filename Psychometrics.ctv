@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-01-22</version>
+<version>2018-01-26</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -398,9 +398,6 @@ estimation of a wide variety of advanced multivariate statistical models. It
 consists of a library of functions and optimizers that allow you to quickly and
 flexibly define an SEM model and estimate parameters given observed data.
   </li>
-  <li>
-    The package <pkg>umx</pkg>, which builds on <pkg>OpenMx</pkg>, is used in Behavior Genetics to estimate twin models, as well as for general structural equation modelling (SEM), where it supports path analysis, CFA etc. 
-  </li>  
   <li>
     The <pkg>sem</pkg> package fits general (i.e., latent-variable) SEMs by
 FIML, and structural equations in observed-variable models by 2SLS. Categorical
@@ -993,7 +990,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>TestScorer</pkg>
     <pkg>ThreeWay</pkg>
     <pkg>TripleR</pkg>
-    <pkg>umx</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
     <pkg>wCorr</pkg>
