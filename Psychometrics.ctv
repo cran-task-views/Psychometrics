@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-01-26</version>
+<version>2018-02-26</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -434,6 +434,7 @@ with approaches of segmentation trees in PLS path modeling.
     <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations
 using SEM (for methodological investigations, power analyses and much more). 
   </li>
+  <pkg>Sim.DiffProc</pkg> provides a framework for parallelized Monte Carlo simulation-estimation in multidimensional continuous-time models, which have been implemented as SEM.
   <li>
     <pkg>semTools</pkg> is a package of add on functions that can aid in fitting
 SEMs in R (for example one function automates imputing missing data, running
@@ -447,7 +448,7 @@ imputed datasets and combining the results from these datasets).
   </li>  
   <li>
     <pkg>SEMModComp</pkg> conducts tests of difference in fit for mean and
-covariance structure models as in structural equation modeling (SEM).
+covariance structure models as in SEM.
   </li>
   <li>
     <pkg>semdiag</pkg> and <pkg>influence.SEM</pkg> implements outlier, leverage diagnostics, and case influence for SEM, whereas <pkg>semGOF</pkg> provides SEM goodness-of-fit indexes.
@@ -973,6 +974,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>semtree</pkg>
     <pkg>SensoMineR</pkg>
     <pkg>ShinyItemAnalysis</pkg>
+    <pkg>Sim.DiffProc</pkg>
     <pkg>simsem</pkg>
     <pkg>sirt</pkg>
     <pkg priority="core">smacof</pkg>
