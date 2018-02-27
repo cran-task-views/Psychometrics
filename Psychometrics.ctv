@@ -434,7 +434,9 @@ with approaches of segmentation trees in PLS path modeling.
     <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations
 using SEM (for methodological investigations, power analyses and much more). 
   </li>
-  <pkg>Sim.DiffProc</pkg> provides a framework for parallelized Monte Carlo simulation-estimation in multidimensional continuous-time models, which have been implemented as SEM.
+  <li>
+    <pkg>Sim.DiffProc</pkg> provides a framework for parallelized Monte Carlo simulation-estimation in multidimensional continuous-time models, which have been implemented as SEM.
+  </li>
   <li>
     <pkg>semTools</pkg> is a package of add on functions that can aid in fitting
 SEMs in R (for example one function automates imputing missing data, running
