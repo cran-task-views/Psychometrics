@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-02-26</version>
+<version>2018-02-28</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -604,11 +604,13 @@ Functions for fitting probabilistic knowledge structures are included in the
 <p><strong>Latent Class Analysis (LCA):</strong></p>
 <ul>
  <li>
-     LCA with random effects can be performed with the package
-<pkg>randomLCA</pkg>. In addition, the package <pkg>e1071</pkg> provides the function
+     LCA with random effects can be performed with the package <pkg>randomLCA</pkg>. In addition, the package <pkg>e1071</pkg> provides the function
 <code>lca()</code>. Another package is <pkg>poLCA</pkg> for polytomous variable latent class analysis. 
 LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the inclusion of concomitant variables and latent class regression. 
   </li>
+  <li>
+    <pkg>LCAvarsel</pkg> implements variable selection for LCA.  
+  </li>  
   <li>
     <pkg>covLCA</pkg> fits latent class models with covariate effects on underlying and measured variables.
   </li>  
@@ -887,6 +889,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lavaan.survey</pkg>
     <pkg>lava.tobit</pkg>
     <pkg>lba</pkg>
+    <pkg>LCAvarsel</pkg>
     <pkg>lcda</pkg>
     <pkg priority="core">lme4</pkg>
     <pkg>LNIRT</pkg>
