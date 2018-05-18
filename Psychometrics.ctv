@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-02-28</version>
+<version>2018-05-17</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -499,22 +499,15 @@ model estimation and interpretation using Mplus.
 <p><strong>Multidimensional Scaling (MDS):</strong></p>
 <ul>
   <li>
-    The <pkg>smacof</pkg> package provides the following approaches of
-multidimensional scaling (MDS) based on stress minimization by means of majorization: Simple smacof on symmetric
-dissimilarity matrices, smacof for rectangular matrices (unfolding models), smacof with constraints
-on the configuration, three-way smacof for individual differences (including constraints for
-idioscal, indscal, and identity), and spherical smacof (primal and dual algorithm). Each of these
-approaches is implemented in a metric and nonmetric manner including primary, secondary,
-and tertiary approaches for tie handling.
+    The <pkg>smacof</pkg> package provides many approaches to metric and nonmetric MDS, including extensions for MDS with external constraints, spherical MDS,
+    asymmetric MDS, three-way MDS (INDSCAL/IDIOSCAL), Bentler-Weeks model, unidimensional scaling, Procrustes, inverse MDS. 
   </li>
   <li>
-    <pkg>MASS</pkg> and stats provide
-    functionalities for computing classical MDS using the
-<code>cmdscale()</code> function. Sammon mapping <code>sammon()</code>
+    <pkg>MASS</pkg> and stats provide functionalities for computing classical MDS using the <code>cmdscale()</code> function. Sammon mapping <code>sammon()</code>
     and non-metric MDS <code>isoMDS()</code> are other relevant functions.
   </li>
   <li>
-    Non-metric MDS can additionally be performed with <code>metaMDS()</code> in <pkg>vegan</pkg>. Furthermore, <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
+    Nonmetric MDS can also be computed with <code>metaMDS()</code> in <pkg>vegan</pkg>. Furthermore, <pkg>labdsv</pkg> and <pkg>ecodist</pkg> provide the function
 <code>nmds()</code> and some routines can be found in <pkg>xgobi</pkg>. Also, the <pkg>ExPosition</pkg> implements a function for metric MDS.
   </li>
   <li>
@@ -522,7 +515,7 @@ and tertiary approaches for tie handling.
 with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
   </li>
   <li>
-    Individual differences in multidimensional scaling can be computed with <code>indscal()</code> in the <pkg>SensoMineR</pkg> package.
+    INDSCAL is also implemented in the <pkg>SensoMineR</pkg> package.
   </li>
   <li>
     The package <pkg>MLDS</pkg> allows for the computation of maximum likelihood difference scaling (MLDS).
@@ -542,6 +535,12 @@ with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
   <li>
     <pkg>munfold</pkg> provides functions for metric unfolding. 
   </li>   
+  <li>
+    The <pkg>asymmetry</pkg> package implements the slide-vector model for asymmetric MDS. 
+   </li>  
+   <li>
+    <pkg>semds</pkg> fits asymmetric and three-way MDS within an SEM framework. 
+   </li>  
 </ul>
 
 <p><strong>Classical Test Theory (CTT):</strong></p>
@@ -803,6 +802,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">anacor</pkg>
     <pkg>AnalyzeFMRI</pkg>
     <pkg>aspect</pkg>
+    <pkg>asymmetry</pkg> 
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
@@ -970,6 +970,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>rsem</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>semdiag</pkg>
+    <pkg>semds</pkg>
     <pkg>semGOF</pkg>
     <pkg>SEMID</pkg>
     <pkg>semPLS</pkg>
@@ -1012,7 +1013,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <view>MedicalImaging</view>
     <a href="http://www.jstatsoft.org/v20/">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://www.jstatsoft.org/v48/">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
-    <a href="http://R-Forge.R-project.org/projects/psychor/">PsychoR project platform</a>
+    <a href="http://www.jstatsoft.org/v73/">Journal of Statistical Software Special Volume: Festschrift for Jan de Leeuw</a>
+    
 </links>
 
 </CRANTaskView>
