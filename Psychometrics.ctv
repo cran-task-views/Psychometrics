@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-05-17</version>
+<version>2018-06-02</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -58,8 +58,7 @@ and modeling item and person covariates.
     <pkg>IRTShiny</pkg> provides an interactive shiny application for IRT analysis.  
   </li>  
   <li>
-  The <pkg>mcIRT</pkg> package provides functions to estimate the Nominal Response Model and the Nested Logit Model. Both are models to examine multiple-choice items 
-  and other polytomous response formats. Some additional uni- and multidimensional item response models (especially for locally dependent item responses) and 
+  Some additional uni- and multidimensional item response models (especially for locally dependent item responses) and 
   some exploratory methods (DETECT, LSDM, model-based reliability) are included in <pkg>sirt</pkg>.
   </li>
   <li>
@@ -903,7 +902,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>MCAvariants</pkg> 
     <pkg>MCMCglmm</pkg>
     <pkg>MCMCpack</pkg>
-    <pkg>mcIRT</pkg>
     <pkg>medflex</pkg>
     <pkg>mediation</pkg>
     <pkg>metaSEM</pkg>
