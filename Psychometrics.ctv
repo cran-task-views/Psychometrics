@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-06-02</version>
+<version>2018-06-09</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -792,7 +792,12 @@ and proportions, is available in <pkg>betareg</pkg>.
   </li>  
   <li>
     <pkg>LVMMCOR</pkg> fits latent variable models for mixed continuous and ordinal responses.
-  </li>  
+  </li> 
+  <li>
+    <pkg>fuzzyreg</pkg> implements multiple methods to fit fuzzy linear regression. Models using fuzzy set theory are suitable for analysis of trait data in situations when the model is indefinite, relationships between model variables are vague, sample size is low or measurements are hierarchically structured. 
+  </li> 
+  
+  
 </ul>
 </info>
 
@@ -860,6 +865,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>fechner</pkg>
     <pkg>flexmix</pkg>
     <pkg>fourPNO</pkg>
+    <pkg>fuzzyreg</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GDINA</pkg>
     <pkg>GPArotation</pkg>
