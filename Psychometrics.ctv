@@ -704,10 +704,7 @@ multiple-choice examinations.
      Coefficients for interrater reliability and agreements can be computed with the <pkg>irr</pkg>.
   </li>
   <li>
-     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package. The
-<pkg>MLCM</pkg> package contains functions to estimate the contribution of the n
-scales to the judgment by a maximum likelihood method under several hypotheses
-of how the perceptual dimensions interact.  
+     Psychophysical data can be analyzed with the <pkg>psyphy</pkg> package.
   </li>
   <li>
      Functions and example datasets for Fechnerian scaling of discrete object
@@ -911,7 +908,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCIRTwithin</pkg>
-    <pkg>MLCM</pkg>
     <pkg>MLDS</pkg>
     <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
