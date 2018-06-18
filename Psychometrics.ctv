@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-06-09</version>
+<version>2018-06-18</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -298,8 +298,7 @@ plots, star plots,
     The package also allows for supplementary data projection.
   </li>
   <li>
-    <pkg>dualScale</pkg> implements functions to analyze multiple choice data using dual scaling, whereas <pkg>cds</pkg> can be used 
-    for constrained dual scaling for detecting response styles.
+    <pkg>cds</pkg> can be used for constrained dual scaling for detecting response styles.
   </li>
   <li>
     <pkg>CAvariants</pkg> provides six variants of two-way CA: simple, singly ordered, doubly ordered, non-symmetrical, singly ordered non-symmetrical ca, and doubly ordered non-symmetrical.
@@ -844,7 +843,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>difNLR</pkg>
     <pkg>difR</pkg>
     <pkg>DistatisR</pkg>
-    <pkg>dualScale</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
