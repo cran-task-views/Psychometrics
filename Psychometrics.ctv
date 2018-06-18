@@ -790,9 +790,6 @@ and proportions, is available in <pkg>betareg</pkg>.
    <pkg>lba</pkg> performs latent budget analysis for compositional data (two-way contingency table with an exploratory variable and a response variable) 
   </li>  
   <li>
-    <pkg>LVMMCOR</pkg> fits latent variable models for mixed continuous and ordinal responses.
-  </li> 
-  <li>
     <pkg>fuzzyreg</pkg> implements multiple methods to fit fuzzy linear regression. Models using fuzzy set theory are suitable for analysis of trait data in situations when the model is indefinite, relationships between model variables are vague, sample size is low or measurements are hierarchically structured. 
   </li> 
   
@@ -900,7 +897,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lsl</pkg>
     <pkg>ltbayes</pkg>
     <pkg priority="core">ltm</pkg>
-    <pkg>LVMMCOR</pkg> 
     <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
     <pkg>MCAvariants</pkg> 
