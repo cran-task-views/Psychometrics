@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-06-18</version>
+<version>2018-07-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -162,6 +162,9 @@ performs the Forward Search for Mokken scale analysis. It detects outliers, it p
     This <pkg>KernSmoothIRT</pkg> package fits nonparametric item and option characteristic curves using kernel smoothing. It allows for optimal selection of the smoothing bandwidth using cross-validation and a variety of exploratory
 plotting tools.
   </li>
+  <li>
+     Nonparametric IRT for nonmonotonic IRFs of proximity data can be fitted using the <pkg>mudfold</pkg> package.
+   </li>  
   <li>
     The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model tests by generating random zero-one matrices with given marginals. 
   </li> 
@@ -915,6 +918,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg>mRm</pkg>
+    <pkg>mudfold</pkg>
     <pkg>MultiLCIRT</pkg>
     <pkg>multiplex</pkg>
     <pkg>multiway</pkg>
