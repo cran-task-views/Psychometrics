@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-07-24</version>
+<version>2018-08-05</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -528,9 +528,6 @@ with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
     Symbolic MDS for interval-valued dissimilarities (hypersphere and hyperbox model) can be fitted with the <pkg>smds</pkg> package.
   </li>  
   <li>
-    <pkg>SOD</pkg> (Self-Organising-Deltoids) provides MDS by gradually reducing the dimensionality of an initial space.
-  </li>  
-  <li>
     Supervised MDS is implemented in <pkg>superMDS</pkg>. 
   </li>  
   <li>
@@ -985,7 +982,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>smds</pkg>
     <pkg>SNSequate</pkg>
     <pkg>soc.ca</pkg>
-    <pkg>SOD</pkg>
     <pkg>SparseFactorAnalysis</pkg>
     <pkg>sparseSEM</pkg>
     <pkg>subscore</pkg> 
