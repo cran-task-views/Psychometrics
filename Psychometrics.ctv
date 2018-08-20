@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-08-05</version>
+<version>2018-08-20</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -743,6 +743,10 @@ power are contained in the <pkg>QuantPsyc</pkg> package.
   The <pkg>qgraph</pkg> package can be used to visualize data as networks.
   </li>
   <li>
+  <pkg>NetworkToolbox</pkg> implements network analysis and graph theory measures used in neuroscience, cognitive science, and psychology. 
+  Methods include various filtering methods and approaches such as threshold, dependency, information filtering networks, and efficiency-cost optimization. 
+  </li>  
+  <li>
   Social Relations Analyses for round robin designs are implemented in the
 <pkg>TripleR</pkg> package. It implements all functionality of the SOREMO
 software, and provides new functions like the handling of missing values,
@@ -756,6 +760,8 @@ models for categorical data with latent parameters, can be performed using the
 tree-like graph and represent the cognitive processing steps executed to arrive
 at observable response categories.The <pkg>MPTinR</pkg> package provides a
 user-friendly way for analysis of multinomial processing tree (MPT) models.
+The <pkg>TreeBUGS</pkg> package provides user-friendly methods to fit Bayesian hierarchical MPT models 
+(beta-MPT and latent-trait MPT) and implements posterior-predictive checks, summary plots, correlations and regressions for person-level MPT parameters.
   </li>
   <li>
   Beta regression for modeling beta-distributed dependent variables, e.g., rates
@@ -920,6 +926,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>multiplex</pkg>
     <pkg>multiway</pkg>
     <pkg>munfold</pkg>
+    <pkg>NetworkToolbox</pkg>
     <pkg>nFactors</pkg>
     <pkg>nlme</pkg>
     <pkg>nlsem</pkg>
@@ -991,6 +998,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>TestDataImputation</pkg>
     <pkg>TestScorer</pkg>
     <pkg>ThreeWay</pkg>
+    <pkg>TreeBUGS</pkg> 
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
     <pkg>VGAM</pkg>
