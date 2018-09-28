@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-08-20</version>
+<version>2018-09-28</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -86,7 +86,7 @@ dichotomous Rasch model, the rating scale model, and the partial credit model.
   </li>
   <li>
   The <pkg>equateIRT</pkg> package computes direct, chain and average (bisector) equating coefficients with 
-  standard errors using Item Response Theory (IRT) methods for dichotomous items.
+  standard errors using Item Response Theory (IRT) methods for dichotomous items. <pkg>equateMultiple</pkg> can be used for equating of multiple forms using IRT methods.
   </li>
   <li>
   <pkg>kequate</pkg> implements the kernel method of test equating using the CB, EG, SG, NEAT CE/PSE and NEC designs, supporting gaussian, logistic and uniform
@@ -851,8 +851,9 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>EFAutilities</pkg>
     <pkg>elasticnet</pkg>
     <pkg>emIRT</pkg>
-    <pkg>equateIRT</pkg>
     <pkg>equate</pkg>
+    <pkg>equateIRT</pkg>
+    <pkg>equateMultiple</pkg>
     <pkg priority="core">eRm</pkg>
     <pkg>esaBcv</pkg>
     <pkg>EstCRM</pkg>
