@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-09-28</version>
+<version>2018-10-08</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -225,7 +225,7 @@ accuracy and consistency under IRT models.
    <pkg>WrightMap</pkg> provides graphical tools for plotting item-person maps. 
   </li>
   <li>
-    <pkg>irtDemo</pkg> includes a collection of shiny applications to demonstrate or to explore fundamental IRT concepts. 
+    <pkg>irtDemo</pkg> includes a collection of shiny applications to demonstrate or to explore fundamental IRT concepts. <pkg>ifaTools</pkg> is a shiny interface to IRT with <pkg>OpenMx</pkg>.
   </li>  
   <li>
     IRT utility functions described in the Baker/Kim book are included in <pkg>birtr</pkg>. 
@@ -394,7 +394,7 @@ multiple groups and reports standardized solutions, fit measures, modification
 indices and more as output.
   </li>
    <li>
-    The <pkg>OpenMx</pkg> package allows
+    The <pkg>OpenMx</pkg> package allows for the
 estimation of a wide variety of advanced multivariate statistical models. It
 consists of a library of functions and optimizers that allow you to quickly and
 flexibly define an SEM model and estimate parameters given observed data.
@@ -873,6 +873,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">homals</pkg>
     <pkg>ica</pkg>
     <pkg>ICC</pkg>
+    <pkg>ifaTools</pkg>
     <pkg>immer</pkg>
     <pkg>influence.SEM</pkg>
     <pkg>irr</pkg>
@@ -932,7 +933,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>nlme</pkg>
     <pkg>nlsem</pkg>
     <pkg>nsprcomp</pkg> 
-    <pkg>OpenMx</pkg>
+    <pkg priority="core">OpenMx</pkg>
     <pkg>optiscale</pkg>
     <pkg>ordinal</pkg>
     <pkg>pairwise</pkg>
