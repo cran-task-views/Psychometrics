@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-10-08</version>
+<version>2018-10-30</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -92,11 +92,6 @@ dichotomous Rasch model, the rating scale model, and the partial credit model.
   <pkg>kequate</pkg> implements the kernel method of test equating using the CB, EG, SG, NEAT CE/PSE and NEC designs, supporting gaussian, logistic and uniform
 kernels and unsmoothed and pre-smoothed input data.  
   </li>  
-  <li>
-  <pkg>SNSequate</pkg> provides several methods for test equating. Besides of traditional approaches (mean-mean, mean-sigma, Haebara and Stocking-Lord IRT, etc.) it 
-  supports methods such that local equating, kernel equating (using Gaussian, logistic and uniform kernels), 
-  and IRT parameter linking methods based on asymmetric item characteristic functions including functions for obtaining standard errors.
-</li>
   <li>
      The <pkg>EstCRM</pkg> package calibrates the parameters for Samejima's
 Continuous IRT Model via EM algorithm and Maximum Likelihood. It allows to
@@ -989,7 +984,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>sirt</pkg>
     <pkg priority="core">smacof</pkg>
     <pkg>smds</pkg>
-    <pkg>SNSequate</pkg>
     <pkg>soc.ca</pkg>
     <pkg>SparseFactorAnalysis</pkg>
     <pkg>sparseSEM</pkg>
