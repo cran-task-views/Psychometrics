@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-10-30</version>
+<version>2018-11-14</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -672,6 +672,9 @@ fitting functions (e.g., for Rasch and Bradley-Terry models).
   <pkg>quickpsy</pkg> is a package developed to quickly fit and plot psychometric functions for multiple conditions.
   </li>
   <li>
+  <pkg>cNORM</pkg> provides methods for generating regression based continuous norms. The approach does not rely on prior distribution assumptions and is thus non-parametric, but it can be combined with Box-Cox power transformations for semi-parametrically modelling the data as well. 
+  </li> 
+  <li>
   A system for the management, assessment, and psychometric analysis of data from educational and psychological tests is implemented in <pkg>dexter</pkg>.   
   </li>  
   <li>
@@ -822,7 +825,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>classify</pkg>
     <pkg>ClustVarLV</pkg>
     <pkg>CMC</pkg>
-    <pkg>cncaGUI</pkg> 
+    <pkg>cncaGUI</pkg>
+    <pkg>cNORM</pkg> 
     <pkg>cocor</pkg>
     <pkg>cocorresp</pkg>
     <pkg>cocron</pkg>
