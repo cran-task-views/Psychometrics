@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-11-14</version>
+<version>2018-12-12</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -197,9 +197,6 @@ and structured latent class analysis (SLCA).
   </li>
   <li>
     <pkg>immer</pkg> implements some item response models for multiple ratings, including the hierarchical rater model and a wrapper function to the commercial FACETS program.
-  </li>
-  <li>
-    An Rcpp based implementation of a variety of IRT models is provided by <pkg>IRTpp</pkg>. 
   </li>
   <li>
      The <pkg>latdiag</pkg> package produces commands to drive the dot program
@@ -878,7 +875,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>irr</pkg>
     <pkg>irtDemo</pkg>
     <pkg>irtoys</pkg>
-    <pkg>IRTpp</pkg>
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
