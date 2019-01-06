@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2018-12-12</version>
+<version>2019-01-06</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -208,10 +208,6 @@ scale with non-crossing ICCs.
     The purpose of the <pkg>rpf</pkg> package is to factor out logic and math
 common to IRT fitting, diagnostics, and analysis. It is envisioned as core
 support code suitable for more specialized IRT packages to build upon.
-  </li>
-  <li>
-    The <pkg>classify</pkg> package can be used to examine classification
-accuracy and consistency under IRT models.
   </li>
   <li>
    <pkg>WrightMap</pkg> provides graphical tools for plotting item-person maps. 
@@ -819,7 +815,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>CDM</pkg>
     <pkg>cds</pkg>
     <pkg>cIRT</pkg>
-    <pkg>classify</pkg>
     <pkg>ClustVarLV</pkg>
     <pkg>CMC</pkg>
     <pkg>cncaGUI</pkg>
