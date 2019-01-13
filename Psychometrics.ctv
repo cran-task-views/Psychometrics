@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-01-06</version>
+<version>2019-01-13</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -47,6 +47,9 @@ and modeling item and person covariates.
   <li>
     <pkg>TAM</pkg> fits unidimensional and multidimensional item response models and also includes multifaceted models, 
     latent regression models and options for drawing plausible values.
+  </li>
+  <li>
+    The <pkg>mirtjml</pkg> package uses joint maximum likelihood estimation methods for high-dimensional item factor analysis facilitated by multicore processing.
   </li>
   <li>
     <pkg>PLmixed</pkg> fits (generalized) linear mixed models (GLMM) with factor structures.
@@ -112,6 +115,9 @@ detecting various types of differential item functioning (DIF).
   <li>
   <pkg>DIFlasso</pkg> implements a penalty approach to differential item functioning in Rasch models. 
   It can handle settings with multiple (metric) covariates.
+  </li>
+  <li>
+  <pkg>DIFtree</pkg> performs recursive partitioning for simultaneous selection of items and variables that induce DIF in dichotomous or polytomous items.
   </li>
   <li>
   A set of functions to perform Raju, van der Linden and Fleer's (1995) differential item and item functioning analyses is implemented
@@ -831,6 +837,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>dexter</pkg>
     <pkg>DFIT</pkg>
     <pkg>DIFlasso</pkg>
+    <pkg>DIFtree</pkg>
     <pkg>difNLR</pkg>
     <pkg>difR</pkg>
     <pkg>DistatisR</pkg>
@@ -903,6 +910,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>MIIVsem</pkg>
     <pkg priority="core">mirt</pkg>
     <pkg>mirtCAT</pkg>
+    <pkg>mirtjml</pkg>
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCIRTwithin</pkg>
