@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-01-13</version>
+<version>2019-01-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -451,9 +451,6 @@ covariance structure models as in SEM.
     <pkg>semdiag</pkg> and <pkg>influence.SEM</pkg> implements outlier, leverage diagnostics, and case influence for SEM, whereas <pkg>semGOF</pkg> provides SEM goodness-of-fit indexes.
   </li>  
   <li>
-    <pkg>ctsem</pkg> fits continuous time SEM using linear stochastic differential equations. 
-  </li>  
-  <li>
     <pkg>gSEM</pkg> conducts semi-supervised generalized SEM and <pkg>piecewiseSEM</pkg> fits piecewise SEM.
   </li> 
   <li>
@@ -830,7 +827,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>cocron</pkg>
     <pkg>CopyDetect</pkg>
     <pkg>covLCA</pkg>
-    <pkg>ctsem</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>CTTShiny</pkg>
     <pkg>DAKS</pkg>
