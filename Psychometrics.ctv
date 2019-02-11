@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-01-26</version>
+<version>2019-02-11</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -57,6 +57,12 @@ and modeling item and person covariates.
   <li>
   <pkg>MLCIRTwithin</pkg> provides a flexible framework for the estimation of discrete two-tier IRT models for the analysis of dichotomous and ordinal polytomous item responses. 
   </li>
+  <li>
+  An implementation of Gibbs sampling algorithm for Bayesian estimation of the Reduced Reparameterized Unified Model is provided by <pkg>rrum</pkg>.
+  </li>
+  <li>
+  For Bayesian estimation of the DINA (deterministic input, noisy and gate) see <pkg>dina</pkg>.
+  </li> 
   <li>
     <pkg>IRTShiny</pkg> provides an interactive shiny application for IRT analysis.  
   </li>  
@@ -547,6 +553,9 @@ reliability, item analysis, inter-rater reliability, and classical utility are
 contained in the <pkg>psychometric</pkg> package.
   </li>
   <li>
+    For multilevel model ICC for slope heterogeneity see <pkg>iccbeta</pkg>.
+  </li>
+  <li>
   An interactive shiny application for CTT is provided by <pkg>CTTShiny</pkg>.
   </li>  
   <li>
@@ -781,6 +790,9 @@ and proportions, is available in <pkg>betareg</pkg>.
   The <pkg>GDINA</pkg> package estimates various cognitive diagnosis models (CDMs) within the generalized deterministic inputs, noisy and gate (G-DINA) model and the sequential G-DINA model framework. It can also be used to conduct Q-matrix validation, item and model fit statistics, model comparison at the test and item level and differential item functioning. A graphical user interface is also provided.
   </li>
   <li>
+    Simulation routines for cognitive diagnostic model DINA and rRUM are implemented in <pkg>simcdm</pkg>.
+  </li>
+  <li>
    <pkg>TestDataImputation</pkg> for missing item responses imputation for test and assessment data. 
   </li>
   <li>
@@ -836,6 +848,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>DIFtree</pkg>
     <pkg>difNLR</pkg>
     <pkg>difR</pkg>
+    <pkg>dina</pkg>
     <pkg>DistatisR</pkg>
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
@@ -867,6 +880,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">homals</pkg>
     <pkg>ica</pkg>
     <pkg>ICC</pkg>
+    <pkg>iccbeta</pkg>
     <pkg>ifaTools</pkg>
     <pkg>immer</pkg>
     <pkg>influence.SEM</pkg>
@@ -965,6 +979,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>regsem</pkg>
     <pkg>REQS</pkg>
     <pkg>rpf</pkg>
+    <pkg>rrum</pkg>
     <pkg>rsem</pkg>
     <pkg priority="core">sem</pkg>
     <pkg>semdiag</pkg>
@@ -978,6 +993,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>SensoMineR</pkg>
     <pkg>ShinyItemAnalysis</pkg>
     <pkg>Sim.DiffProc</pkg>
+    <pkg>simcdm</pkg>
     <pkg>simsem</pkg>
     <pkg>sirt</pkg>
     <pkg priority="core">smacof</pkg>
@@ -1010,7 +1026,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <a href="http://www.jstatsoft.org/v20/">Journal of Statistical Software Special Volume: Psychometrics in R</a>
     <a href="http://www.jstatsoft.org/v48/">Journal of Statistical Software Special Volume: Psychoco - Psychometric Computing in R</a>
     <a href="http://www.jstatsoft.org/v73/">Journal of Statistical Software Special Volume: Festschrift for Jan de Leeuw</a>
-    
+    <a href="https://github.com/djnavarro">Tools for computational cognitive science</a>
 </links>
 
 </CRANTaskView>
