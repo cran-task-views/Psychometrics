@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-02-11</version>
+<version>2019-03-03</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -74,6 +74,9 @@ and modeling item and person covariates.
   The <pkg>pcIRT</pkg> estimates the multidimensional polytomous Rasch model and the Mueller's continuous rating scale model.
   </li>
   <li>
+    An implementation of the partial credit model with response styles is given in the <pkg>PCMRS</pkg>.  
+  </li>  
+  <li>
   Thurstonian IRT models can be fitted with the <pkg>kcirt</pkg> package. 
   </li>  
   <li>
@@ -109,24 +112,26 @@ response curves, to draw theoretical 3D item category response curves, and to
 generate data under the CRM for simulation studies.
   </li>
   <li>
-     The <pkg>difR</pkg> package contains several traditional methods to detect
-DIF in dichotomously scored items. Both uniform and non-uniform DIF effects can
-be detected, with methods relying upon item response models or not. Some methods
-deal with more than one focal group.
+     The <pkg>difR</pkg> package contains several traditional methods to detect DIF in dichotomously scored items. Both uniform and non-uniform DIF effects can
+be detected, with methods relying upon item response models or not. Some methods deal with more than one focal group.
   </li>
   <li>
-     The package <pkg>lordif</pkg> provides a logistic regression framework for
-detecting various types of differential item functioning (DIF). 
+     The package <pkg>lordif</pkg> provides a logistic regression framework for detecting various types of DIF. 
   </li>
   <li>
-  <pkg>DIFlasso</pkg> implements a penalty approach to differential item functioning in Rasch models. 
-  It can handle settings with multiple (metric) covariates.
+  <pkg>DIFlasso</pkg> implements a penalty approach to differential item functioning in Rasch models. It can handle settings with multiple (metric) covariates.
+  </li>
+  <li>
+  <pkg>GPCMlasso</pkg> provides a function to detect DIF in generalized partial credit models (GPCM).
   </li>
   <li>
   <pkg>DIFtree</pkg> performs recursive partitioning for simultaneous selection of items and variables that induce DIF in dichotomous or polytomous items.
   </li>
   <li>
-  A set of functions to perform Raju, van der Linden and Fleer's (1995) differential item and item functioning analyses is implemented
+  <pkg>DIFboost</pkg> can be used for DIF detection in Rasch models by boosting techniques.
+  </li>
+  <li>
+  A set of functions to perform differential item and item functioning analyses is implemented
   in the <pkg>DFIT</pkg> package. It includes functions to use the Monte Carlo item parameter replication (IPR) approach 
   for obtaining the associated statistical significance tests cut-off points.
   </li>
@@ -413,27 +418,24 @@ implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equat
 Structural Equations Mixture Models).   
   </li>  
   <li>
+    Continuous time structural equation models can be fitted using the <pkg>ctsem</pkg> package. 
+  </li>
+  <li>
   A collection of functions for conducting meta-analysis using a structural equation modeling (SEM) approach via OpenMx is provided by
   the <pkg>metaSEM</pkg> package. 
   </li>
   <li>
-    A general implementation of a computational framework for latent variable
-models (including structural equation models) is given in <pkg>lava</pkg>. The
-<pkg>lava.tobit</pkg> package generalizes the framework to censored and
+    A general implementation of a computational framework for latent variable models (including structural equation models) is given in <pkg>lava</pkg>. The <pkg>lava.tobit</pkg> package generalizes the framework to censored and
 dichotomous variables via a probit link formulation.
   </li>
   <li>  
-    The <pkg>pls</pkg> package can be used for partial least-squares estimation.
-    The package <pkg>semPLS</pkg> fits structural equation models using partial
-least squares (PLS). The PLS approach is referred to as soft-modeling technique
-requiring no distributional assumptions on the observed data. PLS methods with
-emphasis on structural equation models with latent variables are given in
-<pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package
+    The <pkg>pls</pkg> package can be used for partial least-squares estimation. The package <pkg>semPLS</pkg> fits structural equation models using partial
+least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data. PLS methods with
+emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package
 with approaches of segmentation trees in PLS path modeling.
   </li> 
   <li>
-    <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations
-using SEM (for methodological investigations, power analyses and much more). 
+    <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations using SEM (for methodological investigations, power analyses and much more). 
   </li>
   <li>
     <pkg>Sim.DiffProc</pkg> provides a framework for parallelized Monte Carlo simulation-estimation in multidimensional continuous-time models, which have been implemented as SEM.
@@ -481,16 +483,16 @@ covariance structure models as in SEM.
     <pkg>MIIVsem</pkg> contains functions for estimating structural equation models using instrumental variables.
   </li>  
   <li>
-    The <pkg>systemfit</pkg> package implements a wider variety of estimators
-    for observed-variables models, including nonlinear simultaneous-equations models. 
+    The <pkg>systemfit</pkg> package implements a wider variety of estimators for observed-variables models, including nonlinear simultaneous-equations models. 
   </li>  
   <li>
-    An interface between the EQS software for SEM and R is provided by the
-<pkg>REQS</pkg> package.
+    <pkg>STARTS</pkg> contains functions for estimating the STARTS model. 
+  </li>  
+  <li>
+    An interface between the EQS software for SEM and R is provided by the <pkg>REQS</pkg> package.
   </li> 
   <li>
-    The <pkg>MplusAutomation</pkg> package allows to automate latent variable
-model estimation and interpretation using Mplus.
+    The <pkg>MplusAutomation</pkg> package allows to automate latent variable model estimation and interpretation using Mplus.
   </li>
 </ul>
 
@@ -680,7 +682,7 @@ fitting functions (e.g., for Rasch and Bradley-Terry models).
   <pkg>cNORM</pkg> provides methods for generating regression based continuous norms. The approach does not rely on prior distribution assumptions and is thus non-parametric, but it can be combined with Box-Cox power transformations for semi-parametrically modelling the data as well. 
   </li> 
   <li>
-  A system for the management, assessment, and psychometric analysis of data from educational and psychological tests is implemented in <pkg>dexter</pkg>.   
+    A system for the management, assessment, and psychometric analysis of data from educational and psychological tests is implemented in <pkg>dexter</pkg>, with multi-stage test calibration in <pkg>dexterMST</pkg>.   
   </li>  
   <li>
     Psychometric mixture models based on flexmix infrastructure are provided by
@@ -799,7 +801,10 @@ and proportions, is available in <pkg>betareg</pkg>.
    <pkg>lba</pkg> performs latent budget analysis for compositional data (two-way contingency table with an exploratory variable and a response variable) 
   </li>  
   <li>
-    <pkg>fuzzyreg</pkg> implements multiple methods to fit fuzzy linear regression. Models using fuzzy set theory are suitable for analysis of trait data in situations when the model is indefinite, relationships between model variables are vague, sample size is low or measurements are hierarchically structured. 
+   <pkg>fuzzyreg</pkg> implements multiple methods to fit fuzzy linear regression. Models using fuzzy set theory are suitable for analysis of trait data in situations when the model is indefinite, relationships between model variables are vague, sample size is low or measurements are hierarchically structured. 
+  </li> 
+  <li>
+   <pkg>LAM</pkg> includes some procedures for latent variable modeling with a particular focus on multilevel data. 
   </li> 
   
   
@@ -839,11 +844,14 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>cocron</pkg>
     <pkg>CopyDetect</pkg>
     <pkg>covLCA</pkg>
+    <pkg>ctsem</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>CTTShiny</pkg>
     <pkg>DAKS</pkg>
     <pkg>dexter</pkg>
+    <pkg>dexterMST</pkg>
     <pkg>DFIT</pkg>
+    <pkg>DIFboost</pkg>
     <pkg>DIFlasso</pkg>
     <pkg>DIFtree</pkg>
     <pkg>difNLR</pkg>
@@ -875,6 +883,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>fwdmsa</pkg>
     <pkg>GDINA</pkg>
     <pkg>GPArotation</pkg>
+    <pkg>GPCMlasso</pkg>
     <pkg>gSEM</pkg>
     <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
@@ -895,6 +904,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
     <pkg>labdsv</pkg>
+    <pkg>LAM</pkg>
     <pkg>latdiag</pkg>
     <pkg>lava</pkg>
     <pkg priority="core">lavaan</pkg>
@@ -949,6 +959,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
     <pkg>pcIRT</pkg>
+    <pkg>PCMRS</pkg>
     <pkg>piecewiseSEM</pkg>
     <pkg>pks</pkg>
     <pkg>PLmixed</pkg>
@@ -1001,6 +1012,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>soc.ca</pkg>
     <pkg>SparseFactorAnalysis</pkg>
     <pkg>sparseSEM</pkg>
+    <pkg>STARTS</pkg>
     <pkg>subscore</pkg> 
     <pkg>superMDS</pkg>
     <pkg>systemfit</pkg>
