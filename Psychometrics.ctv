@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-03-03</version>
+<version>2019-03-25</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -582,6 +582,10 @@ scale.
   <li>
     <pkg>subscore</pkg> can be used for computing subscores in CTT and IRT. 
   </li>
+  <li>
+   The quantifying construct validity procedure is implemented in <pkg>qcv</pkg>.
+  </li>  
+  
 </ul>
 
 <p><strong>Knowledge Structure Analysis:</strong></p>
@@ -982,6 +986,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
     <pkg>pwrRasch</pkg>
+    <pkg>qcv</pkg>
     <pkg>qgraph</pkg>
     <pkg>QuantPsyc</pkg>
     <pkg>quickpsy</pkg>
