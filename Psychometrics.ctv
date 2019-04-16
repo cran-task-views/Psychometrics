@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-03-25</version>
+<version>2019-04-16</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -161,9 +161,8 @@ IRT methods.
     can be done using the <pkg>pairwise</pkg> package. 
   </li>  
   <li>
-     A multilevel Rasch model can be estimated using the package
-     <pkg>lme4</pkg>, <pkg>nlme</pkg>, and <pkg>MCMCglmm</pkg> with functions for mixed-effects models with crossed or
-     partially crossed random effects. The <pkg>ordinal</pkg> package implements this approach for polytomous models. An infrastructure for
+     Multilevel Rasch models can be estimated using <pkg>lme4</pkg>, <pkg>nlme</pkg>, and <pkg>MCMCglmm</pkg> with crossed or
+     partially crossed random effects. <pkg>GLMMRR</pkg> adds some flexibility in terms of link functions, whereas <pkg>ordinal</pkg> can be used for polytomous models. An infrastructure for
 estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in <pkg>irtrees</pkg>. 
   </li>
   <li>
@@ -207,9 +206,6 @@ and structured latent class analysis (SLCA).
     is implemented in various forms in the package <pkg>VGAM</pkg>.
   </li>
   <li>
-   <pkg>LNIRT</pkg> can be used for log-normal response time IRT models. 
-  </li>
-  <li>
     <pkg>emIRT</pkg> provides various EM-algorithms IRT models (binary and ordinal responses, along with dynamic and hierarchical models). 
   </li>
   <li>
@@ -250,16 +246,10 @@ support code suitable for more specialized IRT packages to build upon.
     allows for different scaling methods such as standard scaling, Benzecri scaling, 
     centroid scaling, and Goodman scaling.
   </li>
-  <li>
-  A GUI (Windows only) that allows the user to construct interactive Biplots is
-offered by the package <pkg>BiplotGUI</pkg>.
-  </li>
-  <li>
+   <li>
     Homogeneity analysis aka multiple CA and various Gifi extensions can be
-computed 
-    by means of the <pkg>homals</pkg> package. Hull plots, span plots, Voronoi
-plots, star plots,
-    projection plots and many others can be produced.
+computed by means of the <pkg>Gifi</pkg> package, which replaces <pkg>homals</pkg>. This package includes various other optimal scaling methods such as 
+Morals (monotone regression), Princals (nonlinear PCA), Overals (nonlinear canonical correlation analysis), etc.
   </li>
   <li>
     Simple and multiple correspondence analysis can be performed using
@@ -361,8 +351,7 @@ S-PLUS). Additional rotation methods for FA based on gradient projection algorit
     the posterior for ordinal and mixed factor models.
   </li>
   <li>
-    The <pkg>homals</pkg> package provides nonlinear PCA (aka categorical PCA) and, by defining sets,
-nonlinear canonical correlation analysis (models of the Gifi-family).
+    The <pkg>Gifi</pkg> package implements Princals, a PCA version for mixed-scale level input data.
   </li>
   <li>
     <pkg>nsprcomp</pkg> and <pkg>elasticnet</pkg> fit sparse PCA.
@@ -489,10 +478,7 @@ covariance structure models as in SEM.
     <pkg>STARTS</pkg> contains functions for estimating the STARTS model. 
   </li>  
   <li>
-    An interface between the EQS software for SEM and R is provided by the <pkg>REQS</pkg> package.
-  </li> 
-  <li>
-    The <pkg>MplusAutomation</pkg> package allows to automate latent variable model estimation and interpretation using Mplus.
+    Interfaces between R and other SEM software: <pkg>REQS</pkg>, <pkg>MplusAutomation</pkg>, and <pkg>lisrelToR</pkg>. 
   </li>
 </ul>
 
@@ -657,7 +643,7 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
  In addition, the <pkg>pscl</pkg> package allows for Bayesian IRT and roll call analysis. 
 </li>
 <li>
-  <pkg>cIRT</pkg> stands for choice IRT and jointly models the accuracy of cognitive responses and item choices within a Bayesian hierarchical framework. 
+  <pkg>LNIRT</pkg> is a package for log-normal response time IRT modeling for responses and response times, estimated with MCMC. 
 </li>
 <li>
   <pkg>edstan</pkg> provides convenience functions and preprogrammed Stan models related to IRT.
@@ -825,7 +811,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
     <pkg>BigSEM</pkg>
-    <pkg>BiplotGUI</pkg>
     <pkg>birtr</pkg>
     <pkg priority="core">blavaan</pkg>
     <pkg>bpca</pkg>
@@ -838,7 +823,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>CAvariants</pkg>
     <pkg>CDM</pkg>
     <pkg>cds</pkg>
-    <pkg>cIRT</pkg>
     <pkg>ClustVarLV</pkg>
     <pkg>CMC</pkg>
     <pkg>cncaGUI</pkg>
@@ -886,6 +870,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>fuzzyreg</pkg>
     <pkg>fwdmsa</pkg>
     <pkg>GDINA</pkg>
+    <pkg>Gifi</pkg>
+    <pkg>GLMMRR</pkg>
     <pkg>GPArotation</pkg>
     <pkg>GPCMlasso</pkg>
     <pkg>gSEM</pkg>
@@ -917,7 +903,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lba</pkg>
     <pkg>LCAvarsel</pkg>
     <pkg>lcda</pkg>
-    <pkg priority="core">lme4</pkg>
+    <pkg>lisrelToR</pkg>
+    <pkg>lme4</pkg>
     <pkg>LNIRT</pkg>
     <pkg>lordif</pkg>
     <pkg>lsl</pkg>
