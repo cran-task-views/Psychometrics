@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-04-16</version>
+<version>2019-04-20</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -168,10 +168,6 @@ estimating tree-structured item response models of the GLMM family using <pkg>lm
   <li>
      Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. In relation to that, <pkg>fwdmsa</pkg>
 performs the Forward Search for Mokken scale analysis. It detects outliers, it produces several types of diagnostic plots. 
-  </li>
-  <li>
-    This <pkg>KernSmoothIRT</pkg> package fits nonparametric item and option characteristic curves using kernel smoothing. It allows for optimal selection of the smoothing bandwidth using cross-validation and a variety of exploratory
-plotting tools.
   </li>
   <li>
      Nonparametric IRT for nonmonotonic IRFs of proximity data can be fitted using the <pkg>mudfold</pkg> package.
@@ -891,7 +887,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>IRTShiny</pkg>
     <pkg>kcirt</pkg>
     <pkg>kequate</pkg>
-    <pkg>KernSmoothIRT</pkg>
     <pkg>kst</pkg>
     <pkg>labdsv</pkg>
     <pkg>LAM</pkg>
