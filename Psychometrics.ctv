@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-04-20</version>
+<version>2019-05-10</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -395,6 +395,9 @@ FIML, and structural equations in observed-variable models by 2SLS. Categorical
     variables in SEMs can be accommodated via the <pkg>polycor</pkg> package.
   </li>
   <li>
+    <pkg>lslx</pkg> fits semi-confirmatory SEM via penalized likelihood with elastic net or minimax concave penalty.
+  </li>  
+  <li>
   The <pkg>lavaan.survey</pkg> package allows for complex survey structural equation modeling (SEM). It fits structural equation models (SEM) including factor analysis, multivariate regression models with latent variables and many other latent variable models while correcting estimates, standard errors, and chi-square-derived fit measures for a complex sampling design. It incorporates clustering, stratification, sampling weights, and finite population corrections into a SEM analysis.
   </li>
   <li>
@@ -607,7 +610,7 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   </li>    
 </ul>  
 
-<p><strong>Paired Comparisons:</strong></p>
+<p><strong>Paired Comparisons, Rankings, Ratings:</strong></p>
 <ul>
 <li>
    Bradley-Terry models for paired comparisons are implemented in the package <pkg>BradleyTerry2</pkg> and in <pkg>eba</pkg>. The latter allows for the computation of elimination-by-aspects models.
@@ -620,6 +623,12 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   </li>  
    <li>
     <pkg>prefmod</pkg> fits loglinear Bradley-Terry models (LLBT) and pattern models for paired comparisons, rankings, and ratings. 
+  </li>
+  <li>
+    <pkg>PLMIX</pkg> fits finite mixtures of Plackett-Luce models for partial top rankings/orderings within the Bayesian framework.
+  </li>
+  <li>
+    A variety of unfolding techniques for rankings and ratings are implemented in <pkg>smacof</pkg>. 
   </li>
 </ul> 
 
@@ -903,6 +912,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>LNIRT</pkg>
     <pkg>lordif</pkg>
     <pkg>lsl</pkg>
+    <pkg>lslx</pkg> 
     <pkg>ltbayes</pkg>
     <pkg priority="core">ltm</pkg>
     <pkg>MASS</pkg>
@@ -948,6 +958,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>PCMRS</pkg>
     <pkg>piecewiseSEM</pkg>
     <pkg>pks</pkg>
+    <pkg>PLMIX</pkg>
     <pkg>PLmixed</pkg>
     <pkg>plotSEMM</pkg>
     <pkg>plRasch</pkg>
