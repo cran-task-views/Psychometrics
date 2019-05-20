@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-05-10</version>
+<version>2019-05-20</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -460,9 +460,6 @@ covariance structure models as in SEM.
   </li>  
   <li>
     <pkg>BigSEM</pkg> constructs large systems of structural equations using a two-stage penalized least squares approach.
-  </li>  
-  <li>
-    Identifiability of linear SEM can be checked using <pkg>SEMID</pkg>.
   </li>  
   <li>
    <pkg>lsl</pkg> conducts SEM via penalized likelihood (latent structure learning). 
@@ -993,7 +990,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">sem</pkg>
     <pkg>semdiag</pkg>
     <pkg>semds</pkg>
-    <pkg>SEMID</pkg>
     <pkg>semPLS</pkg>
     <pkg>semPlot</pkg>
     <pkg>SEMModComp</pkg>
