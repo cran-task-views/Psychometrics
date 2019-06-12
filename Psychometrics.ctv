@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-05-20</version>
+<version>2019-06-12</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -622,6 +622,9 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
     <pkg>prefmod</pkg> fits loglinear Bradley-Terry models (LLBT) and pattern models for paired comparisons, rankings, and ratings. 
   </li>
   <li>
+    <pkg>pcFactorStan</pkg> provides convenience functions and pre-programmed Stan models related to the pairwise comparison factor model.
+  </li>  
+  <li>
     <pkg>PLMIX</pkg> fits finite mixtures of Plackett-Luce models for partial top rankings/orderings within the Bayesian framework.
   </li>
   <li>
@@ -951,6 +954,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>paran</pkg>
     <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
+    <pkg>pcFactorStan</pkg>
     <pkg>pcIRT</pkg>
     <pkg>PCMRS</pkg>
     <pkg>piecewiseSEM</pkg>
