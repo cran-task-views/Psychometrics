@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-06-12</version>
+<version>2019-06-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -315,8 +315,7 @@ Morals (monotone regression), Princals (nonlinear PCA), Overals (nonlinear canon
 <p><strong>Factor Analysis (FA), Principal Component Analysis (PCA):</strong></p>
 <ul>
   <li>
-    Exploratory FA is the package stats as function
-    <code>factanal()</code> and <code>fa()</code> and <code>fa.poly()</code> (ordinal data) in <pkg>psych</pkg>.
+    Exploratory FA is the package stats as function <code>factanal()</code> and <code>fa()</code> and <code>fa.poly()</code> (ordinal data) in <pkg>psych</pkg>. 
   </li>
   <li>
     <pkg>esaBcv</pkg> estimates the number of latent factors and factor matrix.
@@ -801,6 +800,9 @@ and proportions, is available in <pkg>betareg</pkg>.
   <li>
    <pkg>LAM</pkg> includes some procedures for latent variable modeling with a particular focus on multilevel data. 
   </li> 
+  <li>
+    <pkg>psychTools</pkg> contains tools to accompany the <pkg>psych</pkg> package  
+  </li>  
   
   
 </ul>
@@ -977,6 +979,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>psychomix</pkg>
     <pkg>psychotools</pkg>
     <pkg priority="core">psychotree</pkg>
+    <pkg>psychTools</pkg>
     <pkg>psyphy</pkg>
     <pkg>PTAk</pkg>
     <pkg>pwrRasch</pkg>
