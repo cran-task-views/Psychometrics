@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-09-01</version>
+<version>2019-09-22</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -226,6 +226,9 @@ support code suitable for more specialized IRT packages to build upon.
   <li>
     IRT utility functions described in the Baker/Kim book are included in <pkg>birtr</pkg>. 
   </li> 
+  <li>
+    Convenience functions to use and automate IRT modeling for judgement data are implemented in <pkg>jrt</pkg>. 
+  </li> 
 </ul>
 
 <p><strong>Correspondence Analysis (CA), Optimal Scaling:</strong></p>
@@ -402,6 +405,10 @@ FIML, and structural equations in observed-variable models by 2SLS. Categorical
     The <pkg>nlsem</pkg> package fits nonlinear structural equation mixture models using the EM algorithm. Three different approaches are
 implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equation Mixture Models), and NSEMM (Nonlinear
 Structural Equations Mixture Models).   
+  </li>
+  <li>
+   Approaches for SEM and Confirmatory Network Analysis are implemented in <pkg>psychonetrics</pkg>. This includes multi-group (dynamic) SEM in combination with confirmatory network models from cross-sectional, 
+   time-series and panel data. 
   </li>  
   <li>
     Continuous time structural equation models can be fitted using the <pkg>ctsem</pkg> package. 
@@ -894,6 +901,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
+    <pkg>jrt</pkg>
     <pkg>kcirt</pkg>
     <pkg>kequate</pkg>
     <pkg>kst</pkg>
@@ -975,6 +983,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg priority="core">psych</pkg>
     <pkg>psychometric</pkg>
     <pkg>psychomix</pkg>
+    <pkg>psychonetrics</pkg>
     <pkg>psychotools</pkg>
     <pkg priority="core">psychotree</pkg>
     <pkg>psychTools</pkg>
