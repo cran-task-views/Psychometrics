@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2019-12-13</version>
+<version>2020-02-07</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -75,9 +75,6 @@ and modeling item and person covariates.
   </li>
   <li>
     An implementation of the partial credit model with response styles is given in the <pkg>PCMRS</pkg>.  
-  </li>  
-  <li>
-  Thurstonian IRT models can be fitted with the <pkg>kcirt</pkg> package. 
   </li>  
   <li>
   <pkg>MultiLCIRT</pkg> estimates IRT models under (1) multidimensionality assumption, (2) discreteness of
@@ -408,11 +405,7 @@ FIML, and structural equations in observed-variable models by 2SLS. Categorical
     The <pkg>nlsem</pkg> package fits nonlinear structural equation mixture models using the EM algorithm. Three different approaches are
 implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equation Mixture Models), and NSEMM (Nonlinear
 Structural Equations Mixture Models).   
-  </li>
-  <li>
-   Approaches for SEM and Confirmatory Network Analysis are implemented in <pkg>psychonetrics</pkg>. This includes multi-group (dynamic) SEM in combination with confirmatory network models from cross-sectional, 
-   time-series and panel data. 
-  </li>  
+  </li> 
   <li>
     Continuous time structural equation models can be fitted using the <pkg>ctsem</pkg> package. 
   </li>
@@ -638,8 +631,68 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   <li>
     A variety of unfolding techniques for rankings and ratings are implemented in <pkg>smacof</pkg>. 
   </li>
+  <li>
+    Thurstonian IRT models for forced-choice items can be fitted with <pkg>thurstonianIRT</pkg> and <pkg>kcirt</pkg>.
+  </li>  
 </ul> 
 
+
+<p><strong>Network Psychometrics:</strong></p>
+<ul>
+  <li>
+    Estimation of a sparse inverse covariance matrix using a lasso penalty (graphical lasso) can be achieved using <pkg>glasso</pkg>.  
+  </li>  
+  <li>
+    <pkg>networktools</pkg> includes assorted tools for network analysis (bridge centrality, impact, and goldbricker). 
+  </li>  
+  <li>
+    Bootstrap methods to assess accuracy and stability of estimated network structures and centrality indices are implemented in <pkg>bootnet</pkg>.  
+  </li>
+  <li>
+    Permutation tests for network comparisons are implemented in <pkg>NetworkComparisonTest</pkg>.
+  </li> 
+  <li>
+    Model-based recursive partitioning for networks: <pkg>networktree</pkg>.
+  </li>  
+  <li>
+    Network structures for multilevel and graphical vector autoregression models can be obtain using <pkg>mlVAR</pkg> and <pkg>graphicalVAR</pkg>.
+  </li> 
+  <li>
+    <pkg>SparseTSCGM</pkg> computes sparse vector autoregressive coefficients and precision matrices for time series chain graphical models. 
+   </li>  
+  <li>
+    <pkg>mgm</pkg> estimates time-varying k-order mixed graphical models.
+  </li>  
+  <li>
+    <pkg>EstimateGroupNetwork</pkg> can be used to simultaneously estimate networks from different groups or classes via joint graphical lasso. 
+  </li>  
+  <li>
+    Various implementations for Ising models: <pkg>IsingSampler</pkg>, <pkg>elasticIsing</pkg>, and <pkg>IsingFit</pkg>. 
+  </li>  
+  <li>
+    <pkg>lvnet</pkg> simultaneously estimates factor and network models. 
+  </li>  
+<li>
+   Approaches for SEM and Confirmatory Network Analysis are implemented in <pkg>psychonetrics</pkg>. This includes multi-group (dynamic) SEM in combination with confirmatory network models from cross-sectional, 
+   time-series and panel data. 
+</li> 
+<li>
+  Network models for longitudinal data estimated within an SEM framework: <pkg>gimme</pkg>.   
+</li>  
+<li>
+ The <pkg>qgraph</pkg> package can be used to visualize data as networks.
+</li>
+<li>
+  <pkg>NetworkToolbox</pkg> implements network analysis and graph theory measures used in neuroscience, cognitive science, and psychology. 
+  Methods include various filtering methods and approaches such as threshold, dependency, information filtering networks, and efficiency-cost optimization. 
+</li>
+<li>
+  Methods and Measures for semantic network analysis including partial node bootstrapping and significance tests: <pkg>SemNeT</pkg>. 
+</li>  
+<li>
+  An exploratory graph analysis framework for dimensionality assessment is implemented in <pkg>EGAnet</pkg>.
+</li>  
+</ul>  
 
 
 
@@ -669,6 +722,9 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
 </li>
 <li>
  <pkg>BayesLCA</pkg> implements Bayesian LCA. 
+</li>  
+<li>
+  Bayesian Gaussian graphical models are implemented in <pkg>BGGM</pkg>.
 </li>  
 </ul>
 
@@ -746,14 +802,7 @@ power are contained in the <pkg>QuantPsyc</pkg> package.
   sets with routines that combine algebraic structures like the partially ordered semigroup 
   with the existing relational bundles found in multiple networks. An algebraic approach for two-mode networks is made 
   through Galois derivations between families of the pair of subsets.
-  </li>
-  <li>
-  The <pkg>qgraph</pkg> package can be used to visualize data as networks.
-  </li>
-  <li>
-  <pkg>NetworkToolbox</pkg> implements network analysis and graph theory measures used in neuroscience, cognitive science, and psychology. 
-  Methods include various filtering methods and approaches such as threshold, dependency, information filtering networks, and efficiency-cost optimization. 
-  </li>  
+  </li> 
   <li>
   Social Relations Analyses for round robin designs are implemented in the
 <pkg>TripleR</pkg> package. It implements all functionality of the SOREMO
@@ -826,9 +875,11 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
+    <pkg>BGGM</pkg>
     <pkg>BigSEM</pkg>
     <pkg>birtr</pkg>
     <pkg priority="core">blavaan</pkg>
+    <pkg>bootnet</pkg>
     <pkg>bpca</pkg>
     <pkg>BradleyTerry2</pkg>
     <pkg>BTLLasso</pkg>
@@ -869,6 +920,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>edstan</pkg>
     <pkg>eegkit</pkg> 
     <pkg>EFAutilities</pkg>
+    <pkg>EGAnet</pkg>
+    <pkg>elasticIsing</pkg>
     <pkg>elasticnet</pkg>
     <pkg>emIRT</pkg>
     <pkg>equate</pkg>
@@ -887,9 +940,12 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>fuzzyreg</pkg>
     <pkg>GDINA</pkg>
     <pkg>Gifi</pkg>
+    <pkg>gimme</pkg>
+    <pkg>glasso</pkg>
     <pkg>GLMMRR</pkg>
     <pkg>GPArotation</pkg>
     <pkg>GPCMlasso</pkg>
+    <pkg>graphicalVAR</pkg>
     <pkg>gSEM</pkg>
     <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
@@ -905,6 +961,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
+    <pkg>IsingFit</pkg>
+    <pkg>IsingSampler</pkg>
     <pkg>jrt</pkg>
     <pkg>kcirt</pkg>
     <pkg>kequate</pkg>
@@ -927,6 +985,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lslx</pkg> 
     <pkg>ltbayes</pkg>
     <pkg priority="core">ltm</pkg>
+    <pkg>lvnet</pkg>
     <pkg>MASS</pkg>
     <pkg>MBESS</pkg>
     <pkg>MCAvariants</pkg> 
@@ -935,6 +994,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>medflex</pkg>
     <pkg>mediation</pkg>
     <pkg>metaSEM</pkg>
+    <pkg>mgm</pkg>
     <pkg>MIIVsem</pkg>
     <pkg priority="core">mirt</pkg>
     <pkg>mirtCAT</pkg>
@@ -943,6 +1003,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>mixRasch</pkg>
     <pkg>MLCIRTwithin</pkg>
     <pkg>MLDS</pkg>
+    <pkg>mlVAR</pkg> 
     <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
     <pkg priority="core">mokken</pkg>
@@ -953,7 +1014,10 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>multiplex</pkg>
     <pkg>multiway</pkg>
     <pkg>munfold</pkg>
+    <pkg>NetworkComparisonTest</pkg>
     <pkg>NetworkToolbox</pkg>
+    <pkg>networktools</pkg>
+    <pkg>networktree</pkg>
     <pkg>nFactors</pkg>
     <pkg>nlme</pkg>
     <pkg>nlsem</pkg>
@@ -1010,6 +1074,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>semPLS</pkg>
     <pkg>semPlot</pkg>
     <pkg>SEMModComp</pkg>
+    <pkg>SemNeT</pkg>
     <pkg>semTools</pkg>
     <pkg>semtree</pkg>
     <pkg>SensoMineR</pkg>
@@ -1031,6 +1096,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>TestDataImputation</pkg>
     <pkg>TestScorer</pkg>
     <pkg>ThreeWay</pkg>
+    <pkg>thurstonianIRT</pkg>
     <pkg>TreeBUGS</pkg> 
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
