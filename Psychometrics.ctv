@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-02-07</version>
+<version>2020-03-31</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -47,9 +47,6 @@ and modeling item and person covariates.
   <li>
     <pkg>TAM</pkg> fits unidimensional and multidimensional item response models and also includes multifaceted models, 
     latent regression models and options for drawing plausible values.
-  </li>
-  <li>
-    The <pkg>mirtjml</pkg> package uses joint maximum likelihood estimation methods for high-dimensional item factor analysis facilitated by multicore processing.
   </li>
   <li>
     <pkg>PLmixed</pkg> fits (generalized) linear mixed models (GLMM) with factor structures.
@@ -998,7 +995,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>MIIVsem</pkg>
     <pkg priority="core">mirt</pkg>
     <pkg>mirtCAT</pkg>
-    <pkg>mirtjml</pkg>
     <pkg>missMDA</pkg>
     <pkg>mixRasch</pkg>
     <pkg>MLCIRTwithin</pkg>
