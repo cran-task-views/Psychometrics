@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-03-31</version>
+<version>2020-04-23</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -158,9 +158,6 @@ IRT methods.
      Multilevel Rasch models can be estimated using <pkg>lme4</pkg>, <pkg>nlme</pkg>, and <pkg>MCMCglmm</pkg> with crossed or
      partially crossed random effects. <pkg>GLMMRR</pkg> adds some flexibility in terms of link functions, whereas <pkg>ordinal</pkg> can be used for polytomous models. An infrastructure for
 estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in <pkg>irtrees</pkg>. 
-  </li>
-  <li>
-     Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. 
   </li>
   <li>
      Nonparametric IRT for nonmonotonic IRFs of proximity data can be fitted using the <pkg>mudfold</pkg> package.
@@ -1002,7 +999,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>mlVAR</pkg> 
     <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
-    <pkg priority="core">mokken</pkg>
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg>mudfold</pkg>
