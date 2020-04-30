@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-04-23</version>
+<version>2020-04-30</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -151,6 +151,10 @@ IRT methods.
      standard errors for the pseudo-likelihood estimates are also computed.
   </li>
   <li>
+    The <pkg>irtplay</pkg> package fits unidimensional IRT models to mixture of dichotomous and polytomous models 
+    using MML with EM-algorithm.
+  </li>  
+  <li>
     Explicit calculation (not estimation) of Rasch item parameters (dichotomous and polytomous) by means of a pairwise comparison approach 
     can be done using the <pkg>pairwise</pkg> package. 
   </li>  
@@ -163,7 +167,7 @@ estimating tree-structured item response models of the GLMM family using <pkg>lm
      Nonparametric IRT for nonmonotonic IRFs of proximity data can be fitted using the <pkg>mudfold</pkg> package.
    </li>  
   <li>
-    The <pkg>RaschSampler</pkg> allows the construction of exact Rasch model tests by generating random zero-one matrices with given marginals. 
+    <pkg>RaschSampler</pkg> allows the construction of exact Rasch model tests by generating random zero-one matrices with given marginals. 
   </li> 
   <li>
   Statistical power simulation for testing the Rasch model based on a three-way ANOVA design with mixed classification can be carried out using <pkg>pwrRasch</pkg>. 
@@ -171,6 +175,11 @@ estimating tree-structured item response models of the GLMM family using <pkg>lm
 <li>
     The <pkg>irtProb</pkg> package is designed to estimate multidimensional subject parameters (MLE and MAP) such as personal pseudo-guessing, personal fluctuation, personal inattention. These supplemental parameters
 can be used to assess person fit, to identify misfit type, to generate misfitting response patterns, or to make correction while estimating the proficiency level considering potential misfit at the same time. 
+  </li>
+  <li>
+    Tools to assess model fit and identify misfitting items for Rasch models and PCMS are implemented in <pkg>iarm</pkg>. 
+    It includes item fit statistics, ICCs, item-restscore association, conditional likelihood ratio tests, assessment of measurement error, 
+    estimates of the reliability and test targeting. 
   </li>
   <li>
     <pkg>cacIRT</pkg> computes classification accuracy and consistency under Item Response Theory. 
@@ -943,6 +952,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>gSEM</pkg>
     <pkg>gtheory</pkg>
     <pkg priority="core">homals</pkg>
+    <pkg>iarm</pkg>
     <pkg>ica</pkg>
     <pkg>ICC</pkg>
     <pkg>iccbeta</pkg>
@@ -952,6 +962,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>irr</pkg>
     <pkg>irtDemo</pkg>
     <pkg>irtoys</pkg>
+    <pkg>irtplay</pkg>
     <pkg>irtProb</pkg>
     <pkg>irtrees</pkg>
     <pkg>IRTShiny</pkg>
