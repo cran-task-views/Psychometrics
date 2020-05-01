@@ -423,8 +423,7 @@ dichotomous variables via a probit link formulation.
   <li>  
     The <pkg>pls</pkg> package can be used for partial least-squares estimation. The package <pkg>semPLS</pkg> fits structural equation models using partial
 least squares (PLS). The PLS approach is referred to as soft-modeling technique requiring no distributional assumptions on the observed data. PLS methods with
-emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg> which also includes <pkg>pathmox</pkg> as a companion package
-with approaches of segmentation trees in PLS path modeling.
+emphasis on structural equation models with latent variables are given in <pkg>plspm</pkg>.
   </li> 
   <li>
     <pkg>simsem</pkg> is a package designed to aid in Monte Carlo simulations using SEM (for methodological investigations, power analyses and much more). 
@@ -1030,7 +1029,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>ordinal</pkg>
     <pkg>pairwise</pkg>
     <pkg>paran</pkg>
-    <pkg>pathmox</pkg>
     <pkg>pcaPP</pkg>
     <pkg>pcFactorStan</pkg>
     <pkg>pcIRT</pkg>
