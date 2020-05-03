@@ -164,6 +164,9 @@ IRT methods.
 estimating tree-structured item response models of the GLMM family using <pkg>lme4</pkg> is provided in <pkg>irtrees</pkg>. 
   </li>
   <li>
+     Nonparametric IRT analysis can be computed by means if the <pkg>mokken</pkg> package. It includes an automated item selection algorithm, and various checks of model assumptions. 
+  </li>
+  <li>
      Nonparametric IRT for nonmonotonic IRFs of proximity data can be fitted using the <pkg>mudfold</pkg> package.
    </li>  
   <li>
@@ -1005,6 +1008,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>mlVAR</pkg> 
     <pkg>MplusAutomation</pkg>
     <pkg>modelfree</pkg>
+    <pkg priority="core">mokken</pkg>
     <pkg>mpt</pkg>
     <pkg>MPTinR</pkg>
     <pkg>mudfold</pkg>
