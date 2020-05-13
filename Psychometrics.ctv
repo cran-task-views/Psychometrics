@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-05-02</version>
+<version>2020-05-13</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -412,9 +412,6 @@ FIML, and structural equations in observed-variable models by 2SLS. Categorical
 implemented: LMS (Latent Moderated Structural Equations), SEMM (Structural Equation Mixture Models), and NSEMM (Nonlinear
 Structural Equations Mixture Models).   
   </li> 
-  <li>
-    Continuous time structural equation models can be fitted using the <pkg>ctsem</pkg> package. 
-  </li>
   <li>
   A collection of functions for conducting meta-analysis using a structural equation modeling (SEM) approach via OpenMx is provided by
   the <pkg>metaSEM</pkg> package. 
@@ -902,7 +899,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>conquestr</pkg>
     <pkg>CopyDetect</pkg>
     <pkg>covLCA</pkg>
-    <pkg>ctsem</pkg>
     <pkg priority="core">CTT</pkg>
     <pkg>CTTShiny</pkg>
     <pkg>DAKS</pkg>
