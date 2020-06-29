@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-05-17</version>
+<version>2020-06-29</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -854,8 +854,11 @@ and proportions, is available in <pkg>betareg</pkg>.
    <pkg>LAM</pkg> includes some procedures for latent variable modeling with a particular focus on multilevel data. 
   </li> 
   <li>
-    <pkg>psychTools</pkg> contains tools to accompany the <pkg>psych</pkg> package  
-  </li>  
+    <pkg>psychTools</pkg> contains tools to accompany the <pkg>psych</pkg> package.  
+  </li> 
+  <li>
+   <pkg>TestDesign</pkg> implements optimal test design approaches for fixed and adaptive test construction.
+  </li> 
   
   
 </ul>
@@ -1085,6 +1088,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>systemfit</pkg>
     <pkg priority="core">TAM</pkg>
     <pkg>TestDataImputation</pkg>
+    <pkg>TestDesign</pkg>
     <pkg>TestScorer</pkg>
     <pkg>ThreeWay</pkg>
     <pkg>thurstonianIRT</pkg>
