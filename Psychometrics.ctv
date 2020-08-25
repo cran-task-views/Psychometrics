@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-06-29</version>
+<version>2020-08-25</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -54,12 +54,6 @@ and modeling item and person covariates.
   <li>
   <pkg>MLCIRTwithin</pkg> provides a flexible framework for the estimation of discrete two-tier IRT models for the analysis of dichotomous and ordinal polytomous item responses. 
   </li>
-  <li>
-  An implementation of Gibbs sampling algorithm for Bayesian estimation of the Reduced Reparameterized Unified Model is provided by <pkg>rrum</pkg>.
-  </li>
-  <li>
-  For Bayesian estimation of the DINA (deterministic input, noisy and gate) see <pkg>dina</pkg>.
-  </li> 
   <li>
     <pkg>IRTShiny</pkg> provides an interactive shiny application for IRT analysis.  
   </li>  
@@ -719,6 +713,15 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   Simulation-based Bayesian inference for IRT latent traits can be performed using <pkg>ltbayes</pkg>.
 </li>
 <li>
+   Gibbs sampling for Bayesian estimation of (Exploratory) Reduced Reparameterized Unified Models are implemented in <pkg>rrum</pkg> and <pkg>errum</pkg>.
+</li>
+<li>
+  For Bayesian estimation of the (exploratory) DINA (deterministic input, noisy and gate) see <pkg>dina</pkg> and <pkg>edina</pkg>.
+</li> 
+<li>
+  Data package containing coded item and q matrices used in various psychometric publications: <pkg>edmdata</pkg>.
+</li>   
+<li>
  <pkg>BayesLCA</pkg> implements Bayesian LCA. 
 </li>  
 <li>
@@ -913,6 +916,8 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>e1071</pkg>
     <pkg>eba</pkg>
     <pkg>ecodist</pkg>
+    <pkg>edina</pkg>
+    <pkg>edmdata</pkg>
     <pkg>edstan</pkg>
     <pkg>eegkit</pkg> 
     <pkg>EFAutilities</pkg>
@@ -924,6 +929,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>equateIRT</pkg>
     <pkg>equateMultiple</pkg>
     <pkg priority="core">eRm</pkg>
+    <pkg>errum</pkg>
     <pkg>esaBcv</pkg>
     <pkg>EstCRM</pkg>
     <pkg>ExPosition</pkg>
