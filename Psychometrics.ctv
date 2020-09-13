@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-08-25</version>
+<version>2020-09-13</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -411,8 +411,7 @@ Structural Equations Mixture Models).
   the <pkg>metaSEM</pkg> package. 
   </li>
   <li>
-    A general implementation of a computational framework for latent variable models (including structural equation models) is given in <pkg>lava</pkg>. The <pkg>lava.tobit</pkg> package generalizes the framework to censored and
-dichotomous variables via a probit link formulation.
+    A general implementation of a computational framework for latent variable models (including structural equation models) is given in <pkg>lava</pkg>.
   </li>
   <li>  
     The <pkg>pls</pkg> package can be used for partial least-squares estimation. The package <pkg>semPLS</pkg> fits structural equation models using partial
@@ -977,7 +976,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lava</pkg>
     <pkg priority="core">lavaan</pkg>
     <pkg>lavaan.survey</pkg>
-    <pkg>lava.tobit</pkg>
     <pkg>lba</pkg>
     <pkg>LCAvarsel</pkg>
     <pkg>lcda</pkg>
