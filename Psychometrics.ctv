@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-09-13</version>
+<version>2020-09-18</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -511,6 +511,9 @@ with <code>dudi.pco()</code> in <pkg>ade4</pkg>.
    </li>  
    <li>
     <pkg>semds</pkg> fits asymmetric and three-way MDS within an SEM framework. 
+   </li>
+   <li>
+   <pkg>cops</pkg> performs cluster optimized proximity scaling which refers to MDS methods that aim at pronouncing the clustered appearance of the configuration.
    </li>  
 </ul>
 
@@ -545,6 +548,10 @@ coefficient of reliability, for checking the unidimensionality of a measurement
 scale. 
   </li>
   <li>
+   The <pkg>betafunctions</pkg> package includes an implementation of the so-called "Livingston and Lewis" approach to 
+   classification accuracy and consistency.
+ </li>
+  <li>
     Cronbach alpha, kappa coefficients, and intra-class correlation coefficients
 (ICC) can be found in the <pkg>psy</pkg> package. Functions for ICC computation can be also found in the packages <pkg>psych</pkg>, <pkg>psychometric</pkg>and <pkg>ICC</pkg>.
   </li>
@@ -559,7 +566,6 @@ scale.
   <li>
    The quantifying construct validity procedure is implemented in <pkg>qcv</pkg>.
   </li>  
-  
 </ul>
 
 <p><strong>Knowledge Structure Analysis:</strong></p>
@@ -578,6 +584,8 @@ Functions for fitting probabilistic knowledge structures are included in the
 <pkg>pks</pkg> package.
   </li>
 </ul>
+
+
 <p><strong>Latent Class Analysis (LCA):</strong></p>
 <ul>
  <li>
@@ -872,6 +880,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>AnalyzeFMRI</pkg>
     <pkg>aspect</pkg>
     <pkg>asymmetry</pkg> 
+    <pkg>betafunctions</pkg>
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
@@ -897,6 +906,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>cocorresp</pkg>
     <pkg>cocron</pkg>
     <pkg>conquestr</pkg>
+    <pkg>cops</pkg>
     <pkg>CopyDetect</pkg>
     <pkg>covLCA</pkg>
     <pkg priority="core">CTT</pkg>
