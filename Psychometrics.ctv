@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-09-18</version>
+<version>2020-09-21</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -941,6 +941,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>errum</pkg>
     <pkg>esaBcv</pkg>
     <pkg>EstCRM</pkg>
+    <pkg>EstimateGroupNetwork</pkg>
     <pkg>ExPosition</pkg>
     <pkg>FactoMineR</pkg>
     <pkg>faoutlier</pkg>
@@ -1096,6 +1097,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>soc.ca</pkg>
     <pkg>SparseFactorAnalysis</pkg>
     <pkg>sparseSEM</pkg>
+    <pkg>SparseTSCGM</pkg>
     <pkg>STARTS</pkg>
     <pkg>subscore</pkg> 
     <pkg>superMDS</pkg>
