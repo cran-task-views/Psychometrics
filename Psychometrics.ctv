@@ -657,9 +657,6 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
     Network structures for multilevel and graphical vector autoregression models can be obtain using <pkg>mlVAR</pkg> and <pkg>graphicalVAR</pkg>.
   </li> 
   <li>
-    <pkg>SparseTSCGM</pkg> computes sparse vector autoregressive coefficients and precision matrices for time series chain graphical models. 
-   </li>  
-  <li>
     <pkg>mgm</pkg> estimates time-varying k-order mixed graphical models.
   </li>  
   <li>
@@ -1097,7 +1094,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>soc.ca</pkg>
     <pkg>SparseFactorAnalysis</pkg>
     <pkg>sparseSEM</pkg>
-    <pkg>SparseTSCGM</pkg>
     <pkg>STARTS</pkg>
     <pkg>subscore</pkg> 
     <pkg>superMDS</pkg>
