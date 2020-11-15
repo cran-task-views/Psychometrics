@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-09-21</version>
+<version>2020-11-15</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -700,6 +700,10 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
 <li>
 <pkg>BayesFM</pkg> computes Bayesian exploratory factor analysis. The number of factors is determined during MCMC sampling.
 </li>
+<li>
+An analytical framework for latent variables with different Bayesian learning methods, including the partially confirmatory factor analysis and partially 
+confirmatory IRT is implemented in <pkg>LAWBL</pkg>.
+</li>
 <li> 
  Bayesian approaches for estimating item and person parameters by means of Gibbs-Sampling are included in <pkg>MCMCpack</pkg>. 
  In addition, the <pkg>pscl</pkg> package allows for Bayesian IRT and roll call analysis. 
@@ -984,6 +988,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>lava</pkg>
     <pkg priority="core">lavaan</pkg>
     <pkg>lavaan.survey</pkg>
+    <pkg>LAWBL</pkg>
     <pkg>lba</pkg>
     <pkg>LCAvarsel</pkg>
     <pkg>lcda</pkg>
