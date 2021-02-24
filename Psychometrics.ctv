@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2020-11-15</version>
+<version>2021-02-24</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -868,6 +868,9 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>psychTools</pkg> contains tools to accompany the <pkg>psych</pkg> package.  
   </li> 
   <li>
+  <pkg>ata</pkg> provides a collection of psychometric methods to process item metadataand use target assessment and measurement blueprint constraints to assemble a test form. 
+  </li>
+  <li>
    <pkg>TestDesign</pkg> implements optimal test design approaches for fixed and adaptive test construction.
   </li> 
   
@@ -881,6 +884,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>AnalyzeFMRI</pkg>
     <pkg>aspect</pkg>
     <pkg>asymmetry</pkg> 
+    <pkg>ata</pkg>
     <pkg>betafunctions</pkg>
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
