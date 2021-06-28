@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-02-24</version>
+<version>2021-06-28</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -586,7 +586,7 @@ Functions for fitting probabilistic knowledge structures are included in the
 </ul>
 
 
-<p><strong>Latent Class Analysis (LCA):</strong></p>
+<p><strong>Latent Class and Profile Analysis:</strong></p>
 <ul>
  <li>
      LCA with random effects can be performed with the package <pkg>randomLCA</pkg>. In addition, the package <pkg>e1071</pkg> provides the function
@@ -598,9 +598,12 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   </li>  
   <li>
     <pkg>covLCA</pkg> fits latent class models with covariate effects on underlying and measured variables.
-  </li>  
+  </li> 
   <li>
    <pkg>lcda</pkg> fits latent class discriminant analysis.
+  </li>  
+  <li>
+  <pkg>tidyLPA</pkg> is a user-friendly implementation of latent profile analysis. 
   </li>  
   <li>
   <pkg>ClustVarLV</pkg> clusters variables around latent variables. 
@@ -1113,6 +1116,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>TestScorer</pkg>
     <pkg>ThreeWay</pkg>
     <pkg>thurstonianIRT</pkg>
+    <pkg>tidyLPA</pkg>
     <pkg>TreeBUGS</pkg> 
     <pkg>TripleR</pkg>
     <pkg priority="core">vegan</pkg>
