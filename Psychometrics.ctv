@@ -451,9 +451,6 @@ covariance structure models as in SEM.
     <pkg>regsem</pkg> performs Regularization on SEM and <pkg>sparseSEM</pkg> implements sparse-aware ML for SEM.
   </li>  
   <li>
-    Recursive partitioning (SEM trees, SEM forests) is implemented in <pkg>semtree</pkg>. 
-  </li>  
-  <li>
    <pkg>lsl</pkg> conducts SEM via penalized likelihood (latent structure learning). 
   </li> 
   <li>
@@ -1094,7 +1091,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>SEMModComp</pkg>
     <pkg>SemNeT</pkg>
     <pkg>semTools</pkg>
-    <pkg>semtree</pkg>
     <pkg>SensoMineR</pkg>
     <pkg>ShinyItemAnalysis</pkg>
     <pkg>Sim.DiffProc</pkg>
