@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-06-28</version>
+<version>2021-07-07</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -732,9 +732,6 @@ confirmatory IRT is implemented in <pkg>LAWBL</pkg>.
 <li>
  <pkg>BayesLCA</pkg> implements Bayesian LCA. 
 </li>  
-<li>
-  Bayesian Gaussian graphical models are implemented in <pkg>BGGM</pkg>.
-</li>  
 </ul>
 
 <p><strong>Other Related Packages:</strong></p>
@@ -889,7 +886,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>betareg</pkg>
     <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
-    <pkg>BGGM</pkg>
     <pkg>birtr</pkg>
     <pkg priority="core">blavaan</pkg>
     <pkg>bootnet</pkg>
