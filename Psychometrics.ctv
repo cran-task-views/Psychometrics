@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-07-07</version>
+<version>2021-08-03</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -449,6 +449,9 @@ covariance structure models as in SEM.
   </li>  
   <li>
     <pkg>regsem</pkg> performs Regularization on SEM and <pkg>sparseSEM</pkg> implements sparse-aware ML for SEM.
+  </li>  
+  <li>
+    Recursive partitioning (SEM trees, SEM forests) is implemented in <pkg>semtree</pkg>. 
   </li>  
   <li>
    <pkg>lsl</pkg> conducts SEM via penalized likelihood (latent structure learning). 
@@ -1087,6 +1090,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>SEMModComp</pkg>
     <pkg>SemNeT</pkg>
     <pkg>semTools</pkg>
+    <pkg>semtree</pkg>
     <pkg>SensoMineR</pkg>
     <pkg>ShinyItemAnalysis</pkg>
     <pkg>Sim.DiffProc</pkg>
