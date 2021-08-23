@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-08-03</version>
+<version>2021-08-23</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -106,6 +106,9 @@ be detected, with methods relying upon item response models or not. Some methods
   <li>
      The package <pkg>lordif</pkg> provides a logistic regression framework for detecting various types of DIF. 
   </li>
+  <li>
+     <pkg>DIFplus</pkg> allows users to implement extensions of the Mantel-Haenszel DIF detection procedures in the presence of multilevel data.  
+  </li>    
   <li>
   <pkg>DIFlasso</pkg> implements a penalty approach to differential item functioning in Rasch models. It can handle settings with multiple (metric) covariates.
   </li>
@@ -921,6 +924,7 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>DFIT</pkg>
     <pkg>DIFboost</pkg>
     <pkg>DIFlasso</pkg>
+    <pkg>DIFplus</pkg>
     <pkg>DIFtree</pkg>
     <pkg>difNLR</pkg>
     <pkg>difR</pkg>
