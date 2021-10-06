@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-08-23</version>
+<version>2021-10-06</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -862,9 +862,6 @@ and proportions, is available in <pkg>betareg</pkg>.
    <pkg>lba</pkg> performs latent budget analysis for compositional data (two-way contingency table with an exploratory variable and a response variable) 
   </li>  
   <li>
-   <pkg>fuzzyreg</pkg> implements multiple methods to fit fuzzy linear regression. Models using fuzzy set theory are suitable for analysis of trait data in situations when the model is indefinite, relationships between model variables are vague, sample size is low or measurements are hierarchically structured. 
-  </li> 
-  <li>
    <pkg>LAM</pkg> includes some procedures for latent variable modeling with a particular focus on multilevel data. 
   </li> 
   <li>
@@ -957,7 +954,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>fechner</pkg>
     <pkg>flexmix</pkg>
     <pkg>fourPNO</pkg>
-    <pkg>fuzzyreg</pkg>
     <pkg>GDINA</pkg>
     <pkg>Gifi</pkg>
     <pkg>gimme</pkg>
