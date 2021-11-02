@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-10-06</version>
+<version>2021-11-02</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -691,9 +691,6 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
 <li>
   Methods and Measures for semantic network analysis including partial node bootstrapping and significance tests: <pkg>SemNeT</pkg>. 
 </li>  
-<li>
-  An exploratory graph analysis framework for dimensionality assessment is implemented in <pkg>EGAnet</pkg>.
-</li>  
 </ul>  
 
 
@@ -935,7 +932,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>edstan</pkg>
     <pkg>eegkit</pkg> 
     <pkg>EFAutilities</pkg>
-    <pkg>EGAnet</pkg>
     <pkg>elasticIsing</pkg>
     <pkg>elasticnet</pkg>
     <pkg>emIRT</pkg>
