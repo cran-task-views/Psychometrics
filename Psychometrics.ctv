@@ -3,7 +3,7 @@
 <name>Psychometrics</name>
 <topic>Psychometric Models and Methods</topic>
 <maintainer email="mair@fas.harvard.edu">Patrick Mair</maintainer>
-<version>2021-11-02</version>
+<version>2021-11-08</version>
 
 <info> Psychometrics is concerned with theory and techniques of psychological measurement.
 Psychometricians have also worked collaboratively with those in the field of statistics and
@@ -701,9 +701,6 @@ LCA can also be fitted using <pkg>flexmix</pkg> which optionally allows for the 
   <pkg>blavaan</pkg> fits a variety of Bayesian latent variable models, including confirmatory factor analysis, structural equation models, and latent growth curve models. 
 </li>
 <li>
-<pkg>BayesFM</pkg> computes Bayesian exploratory factor analysis. The number of factors is determined during MCMC sampling.
-</li>
-<li>
 An analytical framework for latent variables with different Bayesian learning methods, including the partially confirmatory factor analysis and partially 
 confirmatory IRT is implemented in <pkg>LAWBL</pkg>.
 </li>
@@ -884,7 +881,6 @@ and proportions, is available in <pkg>betareg</pkg>.
     <pkg>ata</pkg>
     <pkg>betafunctions</pkg>
     <pkg>betareg</pkg>
-    <pkg>BayesFM</pkg>
     <pkg>BayesLCA</pkg>
     <pkg>birtr</pkg>
     <pkg priority="core">blavaan</pkg>
