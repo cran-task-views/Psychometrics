@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair
 email: mair@fas.harvard.edu
-version: 2021-12-29
+version: 2022-01-31
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -194,9 +194,6 @@ repository linked above.
     as maximum likelihood estimation through canonical correspondence
     analysis is implemented in various forms in the package
     `r pkg("VGAM")`.
--   `r pkg("emIRT")` provides various EM-algorithms IRT
-    models (binary and ordinal responses, along with dynamic and
-    hierarchical models).
 -   `r pkg("immer")` implements some item response models
     for multiple ratings, including the hierarchical rater model and a
     wrapper function to the commercial FACETS program.
