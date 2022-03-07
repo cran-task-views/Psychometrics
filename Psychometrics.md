@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair
 email: mair@fas.harvard.edu
-version: 2022-01-31
+version: 2022-03-07
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -743,9 +743,6 @@ repository linked above.
     implemented in `r pkg("simcdm")`.
 -   `r pkg("TestDataImputation")` for missing item responses
     imputation for test and assessment data.
--   `r pkg("lba")` performs latent budget analysis for
-    compositional data (two-way contingency table with an exploratory
-    variable and a response variable)
 -   `r pkg("LAM")` includes some procedures for latent
     variable modeling with a particular focus on multilevel data.
 -   `r pkg("psychTools")` contains tools to accompany the
