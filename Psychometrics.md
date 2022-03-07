@@ -522,7 +522,6 @@ repository linked above.
     LCA.
 -   `r pkg("covLCA")` fits latent class models with
     covariate effects on underlying and measured variables.
--   `r pkg("lcda")` fits latent class discriminant analysis.
 -   `r pkg("tidyLPA")` is a user-friendly implementation of
     latent profile analysis.
 -   `r pkg("ClustVarLV")` clusters variables around latent
