@@ -391,8 +391,6 @@ repository linked above.
     analysis for outputs of various SEM packages.
 -   `r pkg("plotSEMM")` for graphing nonlinear relations
     among latent variables from structural equation mixture models.
--   `r pkg("SEMModComp")` conducts tests of difference in
-    fit for mean and covariance structure models as in SEM.
 -   `r pkg("semdiag")` and
     `r pkg("influence.SEM")` implements outlier, leverage
     diagnostics, and case influence for SEM.
