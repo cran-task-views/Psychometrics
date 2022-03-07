@@ -466,10 +466,6 @@ repository linked above.
     test theory: score multiple-choice responses, perform reliability
     analyses, conduct item analyses, and transform scores onto different
     scales.
--   Functions for correlation theory, meta-analysis (validity
-    generalization), reliability, item analysis, inter-rater
-    reliability, and classical utility are contained in the
-    `r pkg("psychometric")` package.
 -   For multilevel model ICC for slope heterogeneity see
     `r pkg("iccbeta")`.
 -   An interactive shiny application for CTT is provided by
@@ -487,8 +483,7 @@ repository linked above.
 -   Cronbach alpha, kappa coefficients, and intra-class correlation
     coefficients (ICC) can be found in the `r pkg("psy")`
     package. Functions for ICC computation can be also found in the
-    packages `r pkg("psych")`,
-    `r pkg("psychometric")` and `r pkg("ICC")`.
+    packages `r pkg("psych")`, and `r pkg("ICC")`.
 -   A number of routines for scale construction and reliability analysis
     useful for personality and experimental psychology are contained in
     the package `r pkg("psych")`.
