@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair
 email: mair@fas.harvard.edu
-version: 2022-03-07
+version: 2022-03-08
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -678,9 +678,6 @@ repository linked above.
 -   The `r pkg("mediation")` allows both parametric and
     nonparametric causal mediation analysis. It also allows researchers
     to conduct sensitivity analysis for certain parametric models.
--   Functions for data screening, testing moderation, mediation, and
-    estimating power are contained in the
-    `r pkg("QuantPsyc")` package.
 -   The package `r pkg("multiplex")` is especially designed
     for social networks with relations at different levels. In this
     sense, the program has effective ways to treat multiple networks
