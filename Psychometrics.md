@@ -429,8 +429,7 @@ repository linked above.
 -   Nonmetric MDS can also be computed with `metaMDS()` in
     `r pkg("vegan")`. Furthermore,
     `r pkg("labdsv")` and `r pkg("ecodist")`
-    provide the function `nmds()` and some routines can be found in
-    `r pkg("xgobi")`. Also, the
+    provide the function `nmds()`. Also, the
     `r pkg("ExPosition")` implements a function for metric
     MDS.
 -   Principal coordinate analysis can be computed with `capscale()` in
