@@ -14,8 +14,7 @@ those in the field of statistics and quantitative methods to develop
 improved ways to organize, analyze, and scale corresponding data. Since
 much functionality is already contained in base R and there is
 considerable overlap between tools for psychometry and tools described
-in other views, particularly in `r view("SocialSciences")`,
-we only give a brief overview of packages that are closely related to
+in other views, we only give a brief overview of packages that are closely related to
 psychometric methodology.
 
 Contributions are always welcome and encouraged, either via e-mail to the
