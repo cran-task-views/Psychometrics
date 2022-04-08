@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-03-24
+version: 2022-04-08
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -275,6 +275,7 @@ repository linked above.
     optimal scaling transformation on a data vector.
 -   A general framework of optimal scaling methods is implemented in the
     `r pkg("aspect")`.
+-   `r pkg("candisc")`: Visualizing generalized canonical discriminant and canonical correlation analysis.
 
 ### Factor Analysis (FA), Principal Component Analysis (PCA):
 
@@ -589,6 +590,8 @@ repository linked above.
 -   Methods and Measures for semantic network analysis including partial
     node bootstrapping and significance tests:
     `r pkg("SemNeT")`.
+-   `r pkg("NetworkToolbox")` implements methods and measures for brain, cognitive, and psychometric network analysis.
+-   `r pkg("EGAnet")` implements the Exploratory Graph Analysis (EGA) framework for dimensionality and psychometric assessment.
 
 ### Bayesian Psychometrics:
 
@@ -739,6 +742,7 @@ repository linked above.
     measurement blueprint constraints to assemble a test form.
 -   `r pkg("TestDesign")` implements optimal test design
     approaches for fixed and adaptive test construction.
+-   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
 
 
 ### Links
