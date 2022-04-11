@@ -623,6 +623,9 @@ repository linked above.
 -   For Bayesian estimation of the (exploratory) DINA (deterministic
     input, noisy and gate) see `r pkg("dina")` and
     `r pkg("edina")`.
+-   `r pkg("ohoegdm")` performs a Bayesian estimation of the
+    ordinal exploratory Higher-order General Diagnostic Model (OHOEGDM) 
+    for Polytomous Data.
 -   Data package containing coded item and q matrices used in various
     psychometric publications: `r pkg("edmdata")`.
 -   `r pkg("BayesLCA")` implements Bayesian LCA.
