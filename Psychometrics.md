@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-04-08
+version: 2022-05-03
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -141,6 +141,7 @@ repository linked above.
 -   The `r pkg("irtplay")` package fits unidimensional IRT
     models to mixture of dichotomous and polytomous models using MML
     with EM-algorithm.
+-   `r pkg("Rirt") estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
 -   Explicit calculation (not estimation) of Rasch item parameters
     (dichotomous and polytomous) by means of a pairwise comparison
     approach can be done using the `r pkg("pairwise")`
@@ -643,7 +644,7 @@ repository linked above.
 -   A system for the management, assessment, and psychometric analysis
     of data from educational and psychological tests is implemented in
     `r pkg("dexter")`, with multi-stage test calibration in
-    `r pkg("dexterMST")`.
+    `r pkg("dexterMST")`, and a GUI via `r pkg("dextergui")`. 
 -   Psychometric mixture models based on flexmix infrastructure are
     provided by means of the `r pkg("psychomix")` package
     (at the moment Rasch mixture models and Bradley-Terry mixture
