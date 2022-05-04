@@ -141,7 +141,7 @@ repository linked above.
 -   The `r pkg("irtplay")` package fits unidimensional IRT
     models to mixture of dichotomous and polytomous models using MML
     with EM-algorithm.
--   `r pkg("Rirt") estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
+-   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
 -   Explicit calculation (not estimation) of Rasch item parameters
     (dichotomous and polytomous) by means of a pairwise comparison
     approach can be done using the `r pkg("pairwise")`
