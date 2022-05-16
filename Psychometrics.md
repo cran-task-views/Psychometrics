@@ -48,6 +48,11 @@ repository linked above.
     multidimensional item response models and also includes multifaceted
     models, latent regression models and options for drawing plausible
     values.
+-   `r pkg("Dire")` fit latent variable linear models, estimating score
+    distributions for groups of people, in an IRT framework,
+    following Cohen and Jiang (1999). This softwar
+    is intended to fit the same models as the existing software 'AM'
+    It also can draw plausible values.
 -   `r pkg("PLmixed")` fits (generalized) linear mixed
     models (GLMM) with factor structures.
 -   `r pkg("MLCIRTwithin")` provides a flexible framework
