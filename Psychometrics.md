@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-05-03
+version: 2022-08-08
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -671,8 +671,7 @@ repository linked above.
     `r pkg("ShinyItemAnalysis")` package.
 -   Coefficients for interrater reliability and agreements can be
     computed with the `r pkg("irr")`.
--   Psychophysical data can be analyzed with the
-    `r pkg("psyphy")` package.
+-   Statistical tools for the analysis of psychophysical data are implemented in `r pkg("psyphy")` and `r pkg("MixedPsy")`. 
 -   Functions and example datasets for Fechnerian scaling of discrete
     object sets are provided by `r pkg("fechner")`. It
     computes Fechnerian distances among objects representing subjective
