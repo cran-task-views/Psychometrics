@@ -224,6 +224,7 @@ repository linked above.
     approaches for fixed and adaptive test construction.
 -   `r pkg("PROsetta")` provides functions for performing scale
     linking between instruments, based on the PROsetta Stone methodology.
+-   `r pkg("maat")` performs simulations for multiple administrations adaptive testing.
 
 ### Correspondence Analysis (CA), Optimal Scaling:
 
