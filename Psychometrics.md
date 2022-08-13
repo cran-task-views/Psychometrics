@@ -220,6 +220,8 @@ repository linked above.
     data are implemented in `r pkg("jrt")`.
 -   The `r pkg("conquestr")` package allows users to call
     ACER ConQuest from within R.
+-   `r pkg("TestDesign")` implements optimal test design
+    approaches for fixed and adaptive test construction.
 
 ### Correspondence Analysis (CA), Optimal Scaling:
 
@@ -746,8 +748,6 @@ repository linked above.
 -   `r pkg("ata")` provides a collection of psychometric
     methods to process item metadataand use target assessment and
     measurement blueprint constraints to assemble a test form.
--   `r pkg("TestDesign")` implements optimal test design
-    approaches for fixed and adaptive test construction.
 -   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
 
 
