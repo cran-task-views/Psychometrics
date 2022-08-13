@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-08-08
+version: 2022-08-12
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
