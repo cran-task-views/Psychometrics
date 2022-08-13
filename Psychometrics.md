@@ -222,6 +222,8 @@ repository linked above.
     ACER ConQuest from within R.
 -   `r pkg("TestDesign")` implements optimal test design
     approaches for fixed and adaptive test construction.
+-   `r pkg("PROsetta")` provides functions for performing scale
+    linking between instruments, based on the PROsetta Stone methodology.
 
 ### Correspondence Analysis (CA), Optimal Scaling:
 
