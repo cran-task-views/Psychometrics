@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-08-08
+version: 2022-08-12
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -220,6 +220,11 @@ repository linked above.
     data are implemented in `r pkg("jrt")`.
 -   The `r pkg("conquestr")` package allows users to call
     ACER ConQuest from within R.
+-   `r pkg("TestDesign")` implements optimal test design
+    approaches for fixed and adaptive test construction.
+-   `r pkg("PROsetta")` provides functions for performing scale
+    linking between instruments, based on the PROsetta Stone methodology.
+-   `r pkg("maat")` performs simulations for multiple administrations adaptive testing.
 
 ### Correspondence Analysis (CA), Optimal Scaling:
 
@@ -746,8 +751,6 @@ repository linked above.
 -   `r pkg("ata")` provides a collection of psychometric
     methods to process item metadataand use target assessment and
     measurement blueprint constraints to assemble a test form.
--   `r pkg("TestDesign")` implements optimal test design
-    approaches for fixed and adaptive test construction.
 -   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
 
 
