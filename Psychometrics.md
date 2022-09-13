@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-08-12
+version: 2022-09-13
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -141,9 +141,6 @@ repository linked above.
     of Rasch models for polytomous (or dichotomous) items and multiple
     (or single) latent traits. Robust standard errors for the
     pseudo-likelihood estimates are also computed.
--   The `r pkg("irtplay")` package fits unidimensional IRT
-    models to mixture of dichotomous and polytomous models using MML
-    with EM-algorithm.
 -   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
 -   Explicit calculation (not estimation) of Rasch item parameters
     (dichotomous and polytomous) by means of a pairwise comparison
