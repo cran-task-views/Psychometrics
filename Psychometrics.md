@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-09-13
+version: 2022-09-25
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -73,9 +73,7 @@ repository linked above.
 -   Conditional maximum likelihood estimation via the EM algorithm and
     information-criterion-based model selection in binary mixed Rasch
     models are implemented in the `r pkg("psychomix")`
-    package. The `r pkg("mixRasch")` package estimates
-    mixture Rasch models, including the dichotomous Rasch model, the
-    rating scale model, and the partial credit model.
+    package.
 -   The `r pkg("PP")` package includes estimation of (MLE,
     WLE, MAP, EAP, ROBUST) person parameters for the 1,2,3,4-PL model
     and the GPCM (generalized partial credit model). The parameters are
@@ -136,11 +134,6 @@ repository linked above.
     simple questionnaires forms to collect response data directly in R.
 -   `r pkg("xxIRT")` is implementation of related to IRT and
     computer-based testing.
--   The package `r pkg("plRasch")` computes maximum
-    likelihood estimates and pseudo-likelihood estimates of parameters
-    of Rasch models for polytomous (or dichotomous) items and multiple
-    (or single) latent traits. Robust standard errors for the
-    pseudo-likelihood estimates are also computed.
 -   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
 -   Explicit calculation (not estimation) of Rasch item parameters
     (dichotomous and polytomous) by means of a pairwise comparison
@@ -167,13 +160,6 @@ repository linked above.
 -   Statistical power simulation for testing the Rasch model based on a
     three-way ANOVA design with mixed classification can be carried out
     using `r pkg("pwrRasch")`.
--   The `r pkg("irtProb")` package is designed to estimate
-    multidimensional subject parameters (MLE and MAP) such as personal
-    pseudo-guessing, personal fluctuation, personal inattention. These
-    supplemental parameters can be used to assess person fit, to
-    identify misfit type, to generate misfitting response patterns, or
-    to make correction while estimating the proficiency level
-    considering potential misfit at the same time.
 -   Tools to assess model fit and identify misfitting items for Rasch
     models and PCMS are implemented in `r pkg("iarm")`. It
     includes item fit statistics, ICCs, item-restscore association,
@@ -234,11 +220,10 @@ repository linked above.
     as standard scaling, Benzecri scaling, centroid scaling, and Goodman
     scaling.
 -   Homogeneity analysis aka multiple CA and various Gifi extensions can
-    be computed by means of the `r pkg("Gifi")` package,
-    which replaces `r pkg("homals", priority = "core")`. This
+    be computed by means of the `r pkg("Gifi", priority = "core")` package,
+    which replaces `r pkg("homals")`. This
     package includes various other optimal scaling methods such as
-    Morals (monotone regression), Princals (nonlinear PCA), Overals
-    (nonlinear canonical correlation analysis), etc.
+    Morals (monotone regression), Princals (nonlinear PCA), Homals (multiple correspondence analysis), etc.
 -   Simple and multiple correspondence analysis can be performed using
     `corresp()` and `mca()` in package `r pkg("MASS")`.
 -   The package `r pkg("ade4", priority = "core")` contains
@@ -322,9 +307,7 @@ repository linked above.
     `r pkg("PTAk")`, `r pkg("ThreeWay")`, and
     `r pkg("multiway")`.
 -   Independent component analysis (ICA) can be computed using
-    `r pkg("fastICA")`, `r pkg("ica")`,
-    `r pkg("eegkit")` (designed for EEG data), and
-    `r pkg("AnalyzeFMRI")` (designed for fMRI data).
+    `r pkg("fastICA")`, `r pkg("ica")`, and `r pkg("eegkit")` (designed for EEG data).
 -   A desired number of robust principal components can be computed with
     the `r pkg("pcaPP")` package.
 -   `r pkg("bpca")` implements 2D and 3D biplots of
@@ -347,16 +330,17 @@ repository linked above.
     supports for meanstructures and multiple groups and reports
     standardized solutions, fit measures, modification indices and more
     as output.
--   The `r pkg("OpenMx")` package allows for the estimation
+-   The `r pkg("OpenMx", priority = "core")` package allows for the estimation
     of a wide variety of advanced multivariate statistical models. It
     consists of a library of functions and optimizers that allow you to
     quickly and flexibly define an SEM model and estimate parameters
     given observed data.
--   The `r pkg("sem", priority = "core")` package fits
+-   The `r pkg("sem")` package fits
     general (i.e., latent-variable) SEMs by FIML, and structural
     equations in observed-variable models by 2SLS. Categorical variables
     in SEMs can be accommodated via the `r pkg("polycor")`
     package.
+-   `r pkg("SEMsens")` performs sensitivity analysis for omitted confounders in structural equation models using meta-heuristic optimization methods. 
 -   `r pkg("lslx")` fits semi-confirmatory SEM via penalized
     likelihood with elastic net or minimax concave penalty.
 -   The `r pkg("lavaan.survey")` package allows for complex
@@ -379,10 +363,8 @@ repository linked above.
     variable models (including structural equation models) is given in
     `r pkg("lava")`.
 -   The `r pkg("pls")` package can be used for partial
-    least-squares estimation. The package `r pkg("semPLS")`
-    fits structural equation models using partial least squares (PLS).
-    The PLS approach is referred to as soft-modeling technique requiring
-    no distributional assumptions on the observed data.
+    least-squares estimation. The package `r pkg("cSEM")`
+    fits structural equation models using composite based approaches (e.g., PLS).
 -   `r pkg("simsem")` is a package designed to aid in Monte
     Carlo simulations using SEM (for methodological investigations,
     power analyses and much more).
@@ -397,15 +379,13 @@ repository linked above.
     analysis for outputs of various SEM packages.
 -   `r pkg("plotSEMM")` for graphing nonlinear relations
     among latent variables from structural equation mixture models.
--   `r pkg("semdiag")` and
-    `r pkg("influence.SEM")` implements outlier, leverage
+-   `r pkg("influence.SEM")` implements outlier, leverage
     diagnostics, and case influence for SEM.
 -   `r pkg("gSEM")` conducts semi-supervised generalized SEM
     and `r pkg("piecewiseSEM")` fits piecewise SEM.
 -   `r pkg("rsem")` implements robust SEM with missing data
     and auxiliary variables.
--   `r pkg("regsem")` performs Regularization on SEM and
-    `r pkg("sparseSEM")` implements sparse-aware ML for SEM.
+-   `r pkg("regsem")` performs Regularization on SEM.
 -   Recursive partitioning (SEM trees, SEM forests) is implemented in
     `r pkg("semtree")`.
 -   `r pkg("lsl")` conducts SEM via penalized likelihood
@@ -448,10 +428,6 @@ repository linked above.
     of maximum likelihood difference scaling (MLDS).
 -   `r pkg("DistatisR")` implements the DiSTATIS/CovSTATIS
     3-way metric MDS approach.
--   Symbolic MDS for interval-valued dissimilarities (hypersphere and
-    hyperbox model) can be fitted with the `r pkg("smds")`
-    package.
--   Supervised MDS is implemented in `r pkg("superMDS")`.
 -   `r pkg("munfold")` provides functions for metric
     unfolding.
 -   The `r pkg("asymmetry")` package implements the
@@ -476,10 +452,6 @@ repository linked above.
 -   The `r pkg("cocron")` package provides functions to
     statistically compare two or more alpha coefficients based on either
     dependent or independent groups of individuals.
--   The `r pkg("CMC")` package calculates and plots the
-    step-by-step Cronbach-Mesbach curve, that is a method, based on the
-    Cronbach alpha coefficient of reliability, for checking the
-    unidimensionality of a measurement scale.
 -   The `r pkg("betafunctions")` package includes an
     implementation of the so-called "Livingston and Lewis" approach to
     classification accuracy and consistency.
@@ -518,8 +490,6 @@ repository linked above.
     inclusion of concomitant variables and latent class regression.
 -   `r pkg("LCAvarsel")` implements variable selection for
     LCA.
--   `r pkg("covLCA")` fits latent class models with
-    covariate effects on underlying and measured variables.
 -   `r pkg("tidyLPA")` is a user-friendly implementation of
     latent profile analysis.
 -   `r pkg("ClustVarLV")` clusters variables around latent
@@ -548,8 +518,7 @@ repository linked above.
 -   A variety of unfolding techniques for rankings and ratings are
     implemented in `r pkg("smacof")`.
 -   Thurstonian IRT models for forced-choice items can be fitted with
-    `r pkg("thurstonianIRT")` and
-    `r pkg("kcirt")`.
+    `r pkg("thurstonianIRT")`.
 
 ### Network Psychometrics:
 
@@ -576,7 +545,6 @@ repository linked above.
     via joint graphical lasso.
 -   Various implementations for Ising models:
     `r pkg("IsingSampler")`,
-    `r pkg("elasticIsing")`, and
     `r pkg("IsingFit")`.
 -   `r pkg("lvnet")` simultaneously estimates factor and
     network models.
@@ -621,8 +589,6 @@ repository linked above.
     preprogrammed Stan models related to IRT.
 -   `r pkg("fourPNO")` can be used for Bayesian 4-PL IRT
     estimation.
--   Simulation-based Bayesian inference for IRT latent traits can be
-    performed using `r pkg("ltbayes")`.
 -   Gibbs sampling for Bayesian estimation of (Exploratory) Reduced
     Reparameterized Unified Models are implemented in
     `r pkg("rrum")` and `r pkg("errum")`.
@@ -665,9 +631,6 @@ repository linked above.
     methods currently supported include Tucker, Levine observed score,
     Levine true score, Braun/Holland, frequency estimation, and chained
     equating.
--   The `r pkg("CopyDetect")` package contains several IRT
-    and non-IRT based statistical indices proposed in the literature for
-    detecting answer copying on multiple-choice examinations.
 -   Interactive shiny application for analysis of educational tests and
     their items are provided by the
     `r pkg("ShinyItemAnalysis")` package.
@@ -678,15 +641,10 @@ repository linked above.
     object sets are provided by `r pkg("fechner")`. It
     computes Fechnerian distances among objects representing subjective
     dissimilarities, and other related information.
--   The `r pkg("modelfree")` package provides functions for
-    nonparametric estimation of a psychometric function and for
-    estimation of a derived threshold and slope, and their standard
-    deviations and confidence intervals.
--   Confidence intervals for standardized effect sizes: The
-    `r pkg("MBESS")` package.
 -   The `r pkg("mediation")` allows both parametric and
     nonparametric causal mediation analysis. It also allows researchers
     to conduct sensitivity analysis for certain parametric models.
+-   Causal mediation analysis using natural effect models can be performed using `r pkg("medflex")`.
 -   The package `r pkg("multiplex")` is especially designed
     for social networks with relations at different levels. In this
     sense, the program has effective ways to treat multiple networks
