@@ -509,6 +509,8 @@ repository linked above.
 -   `r pkg("prefmod", priority = "core")` fits loglinear
     Bradley-Terry models (LLBT) and pattern models for paired
     comparisons, rankings, and ratings.
+-   `r github("jvparidon/lmerMultiMember")` can fit the loglinear
+    Bradley-Terry model as a mixed-effects model (GLMM) using `lme4`.
 -   `r pkg("pcFactorStan")` provides convenience functions
     and pre-programmed Stan models related to the pairwise comparison
     factor model.
