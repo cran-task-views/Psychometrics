@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2022-09-25
+version: 2023-07-18
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -563,9 +563,6 @@ repository linked above.
     and psychology. Methods include various filtering methods and
     approaches such as threshold, dependency, information filtering
     networks, and efficiency-cost optimization.
--   Methods and Measures for semantic network analysis including partial
-    node bootstrapping and significance tests:
-    `r pkg("SemNeT")`.
 -   `r pkg("NetworkToolbox")` implements methods and measures for brain, cognitive, and psychometric network analysis.
 -   `r pkg("EGAnet")` implements the Exploratory Graph Analysis (EGA) framework for dimensionality and psychometric assessment.
 
