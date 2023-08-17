@@ -594,6 +594,8 @@ repository linked above.
 -   For Bayesian estimation of the (exploratory) DINA (deterministic
     input, noisy and gate) see `r pkg("dina")` and
     `r pkg("edina")`.
+-   `r pkg("slcm")` provides an implementation of the exploratory
+    Sparse Latent Class Model (SLCM) for Binary Data.
 -   `r pkg("ohoegdm")` performs a Bayesian estimation of the
     ordinal exploratory Higher-order General Diagnostic Model (OHOEGDM) 
     for Polytomous Data.
