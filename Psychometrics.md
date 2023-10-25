@@ -381,8 +381,7 @@ repository linked above.
     among latent variables from structural equation mixture models.
 -   `r pkg("influence.SEM")` implements outlier, leverage
     diagnostics, and case influence for SEM.
--   `r pkg("gSEM")` conducts semi-supervised generalized SEM
-    and `r pkg("piecewiseSEM")` fits piecewise SEM.
+-   `r pkg("piecewiseSEM")` fits piecewise SEM.
 -   `r pkg("rsem")` implements robust SEM with missing data
     and auxiliary variables.
 -   `r pkg("regsem")` performs Regularization on SEM.
