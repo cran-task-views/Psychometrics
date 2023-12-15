@@ -409,6 +409,9 @@ repository linked above.
     for MDS with external constraints, spherical MDS, asymmetric MDS,
     three-way MDS (INDSCAL/IDIOSCAL), Bentler-Weeks model,
     unidimensional scaling, Procrustes, inverse MDS.
+-   `r pkg("smacofx")` for flexible MDS analyses including MULTISCALE, Sammon mapping, ALSCAL, local MDS, elastic scaling, Box-Cox MDS, POST-MDS, curvilinear component and distance analysis, etc.
+-   `r pkg("cops")` for cluster optimized prozimity scaling pronouncing the clustered appearance of the configuration.
+-   `r pkg("stops")` provides a collection of methods that fit nonlinear distance transformations in multidimensional scaling (MDS) and trade-off the fit with structure considerations to find optimal parameters also known as structure optimized proximity scaling.
 -   `r pkg("MASS")` and stats provide functionalities for
     computing classical MDS using the `cmdscale()` function. Sammon
     mapping `sammon()` and non-metric MDS `isoMDS()` are other relevant
