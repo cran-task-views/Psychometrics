@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2023-07-18
+version: 2023-12-15
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -132,6 +132,7 @@ repository linked above.
     Suitable for applying unidimensional and multidimensional
     computerized adaptive tests using IRT methodology and for creating
     simple questionnaires forms to collect response data directly in R.
+-   `r pkg ("D3mirt")` for identifying, estimating, and plotting descriptive multidimensional item response theory models, restricted to 3D and dichotomous or polytomous data that fit the two-parameter logistic model or the graded response model.
 -   `r pkg("xxIRT")` is implementation of related to IRT and
     computer-based testing.
 -   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
@@ -340,6 +341,7 @@ repository linked above.
     equations in observed-variable models by 2SLS. Categorical variables
     in SEMs can be accommodated via the `r pkg("polycor")`
     package.
+-   `r pkg("tidySEM")` provides a tidy workflow for generating, estimating, reporting, and plotting structural equation models using lavaan, OpenMx, or Mplus.
 -   `r pkg("SEMsens")` performs sensitivity analysis for omitted confounders in structural equation models using meta-heuristic optimization methods. 
 -   `r pkg("lslx")` fits semi-confirmatory SEM via penalized
     likelihood with elastic net or minimax concave penalty.
@@ -493,6 +495,7 @@ repository linked above.
     latent profile analysis.
 -   `r pkg("ClustVarLV")` clusters variables around latent
     variables.
+-   `r pkg("multilevLCA")` for single-level and multilevel latent class analysis with covariates.
 
 ### Paired Comparisons, Rankings, Ratings:
 
