@@ -274,6 +274,7 @@ repository linked above.
 -   Exploratory FA is the package stats as function `factanal()` and
     `fa()` and `fa.poly()` (ordinal data) in
     `r pkg("psych", priority = "core")`.
+-   `r pkg("BayesFM")` for Bayesian EFA.
 -   `r pkg("esaBcv")` estimates the number of latent factors
     and factor matrix.
 -   `r pkg("SparseFactorAnalysis")` scales count and binary
