@@ -714,6 +714,13 @@ repository linked above.
     methods to process item metadataand use target assessment and
     measurement blueprint constraints to assemble a test form.
 -   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
+-   `r pkg("simlandr")` provides tools to estimate generalized
+    potential landscapes from formal psychological models.
+    `r pkg("fitlandr")` provides nonparametric methods to estimate 
+    bivariate vector fields and generalized potential landscapes from 
+    intensive longitudinal data. `r pkg("Isinglandr")` can be used to
+    estimate generalized potential landscapes from Ising networks 
+    generated from the `r pkg("IsingFit")` package.
 
 
 ### Links
