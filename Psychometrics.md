@@ -612,8 +612,7 @@ repository linked above.
     semi-parametrically modelling the data as well.
 -   A system for the management, assessment, and psychometric analysis
     of data from educational and psychological tests is implemented in
-    `r pkg("dexter")`, with multi-stage test calibration in
-    `r pkg("dexterMST")`, and a GUI via `r pkg("dextergui")`. 
+    `r pkg("dexter")`, and a GUI via `r pkg("dextergui")`. 
 -   Psychometric mixture models based on flexmix infrastructure are
     provided by means of the `r pkg("psychomix")` package
     (at the moment Rasch mixture models and Bradley-Terry mixture
