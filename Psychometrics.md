@@ -275,8 +275,6 @@ repository linked above.
     `fa()` and `fa.poly()` (ordinal data) in
     `r pkg("psych", priority = "core")`.
 -   `r pkg("BayesFM")` for Bayesian EFA.
--   `r pkg("esaBcv")` estimates the number of latent factors
-    and factor matrix.
 -   `r pkg("EFAutilities")` computes robust standard errors
     and factor correlations under a variety of conditions.
 -   `r pkg("faoutlier")` implements influential case
