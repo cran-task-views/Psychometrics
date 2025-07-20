@@ -681,8 +681,6 @@ repository linked above.
 -   `r pkg("wCorr")` calculates Pearson, Spearman,
     tetrachoric polychoric, and polyserial correlation coefficients, in
     weighted or unweighted form.
--   The `r pkg("gtheory")` package fits univariate and
-    multivariate generalizability theory (G-theory) models.
 -   The `r pkg("GDINA")` package estimates various cognitive
     diagnosis models (CDMs) within the generalized deterministic inputs,
     noisy and gate (G-DINA) model and the sequential G-DINA model
