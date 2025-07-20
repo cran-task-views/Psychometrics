@@ -346,14 +346,6 @@ repository linked above.
 -   `r pkg("SEMsens")` performs sensitivity analysis for omitted confounders in structural equation models using meta-heuristic optimization methods. 
 -   `r pkg("lslx")` fits semi-confirmatory SEM via penalized
     likelihood with elastic net or minimax concave penalty.
--   The `r pkg("lavaan.survey")` package allows for complex
-    survey structural equation modeling (SEM). It fits structural
-    equation models (SEM) including factor analysis, multivariate
-    regression models with latent variables and many other latent
-    variable models while correcting estimates, standard errors, and
-    chi-square-derived fit measures for a complex sampling design. It
-    incorporates clustering, stratification, sampling weights, and
-    finite population corrections into a SEM analysis.
 -   The `r pkg("nlsem")` package fits nonlinear structural
     equation mixture models using the EM algorithm. Three different
     approaches are implemented: LMS (Latent Moderated Structural
