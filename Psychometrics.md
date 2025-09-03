@@ -481,8 +481,6 @@ repository linked above.
     latent class analysis. LCA can also be fitted using
     `r pkg("flexmix")` which optionally allows for the
     inclusion of concomitant variables and latent class regression.
--   `r pkg("LCAvarsel")` implements variable selection for
-    LCA.
 -   `r pkg("tidyLPA")` is a user-friendly implementation of
     latent profile analysis.
 -   `r pkg("ClustVarLV")` clusters variables around latent
