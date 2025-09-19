@@ -390,6 +390,7 @@ repository linked above.
 -   Interfaces between R and other SEM software:
     `r pkg("REQS")`, `r pkg("MplusAutomation")`,
     and `r pkg("lisrelToR")`.
+-   The `r pkg("modsem")` package can be used to estimate interaction effects between latent variables in SEMs. It supports the estimation of interaction effects using a variety of product indicator approaches (via `r pkg("lavaan")`). Models can also be estimates using the LMS (Latent Moderated Structural Equations) and QML (Quasi-Maximum Likelihood) approaches. *Full Information Maximum Likelihood*, and estimation of higher order models (with higher order interations) is available for the LMS approach.
 
 ### Multidimensional Scaling (MDS):
 
