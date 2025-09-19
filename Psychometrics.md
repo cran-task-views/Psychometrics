@@ -254,8 +254,6 @@ repository linked above.
     well as a Hellinger form of CA), generalized PCA are implemented in
     `r pkg("ExPosition")`. The package also allows for
     supplementary data projection.
--   `r pkg("cds")` can be used for constrained dual scaling
-    for detecting response styles.
 -   `r pkg("CAvariants")` provides six variants of two-way
     CA: simple, singly ordered, doubly ordered, non-symmetrical, singly
     ordered non-symmetrical ca, and doubly ordered non-symmetrical.
