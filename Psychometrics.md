@@ -556,6 +556,7 @@ repository linked above.
     networks, and efficiency-cost optimization.
 -   `r pkg("NetworkToolbox")` implements methods and measures for brain, cognitive, and psychometric network analysis.
 -   `r pkg("EGAnet")` implements the Exploratory Graph Analysis (EGA) framework for dimensionality and psychometric assessment.
+-   `r pkg("bgms")` implements a Bayesian approach to network analysis. It provides Bayesian variable selection for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.
 
 ### Bayesian Psychometrics:
 
