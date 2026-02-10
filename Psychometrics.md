@@ -62,9 +62,6 @@ repository linked above.
     (especially for locally dependent item responses) and some
     exploratory methods (DETECT, LSDM, model-based reliability) are
     included in `r pkg("sirt")`.
--   The `r pkg("pcIRT")` estimates the multidimensional
-    polytomous Rasch model and the Mueller's continuous rating scale
-    model.
 -   An implementation of the partial credit model with response styles
     is given in the `r pkg("PCMRS")`.
 -   `r pkg("MultiLCIRT")` estimates IRT models under (1)
