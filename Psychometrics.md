@@ -603,6 +603,8 @@ repository linked above.
     prior distribution assumptions and is thus non-parametric, but it
     can be combined with Box-Cox power transformations for
     semi-parametrically modelling the data as well.
+-   The `r pkg("normref")` package is developed for good and easy
+    continuous norming of psychological and educational tests.
 -   A system for the management, assessment, and psychometric analysis
     of data from educational and psychological tests is implemented in
     `r pkg("dexter")`, and a GUI via `r pkg("dextergui")`. 
