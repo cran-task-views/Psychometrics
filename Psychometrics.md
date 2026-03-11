@@ -575,8 +575,6 @@ repository linked above.
     with MCMC.
 -   `r pkg("edstan")` provides convenience functions and
     preprogrammed Stan models related to IRT.
--   `r pkg("fourPNO")` can be used for Bayesian 4-PL IRT
-    estimation.
 -   Gibbs sampling for Bayesian estimation of (Exploratory) Reduced
     Reparameterized Unified Models are implemented in
     `r pkg("rrum")` and `r pkg("errum")`.
