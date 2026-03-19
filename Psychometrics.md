@@ -545,7 +545,7 @@ repository linked above.
 -   Network models for longitudinal data estimated within an SEM
     framework: `r pkg("gimme")`.
 -   Latent class network models for longitudinal data can be obtained using:
-    `r pkg("ClusterVAR").
+    `r pkg("ClusterVAR")`.
 -   The `r pkg("qgraph")` package can be used to visualize
     data as networks.
 -   `r pkg("NetworkToolbox")` implements network analysis
