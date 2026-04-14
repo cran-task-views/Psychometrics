@@ -363,6 +363,14 @@ repository linked above.
     combining the results from these datasets).
 -   `r pkg("semPlot")` produces path diagrams and visual
     analysis for outputs of various SEM packages.
+-   `r pkg("lavaanPlot")` plots path diagrams for
+    `r pkg("lavaan")` models using the plotting functionality
+    from `r pkg("DiagrammeR")`.
+-   `r pkg("lavaangui")` provides a graphical interface with an
+    integrated diagrammer for specifying and running
+    `r pkg("lavaan")` models via path diagrams, and can produce
+    interactive diagrams from fitted models. Also available at
+    [lavaangui.org](https://www.lavaangui.org).   
 -   `r pkg("plotSEMM")` for graphing nonlinear relations
     among latent variables from structural equation mixture models.
 -   `r pkg("influence.SEM")` implements outlier, leverage
