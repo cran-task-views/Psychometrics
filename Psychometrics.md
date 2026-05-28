@@ -463,6 +463,15 @@ repository linked above.
     in CTT and IRT.
 -   The quantifying construct validity procedure is implemented in
     `r pkg("qcv")`.
+-   `r pkg("surveyframe")` supports end-to-end survey research
+    workflows built around a typed instrument object. It covers
+    instrument design with choice sets and branching logic, scale
+    construction, reliability analysis (Cronbach's alpha and McDonald's
+    omega), item-level diagnostics (item-total correlations, floor and
+    ceiling effects), EFA readiness diagnostics (KMO, Bartlett's test,
+    parallel analysis), and CFA/CB-SEM/PLS-SEM model syntax generation
+    for lavaan and seminr without requiring those packages to be
+    installed.
 
 ### Knowledge Structure Analysis:
 
