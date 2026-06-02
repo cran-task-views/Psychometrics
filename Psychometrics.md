@@ -450,6 +450,7 @@ repository linked above.
 -   The `r pkg("betafunctions")` package includes an
     implementation of the so-called "Livingston and Lewis" approach to
     classification accuracy and consistency.
+-   The `r pkg("csemGT")` package estimates absolute and relative conditional standard errors of measurement (CSEMs) for the single-facet, person-by-item crossed design (p × i) of generalizability theory
 -   Cronbach alpha, kappa coefficients, and intra-class correlation
     coefficients (ICC) can be found in the `r pkg("psy")`
     package. Functions for ICC computation can be also found in the
@@ -709,6 +710,7 @@ repository linked above.
 -   `r pkg("ata")` provides a collection of psychometric
     methods to process item metadataand use target assessment and
     measurement blueprint constraints to assemble a test form.
+-   The `r pkg("personnelSelectionUtility")` package implements psychometric utility-analysis methods for personnel selection, organized by the criterion scale (classification vs. continuous/monetary) and the selection structure (compensatory vs. multiple-hurdle).
 -   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
 -   `r pkg("simlandr")` provides tools to estimate generalized
     potential landscapes from formal psychological models.
