@@ -129,8 +129,12 @@ repository linked above.
     Suitable for applying unidimensional and multidimensional
     computerized adaptive tests using IRT methodology and for creating
     simple questionnaires forms to collect response data directly in R.
--   `r pkg ("D3mirt")` for identifying, estimating, and plotting descriptive multidimensional item response theory models, restricted to 3D and dichotomous or polytomous data that fit the two-parameter logistic model or the graded response model.
--   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial credit model, and graded response model.
+-   `r pkg ("D3mirt")` for identifying, estimating, and plotting descriptive
+    multidimensional item response theory models, restricted to 3D and dichotomous
+    or polytomous data that fit the two-parameter logistic model or the graded
+    response model.
+-   `r pkg("Rirt")` estimates the 3-parameter-logistic model, generalized partial
+    credit model, and graded response model.
 -   Explicit calculation (not estimation) of Rasch item parameters
     (dichotomous and polytomous) by means of a pairwise comparison
     approach can be done using the `r pkg("pairwise")`
@@ -219,7 +223,8 @@ repository linked above.
     be computed by means of the `r pkg("Gifi", priority = "core")` package,
     which replaces `r pkg("homals")`. This
     package includes various other optimal scaling methods such as
-    Morals (monotone regression), Princals (nonlinear PCA), Homals (multiple correspondence analysis), etc.
+    Morals (monotone regression), Princals (nonlinear PCA), Homals (multiple
+    correspondence analysis), etc.
 -   Simple and multiple correspondence analysis can be performed using
     `corresp()` and `mca()` in package `r pkg("MASS")`.
 -   The package `r pkg("ade4", priority = "core")` contains
@@ -331,8 +336,10 @@ repository linked above.
     equations in observed-variable models by 2SLS. Categorical variables
     in SEMs can be accommodated via the `r pkg("polycor")`
     package.
--   `r pkg("tidySEM")` provides a tidy workflow for generating, estimating, reporting, and plotting structural equation models using lavaan, OpenMx, or Mplus.
--   `r pkg("SEMsens")` performs sensitivity analysis for omitted confounders in structural equation models using meta-heuristic optimization methods. 
+-   `r pkg("tidySEM")` provides a tidy workflow for generating, estimating,
+    reporting, and plotting structural equation models using lavaan, OpenMx, or Mplus.
+-   `r pkg("SEMsens")` performs sensitivity analysis for omitted confounders in
+    structural equation models using meta-heuristic optimization methods. 
 -   `r pkg("lslx")` fits semi-confirmatory SEM via penalized
     likelihood with elastic net or minimax concave penalty.
 -   The `r pkg("nlsem")` package fits nonlinear structural
@@ -391,7 +398,13 @@ repository linked above.
 -   Interfaces between R and other SEM software:
     `r pkg("REQS")`, `r pkg("MplusAutomation")`,
     and `r pkg("lisrelToR")`.
--   The `r pkg("modsem")` package can be used to estimate interaction effects between latent variables in SEMs. It supports the estimation of interaction effects using a variety of product indicator approaches (via `r pkg("lavaan")`). Models can also be estimates using the LMS (Latent Moderated Structural Equations) and QML (Quasi-Maximum Likelihood) approaches. *Full Information Maximum Likelihood*, and estimation of higher order models (with higher order interations) is available for the LMS approach.
+-   The `r pkg("modsem")` package can be used to estimate interaction effects between
+    latent variables in SEMs. It supports the estimation of interaction effects using
+    a variety of product indicator approaches (via `r pkg("lavaan")`). Models can
+    also be estimates using the LMS (Latent Moderated Structural Equations) and QML
+    (Quasi-Maximum Likelihood) approaches. *Full Information Maximum Likelihood*, and
+    estimation of higher order models (with higher order interations) is available
+    for the LMS approach.
 
 ### Multidimensional Scaling (MDS):
 
@@ -400,9 +413,15 @@ repository linked above.
     for MDS with external constraints, spherical MDS, asymmetric MDS,
     three-way MDS (INDSCAL/IDIOSCAL), Bentler-Weeks model,
     unidimensional scaling, Procrustes, inverse MDS.
--   `r pkg("smacofx")` for flexible MDS analyses including MULTISCALE, Sammon mapping, ALSCAL, local MDS, elastic scaling, Box-Cox MDS, POST-MDS, curvilinear component and distance analysis, etc.
--   `r pkg("cops")` for cluster optimized prozimity scaling pronouncing the clustered appearance of the configuration.
--   `r pkg("stops")` provides a collection of methods that fit nonlinear distance transformations in multidimensional scaling (MDS) and trade-off the fit with structure considerations to find optimal parameters also known as structure optimized proximity scaling.
+-   `r pkg("smacofx")` for flexible MDS analyses including MULTISCALE, Sammon
+    mapping, ALSCAL, local MDS, elastic scaling, Box-Cox MDS, POST-MDS, curvilinear
+    component and distance analysis, etc.
+-   `r pkg("cops")` for cluster optimized prozimity scaling pronouncing the clustered
+    appearance of the configuration.
+-   `r pkg("stops")` provides a collection of methods that fit nonlinear distance
+    transformations in multidimensional scaling (MDS) and trade-off the fit with
+    structure considerations to find optimal parameters also known as structure
+    optimized proximity scaling.
 -   `r pkg("MASS")` and stats provide functionalities for
     computing classical MDS using the `cmdscale()` function. Sammon
     mapping `sammon()` and non-metric MDS `isoMDS()` are other relevant
@@ -450,7 +469,9 @@ repository linked above.
 -   The `r pkg("betafunctions")` package includes an
     implementation of the so-called "Livingston and Lewis" approach to
     classification accuracy and consistency.
--   The `r pkg("csemGT")` package estimates absolute and relative conditional standard errors of measurement (CSEMs) for the single-facet, person-by-item crossed design (p × i) of generalizability theory
+-   The `r pkg("csemGT")` package estimates absolute and relative conditional
+    standard errors of measurement (CSEMs) for the single-facet, person-by-item
+    crossed design (p × i) of generalizability theory
 -   Cronbach alpha, kappa coefficients, and intra-class correlation
     coefficients (ICC) can be found in the `r pkg("psy")`
     package. Functions for ICC computation can be also found in the
@@ -497,7 +518,8 @@ repository linked above.
     latent profile analysis.
 -   `r pkg("ClustVarLV")` clusters variables around latent
     variables.
--   `r pkg("multilevLCA")` for single-level and multilevel latent class analysis with covariates.
+-   `r pkg("multilevLCA")` for single-level and multilevel latent class analysis
+    with covariates.
 
 ### Paired Comparisons, Rankings, Ratings:
 
@@ -569,9 +591,13 @@ repository linked above.
     and psychology. Methods include various filtering methods and
     approaches such as threshold, dependency, information filtering
     networks, and efficiency-cost optimization.
--   `r pkg("NetworkToolbox")` implements methods and measures for brain, cognitive, and psychometric network analysis.
--   `r pkg("EGAnet")` implements the Exploratory Graph Analysis (EGA) framework for dimensionality and psychometric assessment.
--   `r pkg("bgms")` implements a Bayesian approach to network analysis. It provides Bayesian variable selection for edge selection and group comparisons in undirected graphical models of multivariate binary and ordinal data.
+-   `r pkg("NetworkToolbox")` implements methods and measures for brain, cognitive,
+    and psychometric network analysis.
+-   `r pkg("EGAnet")` implements the Exploratory Graph Analysis (EGA) framework for
+    dimensionality and psychometric assessment.
+-   `r pkg("bgms")` implements a Bayesian approach to network analysis. It provides
+    Bayesian variable selection for edge selection and group comparisons in
+    undirected graphical models of multivariate binary and ordinal data.
 
 ### Bayesian Psychometrics:
 
@@ -646,11 +672,13 @@ repository linked above.
     `r pkg("ShinyItemAnalysis")` package.
 -   Coefficients for interrater reliability and agreements can be
     computed with the `r pkg("irr")`.
--   Statistical tools for the analysis of psychophysical data are implemented in `r pkg("psyphy")` and `r pkg("MixedPsy")`. 
+-   Statistical tools for the analysis of psychophysical data are implemented in `r
+    pkg("psyphy")` and `r pkg("MixedPsy")`. 
 -   The `r pkg("mediation")` allows both parametric and
     nonparametric causal mediation analysis. It also allows researchers
     to conduct sensitivity analysis for certain parametric models.
--   Causal mediation analysis using natural effect models can be performed using `r pkg("medflex")`.
+-   Causal mediation analysis using natural effect models can be performed using
+    `r pkg("medflex")`.
 -   The package `r pkg("multiplex")` is especially designed
     for social networks with relations at different levels. In this
     sense, the program has effective ways to treat multiple networks
@@ -710,8 +738,12 @@ repository linked above.
 -   `r pkg("ata")` provides a collection of psychometric
     methods to process item metadataand use target assessment and
     measurement blueprint constraints to assemble a test form.
--   The `r pkg("personnelSelectionUtility")` package implements psychometric utility-analysis methods for personnel selection, organized by the criterion scale (classification vs. continuous/monetary) and the selection structure (compensatory vs. multiple-hurdle).
--   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models with hypothesis error plots.
+-   The `r pkg("personnelSelectionUtility")` package implements psychometric
+    utility-analysis methods for personnel selection, organized by the criterion
+     scale (classification vs. continuous/monetary) and the selection structure
+    (compensatory vs. multiple-hurdle).
+-   `r pkg("heplots")`: Visualizing hypothesis tests in multivariate linear models
+    with hypothesis error plots.
 -   `r pkg("simlandr")` provides tools to estimate generalized
     potential landscapes from formal psychological models.
     `r pkg("fitlandr")` provides nonparametric methods to estimate 
