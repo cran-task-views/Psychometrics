@@ -259,8 +259,6 @@ repository linked above.
     ordered non-symmetrical ca, and doubly ordered non-symmetrical.
 -   `r pkg("MCAvariants")` provides MCA and ordered MCA via
     orthogonal polynomials.
--   Specific and class specific MCA on survey-like data can be fitted
-    using `r pkg("soc.ca")`.
 -   `r pkg("optiscale")` provides tools for performing an
     optimal scaling transformation on a data vector.
 -   A general framework of optimal scaling methods is implemented in the
