@@ -3,7 +3,7 @@ name: Psychometrics
 topic: Psychometric Models and Methods
 maintainer: Patrick Mair, Yves Rosseel, Kathrin Gruber
 email: mair@fas.harvard.edu
-version: 2023-12-15
+version: 2026-09-08
 source: https://github.com/cran-task-views/Psychometrics/
 ---
 
@@ -584,6 +584,9 @@ repository linked above.
     `r pkg("ClusterVAR")`.
 -   The `r pkg("qgraph")` package can be used to visualize
     data as networks.
+-   Methods and measures for semantic network analysis including partial
+    node bootstrapping and significance tests:
+    `r pkg("SemNeT")`.
 -   `r pkg("NetworkToolbox")` implements network analysis
     and graph theory measures used in neuroscience, cognitive science,
     and psychology. Methods include various filtering methods and
