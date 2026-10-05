@@ -499,9 +499,19 @@ repository linked above.
     and transforming different formulations in knowledge space theory.
 -   The `r pkg("kst")` package contains basic functionality
     to generate, handle, and manipulate deterministic knowledge
-    structures based on sets and relations. Functions for fitting
-    probabilistic knowledge structures are included in the
-    `r pkg("pks")` package.
+    structures based on sets and relations. A similar aim is followed by the
+    `r pkg("kstMatrix")` package whixch uses a matrix representation instead
+    and meanwhile offers a broader functionality. The `r pkg("kstIO")`
+    package offers IO functions for both packages.
+-   Functions for fitting probabilistic knowledge structures are included
+    in the `r pkg("pks")` package.
+-   The `r pkg("CbKST")`package implements concepts of competence-based
+    knowledge space theory which allow the mapping between items and underlying
+    skills.
+-   `r pkg("mycaas")` contains functions and shiny interfaces to perform and
+    simulate adaptive assessments
+-   `r pkg("CDSS")` realizes a new approach to derive course-dependent skill
+    structures from learning object skill assignments.
 
 ### Latent Class and Profile Analysis:
 
