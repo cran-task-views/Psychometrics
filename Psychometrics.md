@@ -644,6 +644,12 @@ repository linked above.
 -   Data package containing coded item and q matrices used in various
     psychometric publications: `r pkg("edmdata")`.
 -   `r pkg("BayesLCA")` implements Bayesian LCA.
+-   `r pkg("bmm")` fits Bayesian measurement models from cognitive
+    psychology, including signal detection, multinomial processing
+    tree, diffusion decision, and working memory models. Each model
+    parameter gets its own brms formula, so parameters can vary with
+    experimental conditions and between participants. The models are
+    estimated in Stan.
 
 ### Other Related Packages:
 
